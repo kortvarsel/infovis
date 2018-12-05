@@ -8,7 +8,7 @@ var screenWidth = $(window).innerWidth(),
 var margin = {left: 50, top: 10, right: 50, bottom: 10},
 	width_c = 500,
 	//Math.min(screenWidth, 800) - margin.left - margin.right,
-	heigt_c = 500;
+	heigt_c = 400;
 	//(mobileScreen ? 300 : Math.min(screenWidth, 800)*5/6) - margin.top - margin.bottom;
 			
 var svg = d3.select("#chord").append("svg")

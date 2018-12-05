@@ -2,8 +2,10 @@
 		
 
 var margin = {top: 100, right: 100, bottom: 100, left: 100},
-width = Math.min(500, window.innerWidth - 10) - margin.left - margin.right,
-height = Math.min(width, window.innerHeight - margin.top - margin.bottom - 20);
+width_r = 280,
+//Math.min(500, window.innerWidth - 10) - margin.left - margin.right,
+height_r = 230;
+//Math.min(width_r, window.innerHeight - margin.top - margin.bottom - 20);
     
 
 ////////////////////////// Data ////////////////////////////// 
@@ -22,8 +24,8 @@ var data = [
 //////////////////// Draw the Chart ////////////////////////// 
 
 var config = {
-    w: width,
-    h: height,
+    w: width_r,
+    h: height_r,
     maxValue: 100,
     levels: 5,
     ExtraWidthX: 300
@@ -229,5 +231,5 @@ RadarChart.draw("#RadarChart", data, config)
 var svg = d3.select('body')
 	.selectAll('svg')
 	.append('svg')
-	.attr("width", width)
-	.attr("height", height);
+	.attr("width", width_r)
+	.attr("height", height_r);
