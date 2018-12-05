@@ -1,0 +1,60 @@
+iso3,﻿Country,Political System,GDP,Corruption Perception Index,Human Development Index,Gender Inequality Index,Unemployment Rate,Happiness.Score
+ARG,Argentina,Republic,637717,39,0.825,0.732,8.1,6.388
+AUS,Australia,Constitutional monarchy,1379548,77,0.939,0.731,5.6,7.272
+AUT,Austria,Republic,416845,75,0.908,0.709,5.4,7.139
+BEL,Belgium,Constitutional monarchy,494733,75,0.916,0.739,7.5,6.927
+BRA,Brazil,Republic,2054969,37,0.759,0.684,13.1,6.419
+BGR,Bulgaria,Republic,56943,43,0.813,0.756,6.6,4.933
+CAN,Canada,Constitutional monarchy,1652412,82,0.926,0.769,6.5,7.328
+CHL,Chile,Republic,277042,67,0.843,0.704,7,6.476
+COL,Colombia,Republic,309197,37,0.747,0.731,9.3,6.260
+CRI,Costa Rica,Republic,58056,59,0.794,0.727,8.1,7.072
+DNK,Denmark,Constitutional monarchy,324484,88,0.929,0.776,5.8,7.555
+DOM,Dominican Republic,Republic,75018,29,0.736,0.697,5.5,5.302
+ECU,Ecuador,Republic,102311,32,0.752,0.724,5.1,5.973
+SLV,El Salvador,Republic,28023,33,0.674,0.705,7,6.167
+EST,Estonia,Republic,25973,71,0.871,0.731,8.4,5.739
+FIN,Finland,Republic,253244,85,0.92,0.823,8.7,7.632
+fra,France,Republic,2583560,70,0.901,0.778,9.5,6.489
+DEU,Germany,Republic,3684816,81,0.936,0.778,3.8,6.965
+GRC,Greece,Republic,20069,48,0.87,0.692,22.3,5.358
+GTM,Guatemala,Republic,75661,28,0.65,0.667,2.4,6.382
+HND,Honduras,Republic,22975,29,0.617,0.711,5.9,5.504
+HUN,Hungary,Republic,152284,45,0.838,0.670,4.4,5.620
+ISL,Iceland,Republic,23909,77,0.935,0.878,2.8,7.495
+IDN,Indonesia,Republic,1015411,37,0.694,0.691,5.4,5.093
+IRL,Ireland,Republic,333994,74,0.938,0.794,6.4,6.977
+ISR,Israel,Republic,350609,62,0.903,0.721,4.3,7.190
+ITA,Italy,Republic,1937894,50,0.88,0.692,11.4,6.000
+JPN,Japan,Constitutional monarchy,4872135,73,0.909,0.657,2.9,5.915
+LVA,Latvia,Republic,30319,58,0.847,0.756,9,5.933
+LTU,Lithuania,Republic,47263,59,0.858,0.742,7,5.952
+LUX,Luxembourg,Constitutional monarchy,62393,82,0.904,0.706,5.9,6.910
+MYS,Malaysia,Constitutional monarchy,314497,47,0.802,0.670,3.4,6.322
+MLT,Malta,Republic,12011,56,0.878,0.682,4.4,6.627
+MEX,Mexico,Republic,1149236,29,0.774,0.692,3.6,6.488
+NLD,Netherlands,Constitutional monarchy,825745,82,0.931,0.737,5.1,7.441
+NZL,New Zealand,Constitutional monarchy,201485,89,0.917,0.791,4.9,7.324
+NIC,Nicaragua,Republic,13692,26,0.658,0.814,6.5,6.141
+NOR,Norway,Constitutional monarchy,396457,85,0.953,0.830,4,7.594
+PAN,Panama,Republic,61838,37,0.789,0.722,5.5,6.430
+PRY,Paraguay,Republic,29619,29,0.702,0.678,6.5,5.681
+PER,Peru,Republic,215224,37,0.75,0.719,6.7,5.663
+PHL,Philippines,Republic,313419,34,0.699,0.790,6,5.524
+POL,Poland,Republic,524886,60,0.865,0.728,4.8,6.123
+PRT,Portugal,Republic,218064,63,0.847,0.734,9.7,5.410
+ROU,Romania,Republic,211315,48,0.811,0.708,5.3,5.945
+SGP,Singapore,Republic,323902,84,0.932,0.702,2.2,6.343
+SVK,Slovakia,Republic,95938,50,0.855,0.694,8.1,6.173
+ESP,Spain,Constitutional monarchy,1313951,57,0.891,0.746,17.1,6.310
+SWE,Sweden,Constitutional monarchy,538575,84,0.933,0.816,6.6,7.314
+THA,Thailand,Constitutional monarchy,455378,37,0.755,0.694,0.7,6.072
+TUR,Turkey,Republic,84948,40,0.791,0.625,11.2,5.483
+URY,Uruguay,Republic,58415,70,0.804,0.710,7.3,6.379
+GBR,United Kingdom,Constitutional monarchy,2624529,82,0.922,0.770,4.4,6.814
+USA,United States of America,Republic,19390600,75,0.924,0.718,4.4,6.886
+CHE,Switzerland,Republic,678575,85,0.944,0.755,3,7.487
+VNM,Vietnam,Republic,220408,35,0.694,0.698,2.3,5.103
+BOL,Bolivia,Republic,37122,33,0.693,0.758,4,5.752
+CYP,Cyprus,Republic,2131,57,0.869,0.684,9.6,5.762
+CZE,Czech Republic,Republic,213189,57,0.888,0.688,2.8,6.711

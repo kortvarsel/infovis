@@ -1,0 +1,8 @@
+.bord {
+    border: 5px;
+    border-color: black;
+    border-style: solid;
+}
+body {
+    background-color: black;
+}

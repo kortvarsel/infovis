@@ -1,0 +1,4341 @@
+[
+    {
+        "country": "USA",
+        "Pos": 1,
+        "artist": "Post Malone ",
+        "Total": "458842526",
+        "title": "rockstar"
+    },
+    {
+        "country": "USA",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "456343099",
+        "title": "One Dance"
+    },
+    {
+        "country": "USA",
+        "Pos": 3,
+        "artist": "Kendrick Lamar ",
+        "Total": "455661652",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "USA",
+        "Pos": 4,
+        "artist": "Lil Uzi Vert ",
+        "Total": "451915172",
+        "title": "XO TOUR Llif3"
+    },
+    {
+        "country": "USA",
+        "Pos": 5,
+        "artist": "Drake ",
+        "Total": "423693797",
+        "title": "God's Plan"
+    },
+    {
+        "country": "USA",
+        "Pos": 6,
+        "artist": "Post Malone ",
+        "Total": "406309152",
+        "title": "Congratulations"
+    },
+    {
+        "country": "USA",
+        "Pos": 7,
+        "artist": "The Chainsmokers ",
+        "Total": "398875454",
+        "title": "Closer"
+    },
+    {
+        "country": "USA",
+        "Pos": 8,
+        "artist": "Ed Sheeran ",
+        "Total": "351265970",
+        "title": "Shape of You"
+    },
+    {
+        "country": "USA",
+        "Pos": 9,
+        "artist": "Khalid ",
+        "Total": "320227689",
+        "title": "Location"
+    },
+    {
+        "country": "USA",
+        "Pos": 10,
+        "artist": "Travis Scott ",
+        "Total": "317019495",
+        "title": "goosebumps"
+    },
+    {
+        "country": "GBR",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "162863213",
+        "title": "Shape of You"
+    },
+    {
+        "country": "GBR",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "148811149",
+        "title": "One Dance"
+    },
+    {
+        "country": "GBR",
+        "Pos": 3,
+        "artist": "Luis Fonsi ",
+        "Total": "105976929",
+        "title": "Despacito "
+    },
+    {
+        "country": "GBR",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "103877016",
+        "title": "Castle on the Hill"
+    },
+    {
+        "country": "GBR",
+        "Pos": 5,
+        "artist": "French Montana ",
+        "Total": "102294719",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "GBR",
+        "Pos": 6,
+        "artist": "Ed Sheeran ",
+        "Total": "100683664",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "GBR",
+        "Pos": 7,
+        "artist": "Post Malone ",
+        "Total": "98666843",
+        "title": "rockstar"
+    },
+    {
+        "country": "GBR",
+        "Pos": 8,
+        "artist": "Justin Bieber ",
+        "Total": "96347535",
+        "title": "Sorry"
+    },
+    {
+        "country": "GBR",
+        "Pos": 9,
+        "artist": "Dua Lipa ",
+        "Total": "95883527",
+        "title": "New Rules"
+    },
+    {
+        "country": "GBR",
+        "Pos": 10,
+        "artist": "James Arthur ",
+        "Total": "93963195",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "AND",
+        "Pos": 1,
+        "artist": "Luis Fonsi ",
+        "Total": "67086",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "AND",
+        "Pos": 2,
+        "artist": "Ed Sheeran ",
+        "Total": "60876",
+        "title": "Shape of You"
+    },
+    {
+        "country": "AND",
+        "Pos": 3,
+        "artist": "Enrique Iglesias ",
+        "Total": "35659",
+        "title": "SUBEME LA RADIO"
+    },
+    {
+        "country": "AND",
+        "Pos": 4,
+        "artist": "Luis Fonsi ",
+        "Total": "28579",
+        "title": "Despacito "
+    },
+    {
+        "country": "AND",
+        "Pos": 5,
+        "artist": "Shakira ",
+        "Total": "27667",
+        "title": "Chantaje"
+    },
+    {
+        "country": "AND",
+        "Pos": 6,
+        "artist": "Drake ",
+        "Total": "27414",
+        "title": "One Dance"
+    },
+    {
+        "country": "AND",
+        "Pos": 7,
+        "artist": "Maluma ",
+        "Total": "25429",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "AND",
+        "Pos": 8,
+        "artist": "Danny Ocean ",
+        "Total": "25268",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "AND",
+        "Pos": 9,
+        "artist": "The Chainsmokers ",
+        "Total": "24563",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "AND",
+        "Pos": 10,
+        "artist": "Clean Bandit ",
+        "Total": "23734",
+        "title": "Rockabye"
+    },
+    {
+        "country": "ARG",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "64335685",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "ARG",
+        "Pos": 2,
+        "artist": "Luis Fonsi ",
+        "Total": "58753237",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "ARG",
+        "Pos": 3,
+        "artist": "Natti Natasha ",
+        "Total": "54902829",
+        "title": "Criminal"
+    },
+    {
+        "country": "ARG",
+        "Pos": 4,
+        "artist": "Maluma ",
+        "Total": "52812502",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "ARG",
+        "Pos": 5,
+        "artist": "Ed Sheeran ",
+        "Total": "52700144",
+        "title": "Shape of You"
+    },
+    {
+        "country": "ARG",
+        "Pos": 6,
+        "artist": "Zion & Lennox ",
+        "Total": "48423436",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "ARG",
+        "Pos": 7,
+        "artist": "Wisin ",
+        "Total": "46724367",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "ARG",
+        "Pos": 8,
+        "artist": "CNCO ",
+        "Total": "45366335",
+        "title": "Reggaetón Lento (Bailemos)"
+    },
+    {
+        "country": "ARG",
+        "Pos": 9,
+        "artist": "Ozuna ",
+        "Total": "42611468",
+        "title": "Se Preparó"
+    },
+    {
+        "country": "ARG",
+        "Pos": 10,
+        "artist": "Chris Jeday ",
+        "Total": "40725250",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "AUS",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "70721842",
+        "title": "Shape of You"
+    },
+    {
+        "country": "AUS",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "55840722",
+        "title": "rockstar"
+    },
+    {
+        "country": "AUS",
+        "Pos": 3,
+        "artist": "The Chainsmokers ",
+        "Total": "55771971",
+        "title": "Closer"
+    },
+    {
+        "country": "AUS",
+        "Pos": 4,
+        "artist": "Drake ",
+        "Total": "55002370",
+        "title": "One Dance"
+    },
+    {
+        "country": "AUS",
+        "Pos": 5,
+        "artist": "Kendrick Lamar ",
+        "Total": "47240733",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "AUS",
+        "Pos": 6,
+        "artist": "Post Malone ",
+        "Total": "46842391",
+        "title": "I Fall Apart"
+    },
+    {
+        "country": "AUS",
+        "Pos": 7,
+        "artist": "Flume ",
+        "Total": "45436163",
+        "title": "Never Be Like You"
+    },
+    {
+        "country": "AUS",
+        "Pos": 8,
+        "artist": "Drake ",
+        "Total": "44304886",
+        "title": "God's Plan"
+    },
+    {
+        "country": "AUS",
+        "Pos": 9,
+        "artist": "The Weeknd ",
+        "Total": "43989478",
+        "title": "Starboy"
+    },
+    {
+        "country": "AUS",
+        "Pos": 10,
+        "artist": "James Arthur ",
+        "Total": "42844040",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "AUT",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "7218243",
+        "title": "Shape of You"
+    },
+    {
+        "country": "AUT",
+        "Pos": 2,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "5059073",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "AUT",
+        "Pos": 3,
+        "artist": "Post Malone ",
+        "Total": "4833105",
+        "title": "rockstar"
+    },
+    {
+        "country": "AUT",
+        "Pos": 4,
+        "artist": "Bausa ",
+        "Total": "4798180",
+        "title": "Was Du Liebe nennst"
+    },
+    {
+        "country": "AUT",
+        "Pos": 5,
+        "artist": "Imagine Dragons ",
+        "Total": "4659861",
+        "title": "Thunder"
+    },
+    {
+        "country": "AUT",
+        "Pos": 6,
+        "artist": "Alan Walker ",
+        "Total": "4166095",
+        "title": "Faded"
+    },
+    {
+        "country": "AUT",
+        "Pos": 7,
+        "artist": "Camila Cabello ",
+        "Total": "4111430",
+        "title": "Havana"
+    },
+    {
+        "country": "AUT",
+        "Pos": 8,
+        "artist": "Imagine Dragons ",
+        "Total": "4017302",
+        "title": "Believer"
+    },
+    {
+        "country": "AUT",
+        "Pos": 9,
+        "artist": "The Chainsmokers ",
+        "Total": "3892854",
+        "title": "Closer"
+    },
+    {
+        "country": "AUT",
+        "Pos": 10,
+        "artist": "Martin Jensen ",
+        "Total": "3846119",
+        "title": "Solo Dance"
+    },
+    {
+        "country": "BEL",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "15093964",
+        "title": "Shape of You"
+    },
+    {
+        "country": "BEL",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "9259920",
+        "title": "One Dance"
+    },
+    {
+        "country": "BEL",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "7922996",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "BEL",
+        "Pos": 4,
+        "artist": "Major Lazer ",
+        "Total": "7857101",
+        "title": "Lean On"
+    },
+    {
+        "country": "BEL",
+        "Pos": 5,
+        "artist": "Post Malone ",
+        "Total": "7591891",
+        "title": "rockstar"
+    },
+    {
+        "country": "BEL",
+        "Pos": 6,
+        "artist": "Camila Cabello ",
+        "Total": "7512492",
+        "title": "Havana"
+    },
+    {
+        "country": "BEL",
+        "Pos": 7,
+        "artist": "Dua Lipa ",
+        "Total": "7424139",
+        "title": "New Rules"
+    },
+    {
+        "country": "BEL",
+        "Pos": 8,
+        "artist": "The Chainsmokers ",
+        "Total": "7245297",
+        "title": "Closer"
+    },
+    {
+        "country": "BEL",
+        "Pos": 9,
+        "artist": "The Chainsmokers ",
+        "Total": "7157549",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "BEL",
+        "Pos": 10,
+        "artist": "John Legend ",
+        "Total": "7003001",
+        "title": "All of Me"
+    },
+    {
+        "country": "BOL",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "3601955",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "BOL",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "2764627",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "BOL",
+        "Pos": 3,
+        "artist": "Piso 21 ",
+        "Total": "2757708",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "BOL",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "2471623",
+        "title": "Shape of You"
+    },
+    {
+        "country": "BOL",
+        "Pos": 5,
+        "artist": "Maluma ",
+        "Total": "2426459",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "BOL",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "2217239",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "BOL",
+        "Pos": 7,
+        "artist": "Wisin ",
+        "Total": "2169135",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "BOL",
+        "Pos": 8,
+        "artist": "CNCO ",
+        "Total": "2077617",
+        "title": "Reggaetón Lento (Bailemos)"
+    },
+    {
+        "country": "BOL",
+        "Pos": 9,
+        "artist": "Manuel Turizo ",
+        "Total": "2044021",
+        "title": "Una Lady Como Tú"
+    },
+    {
+        "country": "BOL",
+        "Pos": 10,
+        "artist": "Sebastian Yatra ",
+        "Total": "1977202",
+        "title": "Traicionera"
+    },
+    {
+        "country": "BRA",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "131774735",
+        "title": "Shape of You"
+    },
+    {
+        "country": "BRA",
+        "Pos": 2,
+        "artist": "Alok ",
+        "Total": "119268930",
+        "title": "Hear Me Now"
+    },
+    {
+        "country": "BRA",
+        "Pos": 3,
+        "artist": "1Kilo ",
+        "Total": "107841476",
+        "title": "Deixe Me Ir "
+    },
+    {
+        "country": "BRA",
+        "Pos": 4,
+        "artist": "Anitta ",
+        "Total": "106433106",
+        "title": "Vai malandra"
+    },
+    {
+        "country": "BRA",
+        "Pos": 5,
+        "artist": "Henrique & Juliano ",
+        "Total": "103734648",
+        "title": "Vidinha de Balada "
+    },
+    {
+        "country": "BRA",
+        "Pos": 6,
+        "artist": "Henrique & Diego ",
+        "Total": "101334017",
+        "title": "Raspão "
+    },
+    {
+        "country": "BRA",
+        "Pos": 7,
+        "artist": "Jorge & Mateus ",
+        "Total": "94765543",
+        "title": "Propaganda "
+    },
+    {
+        "country": "BRA",
+        "Pos": 8,
+        "artist": "Simone & Simaria ",
+        "Total": "93763776",
+        "title": "Regime Fechado "
+    },
+    {
+        "country": "BRA",
+        "Pos": 9,
+        "artist": "Mc Livinho ",
+        "Total": "90204946",
+        "title": "Fazer Falta"
+    },
+    {
+        "country": "BRA",
+        "Pos": 10,
+        "artist": "MC's Jhowzinho & Kadinho ",
+        "Total": "85921331",
+        "title": "Agora Vai Sentar"
+    },
+    {
+        "country": "BGR",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "1006094",
+        "title": "Shape of You"
+    },
+    {
+        "country": "BGR",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "835297",
+        "title": "rockstar"
+    },
+    {
+        "country": "BGR",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "734342",
+        "title": "One Dance"
+    },
+    {
+        "country": "BGR",
+        "Pos": 4,
+        "artist": "The Weeknd ",
+        "Total": "728522",
+        "title": "Starboy"
+    },
+    {
+        "country": "BGR",
+        "Pos": 5,
+        "artist": "Kendrick Lamar ",
+        "Total": "566067",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "BGR",
+        "Pos": 6,
+        "artist": "Dua Lipa ",
+        "Total": "559157",
+        "title": "New Rules"
+    },
+    {
+        "country": "BGR",
+        "Pos": 7,
+        "artist": "Camila Cabello ",
+        "Total": "551962",
+        "title": "Havana"
+    },
+    {
+        "country": "BGR",
+        "Pos": 8,
+        "artist": "French Montana ",
+        "Total": "507921",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "BGR",
+        "Pos": 9,
+        "artist": "Major Lazer ",
+        "Total": "501172",
+        "title": "Lean On"
+    },
+    {
+        "country": "BGR",
+        "Pos": 10,
+        "artist": "Imagine Dragons ",
+        "Total": "497077",
+        "title": "Believer"
+    },
+    {
+        "country": "CAN",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "62021372",
+        "title": "Shape of You"
+    },
+    {
+        "country": "CAN",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "60314999",
+        "title": "rockstar"
+    },
+    {
+        "country": "CAN",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "60008556",
+        "title": "One Dance"
+    },
+    {
+        "country": "CAN",
+        "Pos": 4,
+        "artist": "Drake ",
+        "Total": "51969974",
+        "title": "God's Plan"
+    },
+    {
+        "country": "CAN",
+        "Pos": 5,
+        "artist": "Luis Fonsi ",
+        "Total": "50694653",
+        "title": "Despacito "
+    },
+    {
+        "country": "CAN",
+        "Pos": 6,
+        "artist": "The Chainsmokers ",
+        "Total": "50050511",
+        "title": "Closer"
+    },
+    {
+        "country": "CAN",
+        "Pos": 7,
+        "artist": "Kendrick Lamar ",
+        "Total": "48610523",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "CAN",
+        "Pos": 8,
+        "artist": "French Montana ",
+        "Total": "48155741",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "CAN",
+        "Pos": 9,
+        "artist": "Lil Uzi Vert ",
+        "Total": "45325466",
+        "title": "XO TOUR Llif3"
+    },
+    {
+        "country": "CAN",
+        "Pos": 10,
+        "artist": "Camila Cabello ",
+        "Total": "40575627",
+        "title": "Havana"
+    },
+    {
+        "country": "CHL",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "59157500",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "CHL",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "53728059",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "CHL",
+        "Pos": 3,
+        "artist": "Wisin ",
+        "Total": "46255423",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "CHL",
+        "Pos": 4,
+        "artist": "Luis Fonsi ",
+        "Total": "40818119",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "CHL",
+        "Pos": 5,
+        "artist": "Ed Sheeran ",
+        "Total": "39437117",
+        "title": "Shape of You"
+    },
+    {
+        "country": "CHL",
+        "Pos": 6,
+        "artist": "Anuel Aa ",
+        "Total": "38437060",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "CHL",
+        "Pos": 7,
+        "artist": "Natti Natasha ",
+        "Total": "38409017",
+        "title": "Criminal"
+    },
+    {
+        "country": "CHL",
+        "Pos": 8,
+        "artist": "Piso 21 ",
+        "Total": "37931075",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "CHL",
+        "Pos": 9,
+        "artist": "Zion & Lennox ",
+        "Total": "36580720",
+        "title": "La Player (Bandolera)"
+    },
+    {
+        "country": "CHL",
+        "Pos": 10,
+        "artist": "Maluma ",
+        "Total": "36415938",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "COL",
+        "Pos": 1,
+        "artist": "Zion & Lennox ",
+        "Total": "22328651",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "COL",
+        "Pos": 2,
+        "artist": "Danny Ocean ",
+        "Total": "21577593",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "COL",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "19515273",
+        "title": "Shape of You"
+    },
+    {
+        "country": "COL",
+        "Pos": 4,
+        "artist": "Piso 21 ",
+        "Total": "16033830",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "COL",
+        "Pos": 5,
+        "artist": "Manuel Turizo ",
+        "Total": "15551533",
+        "title": "Una Lady Como Tú"
+    },
+    {
+        "country": "COL",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "15035033",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "COL",
+        "Pos": 7,
+        "artist": "Carlos Vives ",
+        "Total": "14794119",
+        "title": "Robarte un Beso"
+    },
+    {
+        "country": "COL",
+        "Pos": 8,
+        "artist": "Drake ",
+        "Total": "14318633",
+        "title": "One Dance"
+    },
+    {
+        "country": "COL",
+        "Pos": 9,
+        "artist": "Anuel Aa ",
+        "Total": "14151684",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "COL",
+        "Pos": 10,
+        "artist": "Nicky Jam ",
+        "Total": "13770694",
+        "title": "El Amante"
+    },
+    {
+        "country": "CRC",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "9460974",
+        "title": "Shape of You"
+    },
+    {
+        "country": "CRC",
+        "Pos": 2,
+        "artist": "Danny Ocean ",
+        "Total": "9102724",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "CRC",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "7641411",
+        "title": "One Dance"
+    },
+    {
+        "country": "CRC",
+        "Pos": 4,
+        "artist": "Zion & Lennox ",
+        "Total": "7478851",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "CRC",
+        "Pos": 5,
+        "artist": "Luis Fonsi ",
+        "Total": "6961941",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "CRC",
+        "Pos": 6,
+        "artist": "Ed Sheeran ",
+        "Total": "6494333",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "CRC",
+        "Pos": 7,
+        "artist": "Wisin ",
+        "Total": "5851910",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "CRC",
+        "Pos": 8,
+        "artist": "CNCO ",
+        "Total": "5653533",
+        "title": "Reggaetón Lento (Bailemos)"
+    },
+    {
+        "country": "CRC",
+        "Pos": 9,
+        "artist": "Chris Jeday ",
+        "Total": "5551960",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "CRC",
+        "Pos": 10,
+        "artist": "Ozuna ",
+        "Total": "5497390",
+        "title": "Se Preparó"
+    },
+    {
+        "country": "CYP",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "349096",
+        "title": "Shape of You"
+    },
+    {
+        "country": "CYP",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "291151",
+        "title": "rockstar"
+    },
+    {
+        "country": "CYP",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "244667",
+        "title": "One Dance"
+    },
+    {
+        "country": "CYP",
+        "Pos": 4,
+        "artist": "Camila Cabello ",
+        "Total": "241062",
+        "title": "Havana"
+    },
+    {
+        "country": "CYP",
+        "Pos": 5,
+        "artist": "French Montana ",
+        "Total": "224999",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "CYP",
+        "Pos": 6,
+        "artist": "Dua Lipa ",
+        "Total": "214155",
+        "title": "New Rules"
+    },
+    {
+        "country": "CYP",
+        "Pos": 7,
+        "artist": "Drake ",
+        "Total": "204648",
+        "title": "God's Plan"
+    },
+    {
+        "country": "CYP",
+        "Pos": 8,
+        "artist": "Imagine Dragons ",
+        "Total": "186139",
+        "title": "Believer"
+    },
+    {
+        "country": "CYP",
+        "Pos": 9,
+        "artist": "Imagine Dragons ",
+        "Total": "174665",
+        "title": "Thunder"
+    },
+    {
+        "country": "CYP",
+        "Pos": 10,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "167191",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "CZE",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "6039542",
+        "title": "Shape of You"
+    },
+    {
+        "country": "CZE",
+        "Pos": 2,
+        "artist": "Imagine Dragons ",
+        "Total": "4195825",
+        "title": "Thunder"
+    },
+    {
+        "country": "CZE",
+        "Pos": 3,
+        "artist": "Imagine Dragons ",
+        "Total": "4044854",
+        "title": "Believer"
+    },
+    {
+        "country": "CZE",
+        "Pos": 4,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "3677168",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "CZE",
+        "Pos": 5,
+        "artist": "The Chainsmokers ",
+        "Total": "3538152",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "CZE",
+        "Pos": 6,
+        "artist": "Camila Cabello ",
+        "Total": "3293549",
+        "title": "Havana"
+    },
+    {
+        "country": "CZE",
+        "Pos": 7,
+        "artist": "Post Malone ",
+        "Total": "3154714",
+        "title": "rockstar"
+    },
+    {
+        "country": "CZE",
+        "Pos": 8,
+        "artist": "The Chainsmokers ",
+        "Total": "3005513",
+        "title": "Closer"
+    },
+    {
+        "country": "CZE",
+        "Pos": 9,
+        "artist": "Ed Sheeran ",
+        "Total": "2599245",
+        "title": "Galway Girl"
+    },
+    {
+        "country": "CZE",
+        "Pos": 10,
+        "artist": "Kygo ",
+        "Total": "2581738",
+        "title": "It Ain't Me"
+    },
+    {
+        "country": "DNK",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "29085227",
+        "title": "Shape of You"
+    },
+    {
+        "country": "DNK",
+        "Pos": 2,
+        "artist": "Justin Bieber ",
+        "Total": "27277480",
+        "title": "Love Yourself"
+    },
+    {
+        "country": "DNK",
+        "Pos": 3,
+        "artist": "Lukas Graham ",
+        "Total": "27061548",
+        "title": "7 Years"
+    },
+    {
+        "country": "DNK",
+        "Pos": 4,
+        "artist": "Blak ",
+        "Total": "23911587",
+        "title": "Nede Mette"
+    },
+    {
+        "country": "DNK",
+        "Pos": 5,
+        "artist": "Luis Fonsi ",
+        "Total": "23815992",
+        "title": "Despacito "
+    },
+    {
+        "country": "DNK",
+        "Pos": 6,
+        "artist": "Ed Sheeran ",
+        "Total": "22974610",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "DNK",
+        "Pos": 7,
+        "artist": "Justin Bieber ",
+        "Total": "22929447",
+        "title": "Sorry"
+    },
+    {
+        "country": "DNK",
+        "Pos": 8,
+        "artist": "Ed Sheeran ",
+        "Total": "22149435",
+        "title": "I See Fire"
+    },
+    {
+        "country": "DNK",
+        "Pos": 9,
+        "artist": "Drake ",
+        "Total": "21627950",
+        "title": "One Dance"
+    },
+    {
+        "country": "DNK",
+        "Pos": 10,
+        "artist": "Mike Posner ",
+        "Total": "19756214",
+        "title": "I Took A Pill In Ibiza -  Seeb Remix"
+    },
+    {
+        "country": "DOM",
+        "Pos": 1,
+        "artist": "Zion & Lennox ",
+        "Total": "3390429",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "DOM",
+        "Pos": 2,
+        "artist": "Danny Ocean ",
+        "Total": "3117320",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "DOM",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "3106582",
+        "title": "One Dance"
+    },
+    {
+        "country": "DOM",
+        "Pos": 4,
+        "artist": "Chris Jeday ",
+        "Total": "2983589",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "DOM",
+        "Pos": 5,
+        "artist": "Wisin ",
+        "Total": "2781319",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "DOM",
+        "Pos": 6,
+        "artist": "Farruko ",
+        "Total": "2743633",
+        "title": "Diles"
+    },
+    {
+        "country": "DOM",
+        "Pos": 7,
+        "artist": "Ed Sheeran ",
+        "Total": "2559514",
+        "title": "Shape of You"
+    },
+    {
+        "country": "DOM",
+        "Pos": 8,
+        "artist": "Anuel Aa ",
+        "Total": "2519198",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "DOM",
+        "Pos": 9,
+        "artist": "Nio Garcia ",
+        "Total": "2435065",
+        "title": "Te Boté "
+    },
+    {
+        "country": "DOM",
+        "Pos": 10,
+        "artist": "Ozuna ",
+        "Total": "2405049",
+        "title": "Dile Que Tu Me Quieres"
+    },
+    {
+        "country": "ECU",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "8482704",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "ECU",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "7067031",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "ECU",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "6767224",
+        "title": "Shape of You"
+    },
+    {
+        "country": "ECU",
+        "Pos": 4,
+        "artist": "Luis Fonsi ",
+        "Total": "6382858",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "ECU",
+        "Pos": 5,
+        "artist": "Piso 21 ",
+        "Total": "5845631",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "ECU",
+        "Pos": 6,
+        "artist": "Maluma ",
+        "Total": "5804923",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "ECU",
+        "Pos": 7,
+        "artist": "Chino & Nacho ",
+        "Total": "5745606",
+        "title": "Andas En Mi Cabeza"
+    },
+    {
+        "country": "ECU",
+        "Pos": 8,
+        "artist": "Carlos Vives ",
+        "Total": "5589461",
+        "title": "Robarte un Beso"
+    },
+    {
+        "country": "ECU",
+        "Pos": 9,
+        "artist": "Manuel Turizo ",
+        "Total": "5437849",
+        "title": "Una Lady Como Tú"
+    },
+    {
+        "country": "ECU",
+        "Pos": 10,
+        "artist": "Wisin ",
+        "Total": "5297452",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "SLV",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "2802216",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "SLV",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "2250300",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "SLV",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "2100894",
+        "title": "Shape of You"
+    },
+    {
+        "country": "SLV",
+        "Pos": 4,
+        "artist": "Anuel Aa ",
+        "Total": "2099374",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "SLV",
+        "Pos": 5,
+        "artist": "Wisin ",
+        "Total": "1843103",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "SLV",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "1828894",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "SLV",
+        "Pos": 7,
+        "artist": "The Chainsmokers ",
+        "Total": "1816899",
+        "title": "Closer"
+    },
+    {
+        "country": "SLV",
+        "Pos": 8,
+        "artist": "Piso 21 ",
+        "Total": "1779307",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "SLV",
+        "Pos": 9,
+        "artist": "Drake ",
+        "Total": "1754939",
+        "title": "One Dance"
+    },
+    {
+        "country": "SLV",
+        "Pos": 10,
+        "artist": "DJ Snake ",
+        "Total": "1661383",
+        "title": "Let Me Love You"
+    },
+    {
+        "country": "EST",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "1251800",
+        "title": "Shape of You"
+    },
+    {
+        "country": "EST",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "1082543",
+        "title": "rockstar"
+    },
+    {
+        "country": "EST",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "927771",
+        "title": "One Dance"
+    },
+    {
+        "country": "EST",
+        "Pos": 4,
+        "artist": "Major Lazer ",
+        "Total": "900436",
+        "title": "Lean On"
+    },
+    {
+        "country": "EST",
+        "Pos": 5,
+        "artist": "Alan Walker ",
+        "Total": "825047",
+        "title": "Faded"
+    },
+    {
+        "country": "EST",
+        "Pos": 6,
+        "artist": "Ed Sheeran ",
+        "Total": "808611",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "EST",
+        "Pos": 7,
+        "artist": "The Chainsmokers ",
+        "Total": "805619",
+        "title": "Don't Let Me Down"
+    },
+    {
+        "country": "EST",
+        "Pos": 8,
+        "artist": "The Chainsmokers ",
+        "Total": "792317",
+        "title": "Closer"
+    },
+    {
+        "country": "EST",
+        "Pos": 9,
+        "artist": "Mike Posner ",
+        "Total": "77581",
+        "title": "I Took A Pill In Ibiza "
+    },
+    {
+        "country": "EST",
+        "Pos": 10,
+        "artist": "Imagine Dragons ",
+        "Total": "749399",
+        "title": "Thunder"
+    },
+    {
+        "country": "FIN",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "18649163",
+        "title": "Shape of You"
+    },
+    {
+        "country": "FIN",
+        "Pos": 2,
+        "artist": "Alan Walker ",
+        "Total": "17476135",
+        "title": "Faded"
+    },
+    {
+        "country": "FIN",
+        "Pos": 3,
+        "artist": "Post Malone ",
+        "Total": "16068417",
+        "title": "rockstar"
+    },
+    {
+        "country": "FIN",
+        "Pos": 4,
+        "artist": "JVG ",
+        "Total": "14474336",
+        "title": "Hehkuu"
+    },
+    {
+        "country": "FIN",
+        "Pos": 5,
+        "artist": "Reino Nordin ",
+        "Total": "14065457",
+        "title": "Antaudun"
+    },
+    {
+        "country": "FIN",
+        "Pos": 6,
+        "artist": "JVG ",
+        "Total": "14030675",
+        "title": "Tarkenee"
+    },
+    {
+        "country": "FIN",
+        "Pos": 7,
+        "artist": "Evelina ",
+        "Total": "14020800",
+        "title": "Honey"
+    },
+    {
+        "country": "FIN",
+        "Pos": 8,
+        "artist": "Luis Fonsi ",
+        "Total": "13462650",
+        "title": "Despacito "
+    },
+    {
+        "country": "FIN",
+        "Pos": 9,
+        "artist": "Clean Bandit ",
+        "Total": "12043076",
+        "title": "Rockabye"
+    },
+    {
+        "country": "FIN",
+        "Pos": 10,
+        "artist": "Antti Tuisku ",
+        "Total": "11291160",
+        "title": "Keinutaan"
+    },
+    {
+        "country": "FRA",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "60519140",
+        "title": "Shape of You"
+    },
+    {
+        "country": "FRA",
+        "Pos": 2,
+        "artist": "Niska ",
+        "Total": "43485870",
+        "title": "Réseaux"
+    },
+    {
+        "country": "FRA",
+        "Pos": 3,
+        "artist": "Damso ",
+        "Total": "41011686",
+        "title": "Θ. Macarena"
+    },
+    {
+        "country": "FRA",
+        "Pos": 4,
+        "artist": "Kalash ",
+        "Total": "40604738",
+        "title": "Mwaka Moon"
+    },
+    {
+        "country": "FRA",
+        "Pos": 5,
+        "artist": "Drake ",
+        "Total": "38871307",
+        "title": "One Dance"
+    },
+    {
+        "country": "FRA",
+        "Pos": 6,
+        "artist": "Vald ",
+        "Total": "33599744",
+        "title": "Désaccordé"
+    },
+    {
+        "country": "FRA",
+        "Pos": 7,
+        "artist": "Niska ",
+        "Total": "31886550",
+        "title": "Salé"
+    },
+    {
+        "country": "FRA",
+        "Pos": 8,
+        "artist": "Lartiste ",
+        "Total": "31329839",
+        "title": "Mafiosa"
+    },
+    {
+        "country": "FRA",
+        "Pos": 9,
+        "artist": "Camila Cabello ",
+        "Total": "29876962",
+        "title": "Havana"
+    },
+    {
+        "country": "FRA",
+        "Pos": 10,
+        "artist": "Post Malone ",
+        "Total": "28945437",
+        "title": "rockstar"
+    },
+    {
+        "country": "DEU",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "120803974",
+        "title": "Shape of You"
+    },
+    {
+        "country": "DEU",
+        "Pos": 2,
+        "artist": "Bausa ",
+        "Total": "98015116",
+        "title": "Was Du Liebe nennst"
+    },
+    {
+        "country": "DEU",
+        "Pos": 3,
+        "artist": "Bonez MC ",
+        "Total": "89532944",
+        "title": "Ohne mein Team"
+    },
+    {
+        "country": "DEU",
+        "Pos": 4,
+        "artist": "Drake ",
+        "Total": "80601053",
+        "title": "One Dance"
+    },
+    {
+        "country": "DEU",
+        "Pos": 5,
+        "artist": "Post Malone ",
+        "Total": "79558620",
+        "title": "rockstar"
+    },
+    {
+        "country": "DEU",
+        "Pos": 6,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "75471127",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "DEU",
+        "Pos": 7,
+        "artist": "French Montana ",
+        "Total": "68280658",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "DEU",
+        "Pos": 8,
+        "artist": "Camila Cabello ",
+        "Total": "68271967",
+        "title": "Havana"
+    },
+    {
+        "country": "DEU",
+        "Pos": 9,
+        "artist": "Bonez MC ",
+        "Total": "65155292",
+        "title": "Palmen aus Plastik"
+    },
+    {
+        "country": "DEU",
+        "Pos": 10,
+        "artist": "The Chainsmokers ",
+        "Total": "63580831",
+        "title": "Don't Let Me Down"
+    },
+    {
+        "country": "GRC",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "2229056",
+        "title": "Shape of You"
+    },
+    {
+        "country": "GRC",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "1909516",
+        "title": "rockstar"
+    },
+    {
+        "country": "GRC",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "1649829",
+        "title": "One Dance"
+    },
+    {
+        "country": "GRC",
+        "Pos": 4,
+        "artist": "Camila Cabello ",
+        "Total": "1546637",
+        "title": "Havana"
+    },
+    {
+        "country": "GRC",
+        "Pos": 5,
+        "artist": "The Weeknd ",
+        "Total": "1468148",
+        "title": "Starboy"
+    },
+    {
+        "country": "GRC",
+        "Pos": 6,
+        "artist": "Dua Lipa ",
+        "Total": "1399188",
+        "title": "New Rules"
+    },
+    {
+        "country": "GRC",
+        "Pos": 7,
+        "artist": "French Montana ",
+        "Total": "1336243",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "GRC",
+        "Pos": 8,
+        "artist": "Drake ",
+        "Total": "1312409",
+        "title": "God's Plan"
+    },
+    {
+        "country": "GRC",
+        "Pos": 9,
+        "artist": "Imagine Dragons ",
+        "Total": "1259666",
+        "title": "Believer"
+    },
+    {
+        "country": "GRC",
+        "Pos": 10,
+        "artist": "Kendrick Lamar ",
+        "Total": "1224603",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "GTM",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "5022565",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "GTM",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "4316135",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "GTM",
+        "Pos": 3,
+        "artist": "Piso 21 ",
+        "Total": "3527753",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "GTM",
+        "Pos": 4,
+        "artist": "Wisin ",
+        "Total": "3498435",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "GTM",
+        "Pos": 5,
+        "artist": "Ed Sheeran ",
+        "Total": "3084561",
+        "title": "Shape of You"
+    },
+    {
+        "country": "GTM",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "3061759",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "GTM",
+        "Pos": 7,
+        "artist": "Anuel Aa ",
+        "Total": "3060794",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "GTM",
+        "Pos": 8,
+        "artist": "Maluma ",
+        "Total": "2967385",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "GTM",
+        "Pos": 9,
+        "artist": "Chris Jeday ",
+        "Total": "2958915",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "GTM",
+        "Pos": 10,
+        "artist": "Manuel Turizo ",
+        "Total": "2907582",
+        "title": "Una Lady Como Tú"
+    },
+    {
+        "country": "HND",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "2965823",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "HND",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "2542152",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "HND",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "2367953",
+        "title": "One Dance"
+    },
+    {
+        "country": "HND",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "2280981",
+        "title": "Shape of You"
+    },
+    {
+        "country": "HND",
+        "Pos": 5,
+        "artist": "Anuel Aa ",
+        "Total": "2130310",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "HND",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "2005309",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "HND",
+        "Pos": 7,
+        "artist": "Wisin ",
+        "Total": "1861161",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "HND",
+        "Pos": 8,
+        "artist": "Mike Posner ",
+        "Total": "1841072",
+        "title": "I Took A Pill In Ibiza -  Seeb Remix"
+    },
+    {
+        "country": "HND",
+        "Pos": 9,
+        "artist": "The Chainsmokers ",
+        "Total": "1774306",
+        "title": "Closer"
+    },
+    {
+        "country": "HND",
+        "Pos": 10,
+        "artist": "Chris Jeday ",
+        "Total": "1739119",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "HKG",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "6902114",
+        "title": "Shape of You"
+    },
+    {
+        "country": "HKG",
+        "Pos": 2,
+        "artist": "The Chainsmokers ",
+        "Total": "6428023",
+        "title": "Closer"
+    },
+    {
+        "country": "HKG",
+        "Pos": 3,
+        "artist": "The Chainsmokers ",
+        "Total": "5567899",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "HKG",
+        "Pos": 4,
+        "artist": "Charlie Puth ",
+        "Total": "5470166",
+        "title": "We Don't Talk Anymore"
+    },
+    {
+        "country": "HKG",
+        "Pos": 5,
+        "artist": "Alan Walker ",
+        "Total": "5011621",
+        "title": "Faded"
+    },
+    {
+        "country": "HKG",
+        "Pos": 6,
+        "artist": "Dear Jane ",
+        "Total": "4905477",
+        "title": "哪裡只得我共你"
+    },
+    {
+        "country": "HKG",
+        "Pos": 7,
+        "artist": "Ed Sheeran ",
+        "Total": "4785590",
+        "title": "Photograph"
+    },
+    {
+        "country": "HKG",
+        "Pos": 8,
+        "artist": "Charmaine Fong ",
+        "Total": "4507594",
+        "title": "分手總約在雨天"
+    },
+    {
+        "country": "HKG",
+        "Pos": 9,
+        "artist": "Ed Sheeran ",
+        "Total": "4472034",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "HKG",
+        "Pos": 10,
+        "artist": "Supper Moment ",
+        "Total": "4200221",
+        "title": "風箏"
+    },
+    {
+        "country": "HUN",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "4634746",
+        "title": "Shape of You"
+    },
+    {
+        "country": "HUN",
+        "Pos": 2,
+        "artist": "Imagine Dragons ",
+        "Total": "3083397",
+        "title": "Believer"
+    },
+    {
+        "country": "HUN",
+        "Pos": 3,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "2753343",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "HUN",
+        "Pos": 4,
+        "artist": "Camila Cabello ",
+        "Total": "2732903",
+        "title": "Havana"
+    },
+    {
+        "country": "HUN",
+        "Pos": 5,
+        "artist": "Imagine Dragons ",
+        "Total": "2714205",
+        "title": "Thunder"
+    },
+    {
+        "country": "HUN",
+        "Pos": 6,
+        "artist": "Major Lazer ",
+        "Total": "2514972",
+        "title": "Lean On"
+    },
+    {
+        "country": "HUN",
+        "Pos": 7,
+        "artist": "Dua Lipa ",
+        "Total": "2477613",
+        "title": "New Rules"
+    },
+    {
+        "country": "HUN",
+        "Pos": 8,
+        "artist": "Kygo ",
+        "Total": "2414819",
+        "title": "It Ain't Me"
+    },
+    {
+        "country": "HUN",
+        "Pos": 9,
+        "artist": "Post Malone ",
+        "Total": "2384658",
+        "title": "rockstar"
+    },
+    {
+        "country": "HUN",
+        "Pos": 10,
+        "artist": "Sia ",
+        "Total": "2367033",
+        "title": "Cheap Thrills"
+    },
+    {
+        "country": "ISL",
+        "Pos": 1,
+        "artist": "Luis Fonsi ",
+        "Total": "1997846",
+        "title": "Despacito "
+    },
+    {
+        "country": "ISL",
+        "Pos": 2,
+        "artist": "Ed Sheeran ",
+        "Total": "1936967",
+        "title": "Shape of You"
+    },
+    {
+        "country": "ISL",
+        "Pos": 3,
+        "artist": "JóiPé ",
+        "Total": "1791792",
+        "title": "B.O.B.A."
+    },
+    {
+        "country": "ISL",
+        "Pos": 4,
+        "artist": "Aron Can ",
+        "Total": "1712793",
+        "title": "Fullir Vasar"
+    },
+    {
+        "country": "ISL",
+        "Pos": 5,
+        "artist": "Post Malone ",
+        "Total": "1590618",
+        "title": "rockstar"
+    },
+    {
+        "country": "ISL",
+        "Pos": 6,
+        "artist": "Chase ",
+        "Total": "1557643",
+        "title": "Ég Vil Það"
+    },
+    {
+        "country": "ISL",
+        "Pos": 7,
+        "artist": "Kaleo ",
+        "Total": "1475169",
+        "title": "Vor í Vaglaskógi"
+    },
+    {
+        "country": "ISL",
+        "Pos": 8,
+        "artist": "Birnir ",
+        "Total": "1459628",
+        "title": "Já ég veit"
+    },
+    {
+        "country": "ISL",
+        "Pos": 9,
+        "artist": "JóiPé ",
+        "Total": "1444151",
+        "title": "O Shit"
+    },
+    {
+        "country": "ISL",
+        "Pos": 10,
+        "artist": "Drake ",
+        "Total": "1407139",
+        "title": "One Dance"
+    },
+    {
+        "country": "IDN",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "27245352",
+        "title": "Shape of You"
+    },
+    {
+        "country": "IDN",
+        "Pos": 2,
+        "artist": "Ed Sheeran ",
+        "Total": "25425685",
+        "title": "Perfect"
+    },
+    {
+        "country": "IDN",
+        "Pos": 3,
+        "artist": "The Chainsmokers ",
+        "Total": "23296464",
+        "title": "Closer"
+    },
+    {
+        "country": "IDN",
+        "Pos": 4,
+        "artist": "The Chainsmokers ",
+        "Total": "22558264",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "IDN",
+        "Pos": 5,
+        "artist": "Camila Cabello ",
+        "Total": "22520185",
+        "title": "Havana"
+    },
+    {
+        "country": "IDN",
+        "Pos": 6,
+        "artist": "Dua Lipa ",
+        "Total": "21223942",
+        "title": "New Rules"
+    },
+    {
+        "country": "IDN",
+        "Pos": 7,
+        "artist": "James Arthur ",
+        "Total": "21142465",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "IDN",
+        "Pos": 8,
+        "artist": "Charlie Puth ",
+        "Total": "20631655",
+        "title": "Attention"
+    },
+    {
+        "country": "IDN",
+        "Pos": 9,
+        "artist": "Payung Teduh ",
+        "Total": "20278276",
+        "title": "Akad"
+    },
+    {
+        "country": "IDN",
+        "Pos": 10,
+        "artist": "Imagine Dragons ",
+        "Total": "18967663",
+        "title": "Thunder"
+    },
+    {
+        "country": "IRL",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "14574594",
+        "title": "Shape of You"
+    },
+    {
+        "country": "IRL",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "11296551",
+        "title": "One Dance"
+    },
+    {
+        "country": "IRL",
+        "Pos": 3,
+        "artist": "Luis Fonsi ",
+        "Total": "10262097",
+        "title": "Despacito "
+    },
+    {
+        "country": "IRL",
+        "Pos": 4,
+        "artist": "Dua Lipa ",
+        "Total": "10257159",
+        "title": "New Rules"
+    },
+    {
+        "country": "IRL",
+        "Pos": 5,
+        "artist": "Ed Sheeran ",
+        "Total": "8978430",
+        "title": "Castle on the Hill"
+    },
+    {
+        "country": "IRL",
+        "Pos": 6,
+        "artist": "Post Malone ",
+        "Total": "8971857",
+        "title": "rockstar"
+    },
+    {
+        "country": "IRL",
+        "Pos": 7,
+        "artist": "French Montana ",
+        "Total": "8873973",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "IRL",
+        "Pos": 8,
+        "artist": "Camila Cabello ",
+        "Total": "8855606",
+        "title": "Havana"
+    },
+    {
+        "country": "IRL",
+        "Pos": 9,
+        "artist": "James Arthur ",
+        "Total": "8437683",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "IRL",
+        "Pos": 10,
+        "artist": "Mike Posner ",
+        "Total": "8216800",
+        "title": "I Took A Pill In Ibiza "
+    },
+    {
+        "country": "ISR",
+        "Pos": 1,
+        "artist": "Marshmello ",
+        "Total": "876582",
+        "title": "FRIENDS"
+    },
+    {
+        "country": "ISR",
+        "Pos": 2,
+        "artist": "Omer Adam ",
+        "Total": "846023",
+        "title": "שני משוגעים"
+    },
+    {
+        "country": "ISR",
+        "Pos": 3,
+        "artist": "Cardi B ",
+        "Total": "84447",
+        "title": "I Like It"
+    },
+    {
+        "country": "ISR",
+        "Pos": 4,
+        "artist": "Omer Adam ",
+        "Total": "837199",
+        "title": "חברות שלך"
+    },
+    {
+        "country": "ISR",
+        "Pos": 5,
+        "artist": "Drake ",
+        "Total": "830732",
+        "title": "God's Plan"
+    },
+    {
+        "country": "ISR",
+        "Pos": 6,
+        "artist": "Maroon 5 ",
+        "Total": "827065",
+        "title": "Girls Like You"
+    },
+    {
+        "country": "ISR",
+        "Pos": 7,
+        "artist": "Calvin Harris ",
+        "Total": "825304",
+        "title": "One Kiss"
+    },
+    {
+        "country": "ISR",
+        "Pos": 8,
+        "artist": "Dua Lipa ",
+        "Total": "804767",
+        "title": "IDGAF"
+    },
+    {
+        "country": "ISR",
+        "Pos": 9,
+        "artist": "Drake ",
+        "Total": "748627",
+        "title": "In My Feelings"
+    },
+    {
+        "country": "ISR",
+        "Pos": 10,
+        "artist": "Drake ",
+        "Total": "687682",
+        "title": "Nice For What"
+    },
+    {
+        "country": "ITA",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "50419008",
+        "title": "Shape of You"
+    },
+    {
+        "country": "ITA",
+        "Pos": 2,
+        "artist": "Sfera Ebbasta ",
+        "Total": "50225602",
+        "title": "Cupido"
+    },
+    {
+        "country": "ITA",
+        "Pos": 3,
+        "artist": "Capo Plaza ",
+        "Total": "50217053",
+        "title": "Tesla"
+    },
+    {
+        "country": "ITA",
+        "Pos": 4,
+        "artist": "Coez ",
+        "Total": "49864214",
+        "title": "La musica non c'è"
+    },
+    {
+        "country": "ITA",
+        "Pos": 5,
+        "artist": "Sfera Ebbasta ",
+        "Total": "40440340",
+        "title": "Rockstar"
+    },
+    {
+        "country": "ITA",
+        "Pos": 6,
+        "artist": "Sfera Ebbasta ",
+        "Total": "39675550",
+        "title": "Sciroppo"
+    },
+    {
+        "country": "ITA",
+        "Pos": 7,
+        "artist": "Gemitaiz ",
+        "Total": "39141981",
+        "title": "Davide"
+    },
+    {
+        "country": "ITA",
+        "Pos": 8,
+        "artist": "Irama ",
+        "Total": "37959085",
+        "title": "Nera"
+    },
+    {
+        "country": "ITA",
+        "Pos": 9,
+        "artist": "J-AX",
+        "Total": "37497843",
+        "title": "Italiana"
+    },
+    {
+        "country": "ITA",
+        "Pos": 10,
+        "artist": "Sfera Ebbasta ",
+        "Total": "37154271",
+        "title": "Tran Tran"
+    },
+    {
+        "country": "JPN",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "9135277",
+        "title": "Shape of You"
+    },
+    {
+        "country": "JPN",
+        "Pos": 2,
+        "artist": "DAOKO×米津玄師 ",
+        "Total": "8722683",
+        "title": "打上花火"
+    },
+    {
+        "country": "JPN",
+        "Pos": 3,
+        "artist": "Shota Shimizu ",
+        "Total": "6283033",
+        "title": "My Boo"
+    },
+    {
+        "country": "JPN",
+        "Pos": 4,
+        "artist": "ONE OK ROCK ",
+        "Total": "6219305",
+        "title": "Wherever you are"
+    },
+    {
+        "country": "JPN",
+        "Pos": 5,
+        "artist": "AAA ",
+        "Total": "5813637",
+        "title": "恋音と雨空"
+    },
+    {
+        "country": "JPN",
+        "Pos": 6,
+        "artist": "Superfly ",
+        "Total": "5738650",
+        "title": "愛をこめて花束を"
+    },
+    {
+        "country": "JPN",
+        "Pos": 7,
+        "artist": "[Alexandros] ",
+        "Total": "5349379",
+        "title": "ワタリドリ"
+    },
+    {
+        "country": "JPN",
+        "Pos": 8,
+        "artist": "Zedd ",
+        "Total": "5182842",
+        "title": "Stay"
+    },
+    {
+        "country": "JPN",
+        "Pos": 9,
+        "artist": "Camila Cabello ",
+        "Total": "5158031",
+        "title": "Havana"
+    },
+    {
+        "country": "JPN",
+        "Pos": 10,
+        "artist": "MONGOL800 ",
+        "Total": "5096162",
+        "title": "小さな恋のうた"
+    },
+    {
+        "country": "LVA",
+        "Pos": 1,
+        "artist": "Post Malone ",
+        "Total": "1261019",
+        "title": "rockstar"
+    },
+    {
+        "country": "LVA",
+        "Pos": 2,
+        "artist": "Ed Sheeran ",
+        "Total": "1195079",
+        "title": "Shape of You"
+    },
+    {
+        "country": "LVA",
+        "Pos": 3,
+        "artist": "Major Lazer ",
+        "Total": "947413",
+        "title": "Lean On"
+    },
+    {
+        "country": "LVA",
+        "Pos": 4,
+        "artist": "Kendrick Lamar ",
+        "Total": "921062",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "LVA",
+        "Pos": 5,
+        "artist": "Imagine Dragons ",
+        "Total": "892887",
+        "title": "Thunder"
+    },
+    {
+        "country": "LVA",
+        "Pos": 6,
+        "artist": "Drake ",
+        "Total": "848831",
+        "title": "One Dance"
+    },
+    {
+        "country": "LVA",
+        "Pos": 7,
+        "artist": "Vance Joy ",
+        "Total": "797879",
+        "title": "Riptide"
+    },
+    {
+        "country": "LVA",
+        "Pos": 8,
+        "artist": "Lil Uzi Vert ",
+        "Total": "785635",
+        "title": "XO TOUR Llif3"
+    },
+    {
+        "country": "LVA",
+        "Pos": 9,
+        "artist": "Imagine Dragons ",
+        "Total": "774345",
+        "title": "Believer"
+    },
+    {
+        "country": "LVA",
+        "Pos": 10,
+        "artist": "French Montana ",
+        "Total": "748084",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "LTU",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "1229721",
+        "title": "Shape of You"
+    },
+    {
+        "country": "LTU",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "994773",
+        "title": "One Dance"
+    },
+    {
+        "country": "LTU",
+        "Pos": 3,
+        "artist": "Post Malone ",
+        "Total": "965194",
+        "title": "rockstar"
+    },
+    {
+        "country": "LTU",
+        "Pos": 4,
+        "artist": "Major Lazer ",
+        "Total": "847439",
+        "title": "Lean On"
+    },
+    {
+        "country": "LTU",
+        "Pos": 5,
+        "artist": "Mike Posner ",
+        "Total": "784738",
+        "title": "I Took A Pill In Ibiza "
+    },
+    {
+        "country": "LTU",
+        "Pos": 6,
+        "artist": "Imagine Dragons ",
+        "Total": "774016",
+        "title": "Thunder"
+    },
+    {
+        "country": "LTU",
+        "Pos": 7,
+        "artist": "Robin Schulz ",
+        "Total": "758469",
+        "title": "Sugar"
+    },
+    {
+        "country": "LTU",
+        "Pos": 8,
+        "artist": "Hozier ",
+        "Total": "727524",
+        "title": "Take Me To Church"
+    },
+    {
+        "country": "LTU",
+        "Pos": 9,
+        "artist": "Camila Cabello ",
+        "Total": "72225",
+        "title": "Havana"
+    },
+    {
+        "country": "LTU",
+        "Pos": 10,
+        "artist": "Dua Lipa ",
+        "Total": "71868",
+        "title": "New Rules"
+    },
+    {
+        "country": "LUX",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "903264",
+        "title": "Shape of You"
+    },
+    {
+        "country": "LUX",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "636327",
+        "title": "rockstar"
+    },
+    {
+        "country": "LUX",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "547628",
+        "title": "One Dance"
+    },
+    {
+        "country": "LUX",
+        "Pos": 4,
+        "artist": "French Montana ",
+        "Total": "528819",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "LUX",
+        "Pos": 5,
+        "artist": "Camila Cabello ",
+        "Total": "480054",
+        "title": "Havana"
+    },
+    {
+        "country": "LUX",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "471772",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "LUX",
+        "Pos": 7,
+        "artist": "Drake ",
+        "Total": "452061",
+        "title": "God's Plan"
+    },
+    {
+        "country": "LUX",
+        "Pos": 8,
+        "artist": "The Chainsmokers ",
+        "Total": "432003",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "LUX",
+        "Pos": 9,
+        "artist": "Imagine Dragons ",
+        "Total": "410979",
+        "title": "Thunder"
+    },
+    {
+        "country": "LUX",
+        "Pos": 10,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "40365",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "MYS",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "14660858",
+        "title": "Shape of You"
+    },
+    {
+        "country": "MYS",
+        "Pos": 2,
+        "artist": "The Chainsmokers ",
+        "Total": "13376143",
+        "title": "Closer"
+    },
+    {
+        "country": "MYS",
+        "Pos": 3,
+        "artist": "James Arthur ",
+        "Total": "12914054",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "MYS",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "12215085",
+        "title": "Photograph"
+    },
+    {
+        "country": "MYS",
+        "Pos": 5,
+        "artist": "Ed Sheeran ",
+        "Total": "11928290",
+        "title": "Perfect"
+    },
+    {
+        "country": "MYS",
+        "Pos": 6,
+        "artist": "Alan Walker ",
+        "Total": "11799267",
+        "title": "Faded"
+    },
+    {
+        "country": "MYS",
+        "Pos": 7,
+        "artist": "The Chainsmokers ",
+        "Total": "10738864",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "MYS",
+        "Pos": 8,
+        "artist": "Camila Cabello ",
+        "Total": "9838485",
+        "title": "Havana"
+    },
+    {
+        "country": "MYS",
+        "Pos": 9,
+        "artist": "Luis Fonsi ",
+        "Total": "9578131",
+        "title": "Despacito "
+    },
+    {
+        "country": "MYS",
+        "Pos": 10,
+        "artist": "Justin Bieber ",
+        "Total": "9491488",
+        "title": "Love Yourself"
+    },
+    {
+        "country": "MLT",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "993818",
+        "title": "Shape of You"
+    },
+    {
+        "country": "MLT",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "663666",
+        "title": "rockstar"
+    },
+    {
+        "country": "MLT",
+        "Pos": 3,
+        "artist": "The Chainsmokers ",
+        "Total": "606774",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "MLT",
+        "Pos": 4,
+        "artist": "Drake ",
+        "Total": "596829",
+        "title": "One Dance"
+    },
+    {
+        "country": "MLT",
+        "Pos": 5,
+        "artist": "Camila Cabello ",
+        "Total": "577759",
+        "title": "Havana"
+    },
+    {
+        "country": "MLT",
+        "Pos": 6,
+        "artist": "Luis Fonsi ",
+        "Total": "565334",
+        "title": "Despacito "
+    },
+    {
+        "country": "MLT",
+        "Pos": 7,
+        "artist": "The Chainsmokers ",
+        "Total": "557713",
+        "title": "Closer"
+    },
+    {
+        "country": "MLT",
+        "Pos": 8,
+        "artist": "Dua Lipa ",
+        "Total": "556686",
+        "title": "New Rules"
+    },
+    {
+        "country": "MLT",
+        "Pos": 9,
+        "artist": "The Weeknd ",
+        "Total": "516326",
+        "title": "Starboy"
+    },
+    {
+        "country": "MLT",
+        "Pos": 10,
+        "artist": "Mike Posner ",
+        "Total": "510779",
+        "title": "I Took A Pill In Ibiza "
+    },
+    {
+        "country": "MEX",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "176461573",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "MEX",
+        "Pos": 2,
+        "artist": "Maluma ",
+        "Total": "126210909",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "MEX",
+        "Pos": 3,
+        "artist": "Zion & Lennox ",
+        "Total": "122549858",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "MEX",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "116201164",
+        "title": "Shape of You"
+    },
+    {
+        "country": "MEX",
+        "Pos": 5,
+        "artist": "Luis Fonsi ",
+        "Total": "110514760",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "MEX",
+        "Pos": 6,
+        "artist": "Wisin ",
+        "Total": "107926811",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "MEX",
+        "Pos": 7,
+        "artist": "Manuel Turizo ",
+        "Total": "107003258",
+        "title": "Una Lady Como Tú"
+    },
+    {
+        "country": "MEX",
+        "Pos": 8,
+        "artist": "Piso 21 ",
+        "Total": "106145804",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "MEX",
+        "Pos": 9,
+        "artist": "Maluma ",
+        "Total": "106109643",
+        "title": "Borro Cassette"
+    },
+    {
+        "country": "MEX",
+        "Pos": 10,
+        "artist": "Wolfine ",
+        "Total": "97215484",
+        "title": "Bella"
+    },
+    {
+        "country": "NLD",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "68544234",
+        "title": "Shape of You"
+    },
+    {
+        "country": "NLD",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "46515231",
+        "title": "One Dance"
+    },
+    {
+        "country": "NLD",
+        "Pos": 3,
+        "artist": "Lil' Kleine ",
+        "Total": "45842828",
+        "title": "Krantenwijk"
+    },
+    {
+        "country": "NLD",
+        "Pos": 4,
+        "artist": "James Arthur ",
+        "Total": "40906588",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "NLD",
+        "Pos": 5,
+        "artist": "Dua Lipa ",
+        "Total": "36046682",
+        "title": "New Rules"
+    },
+    {
+        "country": "NLD",
+        "Pos": 6,
+        "artist": "Camila Cabello ",
+        "Total": "35846002",
+        "title": "Havana"
+    },
+    {
+        "country": "NLD",
+        "Pos": 7,
+        "artist": "Broederliefde ",
+        "Total": "34919056",
+        "title": "Jungle"
+    },
+    {
+        "country": "NLD",
+        "Pos": 8,
+        "artist": "Justin Bieber ",
+        "Total": "34674646",
+        "title": "Love Yourself"
+    },
+    {
+        "country": "NLD",
+        "Pos": 9,
+        "artist": "Ed Sheeran ",
+        "Total": "34576925",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "NLD",
+        "Pos": 10,
+        "artist": "Post Malone ",
+        "Total": "33953717",
+        "title": "rockstar"
+    },
+    {
+        "country": "NZL",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "17442454",
+        "title": "Shape of You"
+    },
+    {
+        "country": "NZL",
+        "Pos": 2,
+        "artist": "The Chainsmokers ",
+        "Total": "13427523",
+        "title": "Closer"
+    },
+    {
+        "country": "NZL",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "13394330",
+        "title": "One Dance"
+    },
+    {
+        "country": "NZL",
+        "Pos": 4,
+        "artist": "Post Malone ",
+        "Total": "12700691",
+        "title": "rockstar"
+    },
+    {
+        "country": "NZL",
+        "Pos": 5,
+        "artist": "Ed Sheeran ",
+        "Total": "12641167",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "NZL",
+        "Pos": 6,
+        "artist": "Kendrick Lamar ",
+        "Total": "11267804",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "NZL",
+        "Pos": 7,
+        "artist": "Justin Bieber ",
+        "Total": "10985143",
+        "title": "Sorry"
+    },
+    {
+        "country": "NZL",
+        "Pos": 8,
+        "artist": "James Arthur ",
+        "Total": "10963302",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "NZL",
+        "Pos": 9,
+        "artist": "Post Malone ",
+        "Total": "10605635",
+        "title": "I Fall Apart"
+    },
+    {
+        "country": "NZL",
+        "Pos": 10,
+        "artist": "Luis Fonsi ",
+        "Total": "10370924",
+        "title": "Despacito "
+    },
+    {
+        "country": "NIC",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "1185577",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "NIC",
+        "Pos": 2,
+        "artist": "Ed Sheeran ",
+        "Total": "1051323",
+        "title": "Shape of You"
+    },
+    {
+        "country": "NIC",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "945069",
+        "title": "One Dance"
+    },
+    {
+        "country": "NIC",
+        "Pos": 4,
+        "artist": "Zion & Lennox ",
+        "Total": "929039",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "NIC",
+        "Pos": 5,
+        "artist": "Luis Fonsi ",
+        "Total": "844218",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "NIC",
+        "Pos": 6,
+        "artist": "DJ Snake ",
+        "Total": "842634",
+        "title": "Middle"
+    },
+    {
+        "country": "NIC",
+        "Pos": 7,
+        "artist": "Mike Posner ",
+        "Total": "828421",
+        "title": "I Took A Pill In Ibiza "
+    },
+    {
+        "country": "NIC",
+        "Pos": 8,
+        "artist": "The Chainsmokers ",
+        "Total": "816034",
+        "title": "Closer"
+    },
+    {
+        "country": "NIC",
+        "Pos": 9,
+        "artist": "DJ Snake ",
+        "Total": "782208",
+        "title": "Let Me Love You"
+    },
+    {
+        "country": "NIC",
+        "Pos": 10,
+        "artist": "Anuel Aa ",
+        "Total": "700107",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "NOR",
+        "Pos": 1,
+        "artist": "Alan Walker ",
+        "Total": "43517308",
+        "title": "Faded"
+    },
+    {
+        "country": "NOR",
+        "Pos": 2,
+        "artist": "Luis Fonsi ",
+        "Total": "37014186",
+        "title": "Despacito "
+    },
+    {
+        "country": "NOR",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "36864264",
+        "title": "Shape of You"
+    },
+    {
+        "country": "NOR",
+        "Pos": 4,
+        "artist": "Avicii ",
+        "Total": "31402474",
+        "title": "Wake Me Up"
+    },
+    {
+        "country": "NOR",
+        "Pos": 5,
+        "artist": "Freddy Kalas ",
+        "Total": "29314482",
+        "title": "Jovial"
+    },
+    {
+        "country": "NOR",
+        "Pos": 6,
+        "artist": "Kygo ",
+        "Total": "27339600",
+        "title": "It Ain't Me"
+    },
+    {
+        "country": "NOR",
+        "Pos": 7,
+        "artist": "Post Malone ",
+        "Total": "26666473",
+        "title": "rockstar"
+    },
+    {
+        "country": "NOR",
+        "Pos": 8,
+        "artist": "Passenger ",
+        "Total": "26457082",
+        "title": "Let Her Go"
+    },
+    {
+        "country": "NOR",
+        "Pos": 9,
+        "artist": "Ed Sheeran ",
+        "Total": "25192563",
+        "title": "I See Fire"
+    },
+    {
+        "country": "NOR",
+        "Pos": 10,
+        "artist": "Hkeem ",
+        "Total": "24667729",
+        "title": "Fy Faen"
+    },
+    {
+        "country": "PAN",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "3036546",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "PAN",
+        "Pos": 2,
+        "artist": "Zion & Lennox ",
+        "Total": "3008940",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "PAN",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "2683872",
+        "title": "Shape of You"
+    },
+    {
+        "country": "PAN",
+        "Pos": 4,
+        "artist": "Luis Fonsi ",
+        "Total": "2497894",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "PAN",
+        "Pos": 5,
+        "artist": "Anuel Aa ",
+        "Total": "2483093",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "PAN",
+        "Pos": 6,
+        "artist": "Wisin ",
+        "Total": "2459278",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "PAN",
+        "Pos": 7,
+        "artist": "Drake ",
+        "Total": "2322269",
+        "title": "One Dance"
+    },
+    {
+        "country": "PAN",
+        "Pos": 8,
+        "artist": "Chris Jeday ",
+        "Total": "2271407",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "PAN",
+        "Pos": 9,
+        "artist": "Natti Natasha ",
+        "Total": "2129535",
+        "title": "Criminal"
+    },
+    {
+        "country": "PAN",
+        "Pos": 10,
+        "artist": "Nio Garcia ",
+        "Total": "2077483",
+        "title": "Te Boté "
+    },
+    {
+        "country": "PRY",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "4831126",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "PRY",
+        "Pos": 2,
+        "artist": "Anuel Aa ",
+        "Total": "4310955",
+        "title": "Sola (Remix)"
+    },
+    {
+        "country": "PRY",
+        "Pos": 3,
+        "artist": "Piso 21 ",
+        "Total": "3976544",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "PRY",
+        "Pos": 4,
+        "artist": "Zion & Lennox ",
+        "Total": "3844364",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "PRY",
+        "Pos": 5,
+        "artist": "Wisin ",
+        "Total": "3437861",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "PRY",
+        "Pos": 6,
+        "artist": "Bad Bunny ",
+        "Total": "3210353",
+        "title": "Sensualidad"
+    },
+    {
+        "country": "PRY",
+        "Pos": 7,
+        "artist": "Natti Natasha ",
+        "Total": "3120569",
+        "title": "Criminal"
+    },
+    {
+        "country": "PRY",
+        "Pos": 8,
+        "artist": "Nio Garcia ",
+        "Total": "3072697",
+        "title": "Te Boté "
+    },
+    {
+        "country": "PRY",
+        "Pos": 9,
+        "artist": "Ed Sheeran ",
+        "Total": "3005836",
+        "title": "Shape of You"
+    },
+    {
+        "country": "PRY",
+        "Pos": 10,
+        "artist": "Chris Jeday ",
+        "Total": "2856967",
+        "title": "Ahora Dice"
+    },
+    {
+        "country": "PER",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "29483759",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "PER",
+        "Pos": 2,
+        "artist": "Maluma ",
+        "Total": "21672263",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "PER",
+        "Pos": 3,
+        "artist": "Zion & Lennox ",
+        "Total": "21052797",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "PER",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "20955934",
+        "title": "Shape of You"
+    },
+    {
+        "country": "PER",
+        "Pos": 5,
+        "artist": "Luis Fonsi ",
+        "Total": "20774884",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "PER",
+        "Pos": 6,
+        "artist": "Piso 21 ",
+        "Total": "20711817",
+        "title": "Déjala Que Vuelva"
+    },
+    {
+        "country": "PER",
+        "Pos": 7,
+        "artist": "Wisin ",
+        "Total": "20193238",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "PER",
+        "Pos": 8,
+        "artist": "Natti Natasha ",
+        "Total": "18417522",
+        "title": "Criminal"
+    },
+    {
+        "country": "PER",
+        "Pos": 9,
+        "artist": "Carlos Vives ",
+        "Total": "17315020",
+        "title": "Robarte un Beso"
+    },
+    {
+        "country": "PER",
+        "Pos": 10,
+        "artist": "Maluma ",
+        "Total": "17004845",
+        "title": "Corazón"
+    },
+    {
+        "country": "PHL",
+        "Pos": 1,
+        "artist": "James Arthur ",
+        "Total": "84315515",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "PHL",
+        "Pos": 2,
+        "artist": "The Chainsmokers ",
+        "Total": "83248257",
+        "title": "Closer"
+    },
+    {
+        "country": "PHL",
+        "Pos": 3,
+        "artist": "Up Dharma Down ",
+        "Total": "69745026",
+        "title": "Tadhana"
+    },
+    {
+        "country": "PHL",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "68895061",
+        "title": "Shape of You"
+    },
+    {
+        "country": "PHL",
+        "Pos": 5,
+        "artist": "Bruno Mars ",
+        "Total": "61146366",
+        "title": "Versace On The Floor"
+    },
+    {
+        "country": "PHL",
+        "Pos": 6,
+        "artist": "Ed Sheeran ",
+        "Total": "61083809",
+        "title": "Photograph"
+    },
+    {
+        "country": "PHL",
+        "Pos": 7,
+        "artist": "Ed Sheeran ",
+        "Total": "57597867",
+        "title": "Perfect"
+    },
+    {
+        "country": "PHL",
+        "Pos": 8,
+        "artist": "Hailee Steinfeld ",
+        "Total": "54259425",
+        "title": "Starving"
+    },
+    {
+        "country": "PHL",
+        "Pos": 9,
+        "artist": "Bruno Mars ",
+        "Total": "52630211",
+        "title": "That's What I Like"
+    },
+    {
+        "country": "PHL",
+        "Pos": 10,
+        "artist": "Moira Dela Torre ",
+        "Total": "52117322",
+        "title": "Malaya (Camp Sawi Original Motion Picture Soundtrack)"
+    },
+    {
+        "country": "POL",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "23361693",
+        "title": "Shape of You"
+    },
+    {
+        "country": "POL",
+        "Pos": 2,
+        "artist": "TACONAFIDE ",
+        "Total": "14958340",
+        "title": "Tamagotchi"
+    },
+    {
+        "country": "POL",
+        "Pos": 3,
+        "artist": "Imagine Dragons ",
+        "Total": "13451184",
+        "title": "Believer"
+    },
+    {
+        "country": "POL",
+        "Pos": 4,
+        "artist": "Major Lazer ",
+        "Total": "12965061",
+        "title": "Lean On"
+    },
+    {
+        "country": "POL",
+        "Pos": 5,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "12711916",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "POL",
+        "Pos": 6,
+        "artist": "Imagine Dragons ",
+        "Total": "11487197",
+        "title": "Thunder"
+    },
+    {
+        "country": "POL",
+        "Pos": 7,
+        "artist": "Post Malone ",
+        "Total": "11203008",
+        "title": "rockstar"
+    },
+    {
+        "country": "POL",
+        "Pos": 8,
+        "artist": "Camila Cabello ",
+        "Total": "11046497",
+        "title": "Havana"
+    },
+    {
+        "country": "POL",
+        "Pos": 9,
+        "artist": "Portugal. The Man ",
+        "Total": "10579904",
+        "title": "Feel It Still"
+    },
+    {
+        "country": "POL",
+        "Pos": 10,
+        "artist": "Imagine Dragons ",
+        "Total": "10401014",
+        "title": "Radioactive"
+    },
+    {
+        "country": "PRT",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "10556533",
+        "title": "Shape of You"
+    },
+    {
+        "country": "PRT",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "7571133",
+        "title": "One Dance"
+    },
+    {
+        "country": "PRT",
+        "Pos": 3,
+        "artist": "Luis Fonsi ",
+        "Total": "7158350",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "PRT",
+        "Pos": 4,
+        "artist": "Post Malone ",
+        "Total": "7078925",
+        "title": "rockstar"
+    },
+    {
+        "country": "PRT",
+        "Pos": 5,
+        "artist": "French Montana ",
+        "Total": "6187592",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "PRT",
+        "Pos": 6,
+        "artist": "The Weeknd ",
+        "Total": "6185631",
+        "title": "Starboy"
+    },
+    {
+        "country": "PRT",
+        "Pos": 7,
+        "artist": "Arctic Monkeys ",
+        "Total": "5780406",
+        "title": "Do I Wanna Know?"
+    },
+    {
+        "country": "PRT",
+        "Pos": 8,
+        "artist": "Dua Lipa ",
+        "Total": "5421920",
+        "title": "New Rules"
+    },
+    {
+        "country": "PRT",
+        "Pos": 9,
+        "artist": "Camila Cabello ",
+        "Total": "5291628",
+        "title": "Havana"
+    },
+    {
+        "country": "PRT",
+        "Pos": 10,
+        "artist": "Kendrick Lamar ",
+        "Total": "5236358",
+        "title": "HUMBLE."
+    },
+    {
+        "country": "ROU",
+        "Pos": 1,
+        "artist": "XXXTENTACION ",
+        "Total": "776346",
+        "title": "SAD!"
+    },
+    {
+        "country": "ROU",
+        "Pos": 2,
+        "artist": "Drake ",
+        "Total": "62436",
+        "title": "God's Plan"
+    },
+    {
+        "country": "ROU",
+        "Pos": 3,
+        "artist": "Post Malone ",
+        "Total": "585461",
+        "title": "rockstar"
+    },
+    {
+        "country": "ROU",
+        "Pos": 4,
+        "artist": "XXXTENTACION ",
+        "Total": "560881",
+        "title": "Moonlight"
+    },
+    {
+        "country": "ROU",
+        "Pos": 5,
+        "artist": "Post Malone ",
+        "Total": "560608",
+        "title": "Better Now"
+    },
+    {
+        "country": "ROU",
+        "Pos": 6,
+        "artist": "Calvin Harris ",
+        "Total": "557537",
+        "title": "One Kiss"
+    },
+    {
+        "country": "ROU",
+        "Pos": 7,
+        "artist": "Drake ",
+        "Total": "533532",
+        "title": "In My Feelings"
+    },
+    {
+        "country": "ROU",
+        "Pos": 8,
+        "artist": "Dennis Lloyd ",
+        "Total": "528643",
+        "title": "Nevermind"
+    },
+    {
+        "country": "ROU",
+        "Pos": 9,
+        "artist": "Cardi B ",
+        "Total": "52439",
+        "title": "I Like It"
+    },
+    {
+        "country": "ROU",
+        "Pos": 10,
+        "artist": "Tyga ",
+        "Total": "522067",
+        "title": "Taste"
+    },
+    {
+        "country": "SGP",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "20011235",
+        "title": "Shape of You"
+    },
+    {
+        "country": "SGP",
+        "Pos": 2,
+        "artist": "The Chainsmokers ",
+        "Total": "17346570",
+        "title": "Closer"
+    },
+    {
+        "country": "SGP",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "15112582",
+        "title": "Photograph"
+    },
+    {
+        "country": "SGP",
+        "Pos": 4,
+        "artist": "James Arthur ",
+        "Total": "14819828",
+        "title": "Say You Won't Let Go"
+    },
+    {
+        "country": "SGP",
+        "Pos": 5,
+        "artist": "The Chainsmokers ",
+        "Total": "14452409",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "SGP",
+        "Pos": 6,
+        "artist": "Ed Sheeran ",
+        "Total": "12873358",
+        "title": "Perfect"
+    },
+    {
+        "country": "SGP",
+        "Pos": 7,
+        "artist": "Alan Walker ",
+        "Total": "12752605",
+        "title": "Faded"
+    },
+    {
+        "country": "SGP",
+        "Pos": 8,
+        "artist": "Charlie Puth ",
+        "Total": "12541814",
+        "title": "We Don't Talk Anymore"
+    },
+    {
+        "country": "SGP",
+        "Pos": 9,
+        "artist": "Camila Cabello ",
+        "Total": "12082521",
+        "title": "Havana"
+    },
+    {
+        "country": "SGP",
+        "Pos": 10,
+        "artist": "Ed Sheeran ",
+        "Total": "11588429",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "SVK",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "1688577",
+        "title": "Shape of You"
+    },
+    {
+        "country": "SVK",
+        "Pos": 2,
+        "artist": "Post Malone ",
+        "Total": "1242722",
+        "title": "rockstar"
+    },
+    {
+        "country": "SVK",
+        "Pos": 3,
+        "artist": "Imagine Dragons ",
+        "Total": "1193051",
+        "title": "Thunder"
+    },
+    {
+        "country": "SVK",
+        "Pos": 4,
+        "artist": "Imagine Dragons ",
+        "Total": "1115360",
+        "title": "Believer"
+    },
+    {
+        "country": "SVK",
+        "Pos": 5,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "1098464",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "SVK",
+        "Pos": 6,
+        "artist": "Camila Cabello ",
+        "Total": "1059952",
+        "title": "Havana"
+    },
+    {
+        "country": "SVK",
+        "Pos": 7,
+        "artist": "The Chainsmokers ",
+        "Total": "1000445",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "SVK",
+        "Pos": 8,
+        "artist": "Dua Lipa ",
+        "Total": "904457",
+        "title": "New Rules"
+    },
+    {
+        "country": "SVK",
+        "Pos": 9,
+        "artist": "Kygo ",
+        "Total": "896772",
+        "title": "It Ain't Me"
+    },
+    {
+        "country": "SVK",
+        "Pos": 10,
+        "artist": "The Chainsmokers ",
+        "Total": "815491",
+        "title": "Closer"
+    },
+    {
+        "country": "ESP",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "86997229",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "ESP",
+        "Pos": 2,
+        "artist": "Luis Fonsi ",
+        "Total": "84898078",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "ESP",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "75025268",
+        "title": "Shape of You"
+    },
+    {
+        "country": "ESP",
+        "Pos": 4,
+        "artist": "Maluma ",
+        "Total": "62333388",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "ESP",
+        "Pos": 5,
+        "artist": "CNCO ",
+        "Total": "58975376",
+        "title": "Reggaetón Lento (Bailemos)"
+    },
+    {
+        "country": "ESP",
+        "Pos": 6,
+        "artist": "Zion & Lennox ",
+        "Total": "55507579",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "ESP",
+        "Pos": 7,
+        "artist": "Becky G ",
+        "Total": "53540593",
+        "title": "Mayores"
+    },
+    {
+        "country": "ESP",
+        "Pos": 8,
+        "artist": "Carlos Vives ",
+        "Total": "53413322",
+        "title": "La Bicicleta"
+    },
+    {
+        "country": "ESP",
+        "Pos": 9,
+        "artist": "Enrique Iglesias ",
+        "Total": "53390637",
+        "title": "DUELE EL CORAZON"
+    },
+    {
+        "country": "ESP",
+        "Pos": 10,
+        "artist": "Gente De Zona ",
+        "Total": "52011928",
+        "title": "La Gozadera"
+    },
+    {
+        "country": "SWE",
+        "Pos": 1,
+        "artist": "Avicii ",
+        "Total": "94942758",
+        "title": "Wake Me Up"
+    },
+    {
+        "country": "SWE",
+        "Pos": 2,
+        "artist": "Ed Sheeran ",
+        "Total": "76063214",
+        "title": "Shape of You"
+    },
+    {
+        "country": "SWE",
+        "Pos": 3,
+        "artist": "Luis Fonsi ",
+        "Total": "60104827",
+        "title": "Despacito "
+    },
+    {
+        "country": "SWE",
+        "Pos": 4,
+        "artist": "Ed Sheeran ",
+        "Total": "54630199",
+        "title": "Thinking Out Loud"
+    },
+    {
+        "country": "SWE",
+        "Pos": 5,
+        "artist": "Alan Walker ",
+        "Total": "54455505",
+        "title": "Faded"
+    },
+    {
+        "country": "SWE",
+        "Pos": 6,
+        "artist": "Justin Bieber ",
+        "Total": "51530372",
+        "title": "Love Yourself"
+    },
+    {
+        "country": "SWE",
+        "Pos": 7,
+        "artist": "Avicii ",
+        "Total": "50556337",
+        "title": "Without You"
+    },
+    {
+        "country": "SWE",
+        "Pos": 8,
+        "artist": "Ed Sheeran ",
+        "Total": "50023277",
+        "title": "I See Fire"
+    },
+    {
+        "country": "SWE",
+        "Pos": 9,
+        "artist": "Drake ",
+        "Total": "47905783",
+        "title": "One Dance"
+    },
+    {
+        "country": "SWE",
+        "Pos": 10,
+        "artist": "Lukas Graham ",
+        "Total": "47546299",
+        "title": "7 Years"
+    },
+    {
+        "country": "CHE",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "12879304",
+        "title": "Shape of You"
+    },
+    {
+        "country": "CHE",
+        "Pos": 2,
+        "artist": "Luis Fonsi ",
+        "Total": "7610208",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "CHE",
+        "Pos": 3,
+        "artist": "Drake ",
+        "Total": "7555090",
+        "title": "One Dance"
+    },
+    {
+        "country": "CHE",
+        "Pos": 4,
+        "artist": "Post Malone ",
+        "Total": "7521612",
+        "title": "rockstar"
+    },
+    {
+        "country": "CHE",
+        "Pos": 5,
+        "artist": "French Montana ",
+        "Total": "7090460",
+        "title": "Unforgettable"
+    },
+    {
+        "country": "CHE",
+        "Pos": 6,
+        "artist": "Lo & Leduc ",
+        "Total": "6720455",
+        "title": "079"
+    },
+    {
+        "country": "CHE",
+        "Pos": 7,
+        "artist": "Axwell \/\\ Ingrosso ",
+        "Total": "6531512",
+        "title": "More Than You Know"
+    },
+    {
+        "country": "CHE",
+        "Pos": 8,
+        "artist": "Camila Cabello ",
+        "Total": "6511791",
+        "title": "Havana"
+    },
+    {
+        "country": "CHE",
+        "Pos": 9,
+        "artist": "Alan Walker ",
+        "Total": "6504010",
+        "title": "Faded"
+    },
+    {
+        "country": "CHE",
+        "Pos": 10,
+        "artist": "Major Lazer ",
+        "Total": "6286600",
+        "title": "Lean On"
+    },
+    {
+        "country": "TWN",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "10447235",
+        "title": "Shape of You"
+    },
+    {
+        "country": "TWN",
+        "Pos": 2,
+        "artist": "The Chainsmokers ",
+        "Total": "10306915",
+        "title": "Something Just Like This"
+    },
+    {
+        "country": "TWN",
+        "Pos": 3,
+        "artist": "The Chainsmokers ",
+        "Total": "9179364",
+        "title": "Closer"
+    },
+    {
+        "country": "TWN",
+        "Pos": 4,
+        "artist": "JJ Lin ",
+        "Total": "8299512",
+        "title": "不為誰而作的歌"
+    },
+    {
+        "country": "TWN",
+        "Pos": 5,
+        "artist": "Alan Walker ",
+        "Total": "7956910",
+        "title": "Faded"
+    },
+    {
+        "country": "TWN",
+        "Pos": 6,
+        "artist": "Joker Xue ",
+        "Total": "7729282",
+        "title": "演員"
+    },
+    {
+        "country": "TWN",
+        "Pos": 7,
+        "artist": "Ed Sheeran ",
+        "Total": "7341981",
+        "title": "Photograph"
+    },
+    {
+        "country": "TWN",
+        "Pos": 8,
+        "artist": "Crowd Lu ",
+        "Total": "6740668",
+        "title": "魚仔 "
+    },
+    {
+        "country": "TWN",
+        "Pos": 9,
+        "artist": "Eric Chou ",
+        "Total": "6666242",
+        "title": "以後別做朋友"
+    },
+    {
+        "country": "6591691",
+        "Pos": 10,
+        "artist": "Eric Chou ",
+        "Total": "好不好? ",
+        "title": "你"
+    },
+    {
+        "country": "THA",
+        "Pos": 1,
+        "artist": "Pop Pongkool ",
+        "Total": "2864200",
+        "title": "ภาพจำ"
+    },
+    {
+        "country": "THA",
+        "Pos": 2,
+        "artist": "Atom Chanakan ",
+        "Total": "2802445",
+        "title": "Good Morning Teacher"
+    },
+    {
+        "country": "THA",
+        "Pos": 3,
+        "artist": "Camila Cabello ",
+        "Total": "2351268",
+        "title": "Havana"
+    },
+    {
+        "country": "THA",
+        "Pos": 4,
+        "artist": "Fukking Hero ",
+        "Total": "2286814",
+        "title": "นอนได้แล้ว"
+    },
+    {
+        "country": "THA",
+        "Pos": 5,
+        "artist": "Lipta ",
+        "Total": "2263346",
+        "title": "หมอกร้าย"
+    },
+    {
+        "country": "THA",
+        "Pos": 6,
+        "artist": "Earth Patravee ",
+        "Total": "2091024",
+        "title": "ถ้าฉันหายไป(Skyline)"
+    },
+    {
+        "country": "THA",
+        "Pos": 7,
+        "artist": "O-Pavee",
+        "Total": "2067948",
+        "title": "คนที่ไม่ใช่"
+    },
+    {
+        "country": "THA",
+        "Pos": 8,
+        "artist": "Room 39 ",
+        "Total": "2006454",
+        "title": "บอกตัวเอง"
+    },
+    {
+        "country": "THA",
+        "Pos": 9,
+        "artist": "Ed Sheeran ",
+        "Total": "1949819",
+        "title": "Perfect"
+    },
+    {
+        "country": "THA",
+        "Pos": 10,
+        "artist": "The Toys ",
+        "Total": "1925875",
+        "title": "04:00"
+    },
+    {
+        "country": "TUR",
+        "Pos": 1,
+        "artist": "Ed Sheeran ",
+        "Total": "23666743",
+        "title": "Shape of You"
+    },
+    {
+        "country": "TUR",
+        "Pos": 2,
+        "artist": "Ezhel ",
+        "Total": "23012819",
+        "title": "Geceler"
+    },
+    {
+        "country": "TUR",
+        "Pos": 3,
+        "artist": "Gazapizm ",
+        "Total": "16933231",
+        "title": "Heyecanı Yok"
+    },
+    {
+        "country": "TUR",
+        "Pos": 4,
+        "artist": "Ezhel ",
+        "Total": "16328176",
+        "title": "İmkansızım"
+    },
+    {
+        "country": "TUR",
+        "Pos": 5,
+        "artist": "Dua Lipa ",
+        "Total": "16260043",
+        "title": "New Rules"
+    },
+    {
+        "country": "TUR",
+        "Pos": 6,
+        "artist": "Imagine Dragons ",
+        "Total": "15241034",
+        "title": "Believer"
+    },
+    {
+        "country": "TUR",
+        "Pos": 7,
+        "artist": "Post Malone ",
+        "Total": "15126856",
+        "title": "rockstar"
+    },
+    {
+        "country": "TUR",
+        "Pos": 8,
+        "artist": "LP ",
+        "Total": "15035732",
+        "title": "Lost on You"
+    },
+    {
+        "country": "TUR",
+        "Pos": 9,
+        "artist": "The Weeknd ",
+        "Total": "14960717",
+        "title": "Starboy"
+    },
+    {
+        "country": "TUR",
+        "Pos": 10,
+        "artist": "Ezhel ",
+        "Total": "14646393",
+        "title": "Şehrimin Tadı"
+    },
+    {
+        "country": "URY",
+        "Pos": 1,
+        "artist": "Danny Ocean ",
+        "Total": "4001399",
+        "title": "Me Rehúso"
+    },
+    {
+        "country": "URY",
+        "Pos": 2,
+        "artist": "Luis Fonsi ",
+        "Total": "3879164",
+        "title": "Despacito (Featuring Daddy Yankee)"
+    },
+    {
+        "country": "URY",
+        "Pos": 3,
+        "artist": "Ed Sheeran ",
+        "Total": "3598621",
+        "title": "Shape of You"
+    },
+    {
+        "country": "URY",
+        "Pos": 4,
+        "artist": "Zion & Lennox ",
+        "Total": "3486394",
+        "title": "Otra Vez"
+    },
+    {
+        "country": "URY",
+        "Pos": 5,
+        "artist": "Natti Natasha ",
+        "Total": "3483146",
+        "title": "Criminal"
+    },
+    {
+        "country": "URY",
+        "Pos": 6,
+        "artist": "CNCO ",
+        "Total": "3319198",
+        "title": "Reggaetón Lento (Bailemos)"
+    },
+    {
+        "country": "URY",
+        "Pos": 7,
+        "artist": "Maluma ",
+        "Total": "3244680",
+        "title": "Felices los 4"
+    },
+    {
+        "country": "URY",
+        "Pos": 8,
+        "artist": "Wisin ",
+        "Total": "2994677",
+        "title": "Escápate Conmigo"
+    },
+    {
+        "country": "URY",
+        "Pos": 9,
+        "artist": "Becky G ",
+        "Total": "2819571",
+        "title": "Mayores"
+    },
+    {
+        "country": "URY",
+        "Pos": 10,
+        "artist": "Ozuna ",
+        "Total": "2732855",
+        "title": "Se Preparó"
+    },
+    {
+        "country": "VNM",
+        "Pos": 1,
+        "artist": "My Tam ",
+        "Total": "1040540",
+        "title": "Nguoi Hay Quen Em DI"
+    },
+    {
+        "country": "VNM",
+        "Pos": 2,
+        "artist": "BTS ",
+        "Total": "897615",
+        "title": "FAKE LOVE"
+    },
+    {
+        "country": "VNM",
+        "Pos": 3,
+        "artist": "Bich Phuong ",
+        "Total": "81638",
+        "title": "Bùa Yêu"
+    },
+    {
+        "country": "VNM",
+        "Pos": 4,
+        "artist": "Zedd ",
+        "Total": "627347",
+        "title": "The Middle"
+    },
+    {
+        "country": "VNM",
+        "Pos": 5,
+        "artist": "My Tam ",
+        "Total": "625448",
+        "title": "Muon Mang La Tu Luc"
+    },
+    {
+        "country": "VNM",
+        "Pos": 6,
+        "artist": "Min ",
+        "Total": "617943",
+        "title": "Em mới là người yêu anh"
+    },
+    {
+        "country": "VNM",
+        "Pos": 7,
+        "artist": "Marshmello ",
+        "Total": "605402",
+        "title": "FRIENDS"
+    },
+    {
+        "country": "VNM",
+        "Pos": 8,
+        "artist": "My Tam ",
+        "Total": "598402",
+        "title": "Dau Chi Rieng Em"
+    },
+    {
+        "country": "VNM",
+        "Pos": 9,
+        "artist": "Camila Cabello ",
+        "Total": "597104",
+        "title": "Havana"
+    },
+    {
+        "country": "VNM",
+        "Pos": 10,
+        "artist": "Alan Walker ",
+        "Total": "588147",
+        "title": "All Falls Down"
+    }]
