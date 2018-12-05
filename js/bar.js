@@ -24,12 +24,12 @@ function updateData1(newCountry) {
     drawBar(newCountry);
 }
 //load data and create vis
-var dataset;
+var dataset_b;
 
 d3.json('../data/countries.json', function(data) {
     var strUser = "DEU";
-    dataset = data;
-    var keys = Object.keys(dataset[0]).slice(1);
+    dataset_b = data;
+    var keys = Object.keys(dataset_b[0]).slice(1);
     drawBar(strUser);
 });
 
@@ -43,16 +43,16 @@ function drawBar(strUser) {
             "translate(" + margin.left + "," + margin.top + ")");
 
     x.domain(['GDP', 'Happiness Score', 'Human Development Index', 'Gender Inequality Index', 'Corruption Perception Index', 'Unemployment Rate']);
-    y1.domain([0, d3.max(dataset, function(d) { return d.GDP })]);
-    y2.domain([0, d3.max(dataset, function(d) { return d['Happiness Score'] })]);
-    y3.domain([0, d3.max(dataset, function(d) { return d['Human Development Index'] })]);
-    y4.domain([0, d3.max(dataset, function(d) { return d['Gender Inequality Index'] })]);
-    y5.domain([0, d3.max(dataset, function(d) { return d['Corruption Perception Index'] })]);
-    y6.domain([0, d3.max(dataset, function(d) { return d['Unemployment Rate'] })]);
+    y1.domain([0, d3.max(dataset_b, function(d) { return d.GDP })]);
+    y2.domain([0, d3.max(dataset_b, function(d) { return d['Happiness Score'] })]);
+    y3.domain([0, d3.max(dataset_b, function(d) { return d['Human Development Index'] })]);
+    y4.domain([0, d3.max(dataset_b, function(d) { return d['Gender Inequality Index'] })]);
+    y5.domain([0, d3.max(dataset_b, function(d) { return d['Corruption Perception Index'] })]);
+    y6.domain([0, d3.max(dataset_b, function(d) { return d['Unemployment Rate'] })]);
 
 
     var graph = svg.selectAll("#barChart")
-        .data(dataset.filter(function(d) { return d.iso3 == strUser }))
+        .data(dataset_b.filter(function(d) { return d.iso3 == strUser }))
         .enter()
 
 
@@ -72,7 +72,7 @@ function drawBar(strUser) {
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y2(d['Happiness Score']) })
         .attr("height", function(d, i) { return height - y2(d['Happiness Score']) });
-        console.log("happiness")
+ 
 
     graph.append("rect")
         .attr("class", "bar3")

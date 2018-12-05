@@ -1,8 +1,8 @@
-var dataset;
+var dataset_a;
 var strUser = "DEU";
 
 d3.json('../data/top10.json', function(data) {
-    dataset = data;
+    dataset_a = data;
 
     donutChart("DEU")
 });
@@ -18,7 +18,7 @@ function updateData2(newCountry) {
 function donutChart(strUser) {
 
 d3.select('#AsterChart')
-        .datum(dataset.filter(function(d) { return d.country == strUser })) // bind data to the div
+        .datum(dataset_a.filter(function(d) { return d.country == strUser })) // bind data to the div
        // .call(donutChart()); // draw chart in div
 
     var width = 500,
