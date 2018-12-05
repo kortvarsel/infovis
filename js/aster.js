@@ -21,8 +21,8 @@ d3.select('#AsterChart')
         .datum(dataset_a.filter(function(d) { return d.country == strUser })) // bind data to the div
        // .call(donutChart()); // draw chart in div
 
-    var width = 500,
-        height = 300,
+    var width_a = 500,
+        height_a = 300,
         margin = { top: 10, right: 10, bottom: 10, left: 10 },
         colour = d3.scaleOrdinal(d3.schemeCategory20c), // colour scheme
         // compare data by
@@ -31,7 +31,7 @@ d3.select('#AsterChart')
         cornerRadius = 1; // sets how rounded the corners are on each slice
 
 
-    var radius = Math.min(width, height) / 2;
+    var radius = Math.min(width_a, height_a) / 2;
 
     // creates a new pie generator
     var pie = d3.pie()
@@ -47,10 +47,10 @@ d3.select('#AsterChart')
         .padAngle(padAngle);
 
     var svg = d3.select('#AsterChart').append('svg')
-        .attr('width', width + margin.left + margin.right)
-        .attr('height', height + margin.top + margin.bottom)
+        .attr('width', width_a + margin.left + margin.right)
+        .attr('height', height_a + margin.top + margin.bottom)
         .append('g')
-        .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')');
+        .attr('transform', 'translate(' + width_a / 2 + ',' + height_a / 2 + ')');
 
     d3.select('#AsterChart').each(function(data) {
 
