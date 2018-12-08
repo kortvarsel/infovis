@@ -1,30 +1,58 @@
 ////////////////////////////////////////////////////////////
 //////////////////////// Set-up ////////////////////////////
 ////////////////////////////////////////////////////////////
+var dataset_c 
 
+d3.json('../data/top10.json', function(data) {
+    dataset_c = data;
+getArtist("DEU");
+  drawChord();
+});
+
+
+function getArtist (country) {
+
+
+var data_artist = dataset_c.filter(function(d) { return d.country == country })
+
+var arr_artist = data_artist.map(function(a) {return a.artist});
+
+
+console.log(data_artist);
+console.log(arr_artist);
+
+}
+
+function updateData1(newCountry) {
+    d3.select('#chord').selectAll("svg").remove();
+    drawChord(newCountry);
+    
+}
+
+function drawChord() {
 var screenWidth = $(window).innerWidth(), 
 	mobileScreen = (screenWidth > 500 ? false : true);
 
 var margin = {left: 50, top: 10, right: 50, bottom: 10},
 	width_c = 500,
 	//Math.min(screenWidth, 800) - margin.left - margin.right,
-	heigt_c = 400;
+	height_c = 400;
 	//(mobileScreen ? 300 : Math.min(screenWidth, 800)*5/6) - margin.top - margin.bottom;
 			
 var svg = d3.select("#chord").append("svg")
 			.attr("width", (width_c + margin.left + margin.right))
-			.attr("height", (heigt_c + margin.top + margin.bottom));
+			.attr("height", (height_c + margin.top + margin.bottom));
 			
 var wrapper = svg.append("g").attr("class", "chordWrapper")
-			.attr("transform", "translate(" + (width_c / 2 + margin.left) + "," + (heigt_c / 2 + margin.top) + ")");;
+			.attr("transform", "translate(" + (width_c / 2 + margin.left) + "," + (height_c / 2 + margin.top) + ")");;
 			
-var outerRadius = Math.min(width_c, heigt_c) / 2  - (mobileScreen ? 80 : 100),
-	innerRadius = outerRadius * 0.95,
+var outerRadius = Math.min(width_c, height_c) / 2  - (mobileScreen ? 80 : 50),
+	innerRadius = outerRadius * 0.85,
 	opacityDefault = 0.7, //default opacity of chords
 	opacityLow = 0.02; //hover opacity of those chords not hovered over
 	
 //How many pixels should the two halves be pulled apart
-var pullOutSize = (mobileScreen? 20 : 50)
+var pullOutSize = 15;
 
 //////////////////////////////////////////////////////
 //////////////////// Titles on top ///////////////////
@@ -34,33 +62,6 @@ var titleWrapper = svg.append("g").attr("class", "chordTitleWrapper"),
 	titleOffset = mobileScreen ? 15 : 40,
 	titleSeparate = mobileScreen ? 30 : 0;
 
-//Title	top left
-titleWrapper.append("text")
-	.attr("class","title left")
-	.style("font-size", mobileScreen ? "12px" : "16px" )
-	.attr("x", (width_c/2 + margin.left - outerRadius - titleSeparate))
-	.attr("y", titleOffset)
-	.text("Education");
-titleWrapper.append("line")
-	.attr("class","titleLine left")
-	.attr("x1", (width_c/2 + margin.left - outerRadius - titleSeparate)*0.6)
-	.attr("x2", (width_c/2 + margin.left - outerRadius - titleSeparate)*1.4)
-	.attr("y1", titleOffset+8)
-	.attr("y2", titleOffset+8);
-//Title top right
-titleWrapper.append("text")
-	.attr("class","title right")
-	.style("font-size", mobileScreen ? "12px" : "16px" )
-	.attr("x", (width_c/2 + margin.left + outerRadius + titleSeparate))
-	.attr("y", titleOffset)
-	.text("Occupation");
-titleWrapper.append("line")
-	.attr("class","titleLine right")
-	.attr("x1", (width_c/2 + margin.left - outerRadius - titleSeparate)*0.6 + 2*(outerRadius + titleSeparate))
-	.attr("x2", (width_c/2 + margin.left - outerRadius - titleSeparate)*1.4 + 2*(outerRadius + titleSeparate))
-	.attr("y1", titleOffset+8)
-	.attr("y2", titleOffset+8);
-	
 ////////////////////////////////////////////////////////////
 /////////////////// Animated gradient //////////////////////
 ////////////////////////////////////////////////////////////
@@ -113,7 +114,7 @@ var Names = ["Administrative Staff","Crafts","Business Management","Basic Occupa
 			"Engineering","Education","Agriculture","Art, Language & Culture","Health","Behavior & Social Sciences","Economy",""];
 
 var respondents = 17533, //Total number of respondents (i.e. the number that make up the total group
-	emptyPerc = 0.5, //What % of the circle should become empty
+	emptyPerc = 0.3, //What % of the circle should become empty
 	emptyStroke = Math.round(respondents*emptyPerc); 
 var matrix = [
 	[0,0,0,0,0,0,0,0,0,0,0,0,0,0,232,65,44,57,39,123,1373,0], //Administratief personeel
@@ -274,4 +275,5 @@ function wrapChord(text, width) {
 	  }
 	}
   });
-}//wrapChord
+}}
+//wrapChord}

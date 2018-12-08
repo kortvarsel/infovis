@@ -22,6 +22,7 @@ var y6 = d3.scaleLinear()
 function updateData1(newCountry) {
     d3.select('#barChart').selectAll("svg").remove();
     drawBar(newCountry);
+    
 }
 //load data and create vis
 var dataset_b;
