@@ -6,7 +6,8 @@ var dataset_o;
 
 d3.csv('../data/occurences.csv', function(data) {
     dataset_o = data;
-   // console.log(dataset_o);
+
+    console.log(dataset_o);
     
     d3.json('../data/top10.json', function(data) {
 
@@ -32,19 +33,26 @@ function getArtist(country) {
 
     var arr_artist = data_artist.map(function(a) { return a.artist });
 
-   
 
 
 
-    var unique_artist = arr_artist.filter(function(elem, index, self) {
+
+var unique_artist = arr_artist.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
     })
-console.log("test");
-console.log(dataset_c);
-console.log(dataset_o);
+//console.log(unique_artist[0]);
+//console.log(dataset_o);
 
-    unique_artist.push("");
-    console.log(unique_artist);
+ var arr_countries = dataset_o.map(function(d,i) { return d.artist == "Ed Sheeran "});
+
+
+
+ //console.log(arr_countries);
+
+
+
+    //unique_artist.push("");
+    
 
 
 
@@ -169,7 +177,9 @@ function drawChord() {
         [123, 0, 125, 37, 85, 0, 1537, 41, 116, 135, 156, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Gedrag & Maatschappij
         [1373, 24, 2413, 54, 60, 251, 271, 261, 76, 752, 36, 48, 109, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Economie
         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, emptyStroke, 0, 0, 0, 0, 0, 0, 0, 0] //dummyTop
+
     ];
+
     //Calculate how far the Chord Diagram needs to be rotated clockwise to make the dummy
     //invisible chord center vertically
     var offset = (2 * Math.PI) * (emptyStroke / (respondents + emptyStroke)) / 4;
