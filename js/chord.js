@@ -4,6 +4,7 @@
 var dataset_c;
 var dataset_o;
 var artist = [];
+var temp_name;
 
 d3.csv('../data/occurences.csv', function(data) {
     dataset_o = data;
@@ -15,7 +16,9 @@ d3.csv('../data/occurences.csv', function(data) {
         dataset_c = data;
         getArtist("DEU");
         drawChord();
-        // console.log(artist);
+         console.log(artist);
+
+console.log(temp_name);
     });
 
     //console.log(artist);
@@ -93,12 +96,12 @@ country_key.shift();
 
 
 //////////////////getting names/////////////
-var temp_name = country_key;
+temp_name = country_key;
 //temp_name.push(country_key);
 temp_name.push("");
 
 for (i=0; i<unique_artist.length; i++) {
-	console.log(i);
+	
 temp_name.push(unique_artist[i]);
 }
 temp_name.push("");
@@ -110,8 +113,9 @@ temp_name.push("");
 
 
 
-console.log(artist);
-    return artist;
+//console.log(artist);
+  /*  if (result=="artist"){ return artist}
+   else if (result=="name"){return temp_name};*/
 
 
 
