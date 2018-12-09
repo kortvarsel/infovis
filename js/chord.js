@@ -15,23 +15,35 @@ d3.csv('../data/occurences.csv', function(data) {
         dataset_c = data;
         getArtist("DEU");
         drawChord();
-        console.log(artist);
+        // console.log(artist);
     });
 
-    console.log(artist)
+    //console.log(artist);
 
 
 });
 
+function getKeyByValue(object, value) {
+    return Object.keys(object).find(key => object[key] === value);
+}
 
-
-
+function arraySum(i) {
+    var sum=0; // missing var added
+    for(var a=0;a<i.length;a++){ // missing var added
+        if(typeof i[a]=="number"){
+            sum+=i[a];
+        }else if(i[a] instanceof Array){
+            sum+=arraySum(i[a]);
+        }
+    }
+    return sum;
+}
 
 
 function getArtist(country) {
 
     var temp_country;
-
+    var artist_key = []
     var arr_countries;
     var data_artist = dataset_c.filter(function(d) { return d.country == country });
 
@@ -45,29 +57,62 @@ function getArtist(country) {
         return index === self.indexOf(elem);
     })
 
+    //console.log(unique_artist.length);
     unique_artist.forEach(function(entry) {
         temp_country = dataset_o.filter(function(d) { return d.artist == entry });
+///////////////////////////// Getting keys -> must customize artist though...
+      /*  var temp_artist_key = temp_country[0];
+        for (var key in temp_artist_key) {
+            if (temp_artist_key[key] > 0) {
+                artist_key.push(key);
+            }
+        };*/
+
+ 		var temp_artist_key = temp_country[0];
+        for (var key in temp_artist_key) {artist_key.push(key);}
+
+
+
         var temp_artist = Object.values(temp_country[0]);
         temp_artist.shift();
-        //console.log(temp_artist);
 
         artist.push(temp_artist);
     })
 
+    var country_key = artist_key.filter(function(elem, index, self) {
+        return index === self.indexOf(elem);
+    })
+
+
+country_key.shift();
+
+   // console.log(country_key); //filtered country
+    
+
+    //console.log(artist) //the artists and their occurence
+
+
+//////////////////getting names/////////////
+var temp_name = country_key;
+//temp_name.push(country_key);
+temp_name.push("");
+
+for (i=0; i<unique_artist.length; i++) {
+	console.log(i);
+temp_name.push(unique_artist[i]);
+}
+temp_name.push("");
+
+
+
+/////////////construct matrix
+
+
+
+
+console.log(artist);
     return artist;
 
-    // console.log(artist);
-
-    //  console.log(unique_artist);
-    //console.log(unique_artist[0]);
-    //console.log(dataset_o);
-
-    //var arr_countries = dataset_o.filter(function(d) { return d['artist'] == "Ed Sheeran"});
-    //artist = unique_artist[0];
-    //console.log(artist);
-
-    //console.log(arr_countries[0]);
-    //console.log(Object.values(arr_countries[0]));
 
 
 
@@ -168,6 +213,7 @@ function drawChord() {
         "Engineering", "Education", "Agriculture", "Art, Language & Culture", "Health", "Behavior & Social Sciences", "Economy", ""
     ];*/
 
+//var Names=temp_name;
     var Names = ["Country1", "Country2", "Country3", "Country4", "", "Artist1", "Artist2", "Artist3", ""];
     //17533
     var respondents = 34, //Total number of respondents (i.e. the number that make up the total group
