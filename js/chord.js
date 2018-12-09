@@ -32,6 +32,21 @@ function transpose(a) {
     });
 }
 
+function arrSum(arr) {
+    var sum = 0;
+    // iterate array using forEach, better to use for loop since it have higher performance
+    arr.forEach(function(v) {
+        // checking array element is an array
+        if (typeof v == 'object')
+            // if array then getting sum it's element (recursion)
+            sum += arrSum(v);
+        else
+            // else adding the value with sum
+            sum += v
+    })
+    // returning the result
+    return sum;
+}
 
 function getArtist(country) {
 
@@ -83,7 +98,8 @@ function getArtist(country) {
 
 
 
-    respondents = 793 * 2; //Total number of respondents (i.e. the number that make up the total group
+    respondents = arrSum(artist_block) * 2; //Total number of respondents (i.e. the number that make up the total group
+    console.log(respondents);
     emptyPerc = 0.25;
 
     emptyStroke = Math.round(respondents * emptyPerc);
@@ -157,7 +173,7 @@ function drawChord(country) {
         .attr("width", (width_c + margin.left + margin.right))
         .attr("height", (height_c + margin.top + margin.bottom));
 
-  
+
 
     var wrapper = svg.append("g").attr("class", "chordWrapper")
         .attr("transform", "translate(" + (width_c / 2 + margin.left) + "," + (height_c / 2 + margin.top) + ")");;
