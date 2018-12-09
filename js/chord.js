@@ -5,6 +5,11 @@ var dataset_c;
 var dataset_o;
 var artist = [];
 var temp_name;
+var emptyStroke;
+var datamatrix;
+var respondents, //Total number of respondents (i.e. the number that make up the total group
+    emptyPerc; //What % of the circle should become empty
+
 
 d3.csv('../data/occurences.csv', function(data) {
     dataset_o = data;
@@ -14,11 +19,9 @@ d3.csv('../data/occurences.csv', function(data) {
 
         // console.log(dataset_o);
         dataset_c = data;
-        getArtist("DEU");
-        drawChord();
-         console.log(artist);
+        
+        drawChord("DEU");
 
-console.log(temp_name);
     });
 
     //console.log(artist);
@@ -26,21 +29,29 @@ console.log(temp_name);
 
 });
 
-function getKeyByValue(object, value) {
-    return Object.keys(object).find(key => object[key] === value);
+function updateData3(newCountry) {
+    d3.select('#chord').selectAll("svg").remove();
+
+    //getArtist(newCountry);
+   drawChord(newCountry);
+
 }
 
-function arraySum(i) {
-    var sum=0; // missing var added
-    for(var a=0;a<i.length;a++){ // missing var added
-        if(typeof i[a]=="number"){
-            sum+=i[a];
-        }else if(i[a] instanceof Array){
-            sum+=arraySum(i[a]);
-        }
-    }
-    return sum;
+function transpose(a) {
+    return Object.keys(a[0]).map(function(c) {
+        return a.map(function(r) { return r[c]; });
+    });
 }
+
+function getSum(array) {
+    result = array.reduce(function(r, a) {
+        a.forEach(function(b, i) {
+            r[i] = (r[i] || 0) + b;
+        });
+        return r;
+    }, []);
+}
+
 
 
 function getArtist(country) {
@@ -51,88 +62,123 @@ function getArtist(country) {
     var data_artist = dataset_c.filter(function(d) { return d.country == country });
 
     var arr_artist = data_artist.map(function(a) { return a.artist });
+    var artist_block;
+    var country_block;
+    var dummy_bottom;
+    var dummy_top;
+    respondents = 793 * 2; //Total number of respondents (i.e. the number that make up the total group
+    emptyPerc = 0.25;
 
+    emptyStroke = Math.round(respondents * emptyPerc);
 
-
-
-
-    var unique_artist = arr_artist.filter(function(elem, index, self) {
+   var unique_artist = arr_artist.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
     })
 
-    //console.log(unique_artist.length);
     unique_artist.forEach(function(entry) {
         temp_country = dataset_o.filter(function(d) { return d.artist == entry });
-///////////////////////////// Getting keys -> must customize artist though...
-      /*  var temp_artist_key = temp_country[0];
-        for (var key in temp_artist_key) {
-            if (temp_artist_key[key] > 0) {
-                artist_key.push(key);
-            }
-        };*/
+        ///////////////////////////// Getting keys -> must customize artist though...
+        /*  var temp_artist_key = temp_country[0];
+          for (var key in temp_artist_key) {
+              if (temp_artist_key[key] > 0) {
+                  artist_key.push(key);
+              }
+          };*/
 
- 		var temp_artist_key = temp_country[0];
-        for (var key in temp_artist_key) {artist_key.push(key);}
+        var temp_artist_key = temp_country[0];
+        for (var key in temp_artist_key) { artist_key.push(key); };
 
 
 
         var temp_artist = Object.values(temp_country[0]);
         temp_artist.shift();
 
-        artist.push(temp_artist);
+        temp_artist = temp_artist.map(function(d) { return +d }); //to integer
+
+
+        artist.push(temp_artist); //artist
     })
 
+    //artist matrix
+    artist_block = artist;
+
+
+    country_block = artist;
+    country_block = transpose(country_block);
+
+    artist_block.forEach(function(a) {
+        var max = a.length + unique_artist.length + 2
+        while (a.length < max) {
+            a.push(0);
+        };
+    });
+
+    country_block.forEach(function(a) {
+        var max = artist_block[0].length
+        a.push(0)
+        while (a.length < max) {
+            a.unshift(0);
+        };
+    });
+
+    ///dummys
+    dummy_bottom = [emptyStroke];
+
+
+    while (dummy_bottom.length < artist_block[0].length) {
+        dummy_bottom.unshift(0);
+    };
+
+    dummy_top = [emptyStroke];
+
+    while (dummy_top.length < unique_artist[0].length + 1) {
+        dummy_top.push(0);
+    };
+
+    while (dummy_top.length < artist_block[0].length) {
+        dummy_top.unshift(0);
+    };
+
+    /////matrix generation
+
+    var datamatrix_temp;
+
+    datamatrix_temp = country_block;
+    datamatrix_temp.push(dummy_bottom);
+
+
+    datamatrix = datamatrix_temp.concat(artist_block);
+    datamatrix.push(dummy_top);
+
+
+    //basiert auf artist country keys
     var country_key = artist_key.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
     })
 
+    country_key.shift();
 
-country_key.shift();
+    //////////////////getting names/////////////
+    temp_name = country_key;
+    //temp_name.push(country_key);
+    temp_name.push("");
 
-   // console.log(country_key); //filtered country
-    
+    for (i = 0; i < unique_artist.length; i++) {
 
-    //console.log(artist) //the artists and their occurence
-
-
-//////////////////getting names/////////////
-temp_name = country_key;
-//temp_name.push(country_key);
-temp_name.push("");
-
-for (i=0; i<unique_artist.length; i++) {
-	
-temp_name.push(unique_artist[i]);
-}
-temp_name.push("");
-
-
-
-/////////////construct matrix
-
-
-
-
-//console.log(artist);
-  /*  if (result=="artist"){ return artist}
-   else if (result=="name"){return temp_name};*/
-
-
-
-
-    //unique_artist.push("");
+        temp_name.push(unique_artist[i]);
+    }
+    temp_name.push("");
 
 }
 
 
 
-function updateData1(newCountry) {
-    d3.select('#chord').selectAll("svg").remove();
-    drawChord(newCountry);
 
-}
 
-function drawChord() {
+function drawChord(country) {
+
+    getArtist(country);
+
     var screenWidth = $(window).innerWidth(),
         mobileScreen = (screenWidth > 500 ? false : true);
 
@@ -181,16 +227,16 @@ function drawChord() {
     linearGradient.append("animate")
         .attr("attributeName", "x1")
         .attr("values", "0%;100%")
-        //	.attr("from","0%")
-        //	.attr("to","100%")
+        //  .attr("from","0%")
+        //  .attr("to","100%")
         .attr("dur", "7s")
         .attr("repeatCount", "indefinite");
 
     linearGradient.append("animate")
         .attr("attributeName", "x2")
         .attr("values", "100%;200%")
-        //	.attr("from","100%")
-        //	.attr("to","200%")
+        //  .attr("from","100%")
+        //  .attr("to","200%")
         .attr("dur", "7s")
         .attr("repeatCount", "indefinite");
 
@@ -217,12 +263,10 @@ function drawChord() {
         "Engineering", "Education", "Agriculture", "Art, Language & Culture", "Health", "Behavior & Social Sciences", "Economy", ""
     ];*/
 
-//var Names=temp_name;
-    var Names = ["Country1", "Country2", "Country3", "Country4", "", "Artist1", "Artist2", "Artist3", ""];
+    var Names = temp_name;
+    //var Names = ["Country1", "Country2", "Country3", "Country4", "", "Artist1", "Artist2", "Artist3", ""];
     //17533
-    var respondents = 34, //Total number of respondents (i.e. the number that make up the total group
-        emptyPerc = 0.3, //What % of the circle should become empty
-        emptyStroke = Math.round(respondents * emptyPerc);
+
 
     /* var matrix = [
          [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 65, 44, 57, 39, 123, 1373, 0], //Administratief personeel
@@ -250,17 +294,19 @@ function drawChord() {
 
      ];*/
 
-    var matrix = [
-        [0, 0, 0, 0, 0, 1, 3, 4, 0], //country1
-        [0, 0, 0, 0, 0, 4, 5, 2, 0], //country2
-        [0, 0, 0, 0, 0, 1, 4, 3, 0], //country3
-        [0, 0, 0, 0, 0, 0, 3, 4, 0], //country4
-        [0, 0, 0, 0, 0, 0, 0, 0, emptyStroke], //dummy
-        [1, 4, 1, 0, 0, 0, 0, 0, 0], //artist1
-        [3, 5, 4, 3, 0, 0, 0, 0, 0], //artist2
-        [4, 2, 3, 4, 0, 0, 0, 0, 0], //artist3
-        [0, 0, 0, 0, emptyStroke, 0, 0, 0, 0] //dummy
-    ]
+    /* var matrix = [
+         [0, 0, 0, 0, 0, 1, 3, 4, 0], //country1
+         [0, 0, 0, 0, 0, 4, 5, 2, 0], //country2
+         [0, 0, 0, 0, 0, 1, 4, 3, 0], //country3
+         [0, 0, 0, 0, 0, 0, 3, 4, 0], //country4
+         [0, 0, 0, 0, 0, 0, 0, 0, emptyStroke], //dummy
+         [1, 4, 1, 0, 0, 0, 0, 0, 0], //artist1
+         [3, 5, 4, 3, 0, 0, 0, 0, 0], //artist2
+         [4, 2, 3, 4, 0, 0, 0, 0, 0], //artist3
+         [0, 0, 0, 0, emptyStroke, 0, 0, 0, 0] //dummy
+     ]*/
+
+    var matrix = datamatrix;
 
 
     //Calculate how far the Chord Diagram needs to be rotated clockwise to make the dummy

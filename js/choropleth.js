@@ -42,6 +42,7 @@ function update(){
 function updateLife(newCountry){
     updateData1(newCountry)
     updateData2(newCountry)
+    updateData3(newCountry)
 }
 
 var newCountry = "POR"
