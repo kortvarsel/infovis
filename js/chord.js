@@ -3,38 +3,27 @@
 ////////////////////////////////////////////////////////////
 var dataset_c;
 var dataset_o;
-var artist = [];
+var artist
 var temp_name;
 var emptyStroke;
 var datamatrix;
 var respondents, //Total number of respondents (i.e. the number that make up the total group
     emptyPerc; //What % of the circle should become empty
 
-
 d3.csv('../data/occurences.csv', function(data) {
     dataset_o = data;
-
-
     d3.json('../data/top10.json', function(data) {
-
-        // console.log(dataset_o);
         dataset_c = data;
-        
+
         drawChord("DEU");
-
     });
-
-    //console.log(artist);
-
-
 });
 
 function updateData3(newCountry) {
+   
     d3.select('#chord').selectAll("svg").remove();
-
-    //getArtist(newCountry);
-   drawChord(newCountry);
-
+  
+    drawChord(newCountry);
 }
 
 function transpose(a) {
@@ -52,26 +41,25 @@ function getSum(array) {
     }, []);
 }
 
-
-
 function getArtist(country) {
 
     var temp_country;
     var artist_key = []
     var arr_countries;
     var data_artist = dataset_c.filter(function(d) { return d.country == country });
-
+artist=[];
     var arr_artist = data_artist.map(function(a) { return a.artist });
     var artist_block;
     var country_block;
     var dummy_bottom;
     var dummy_top;
+
     respondents = 793 * 2; //Total number of respondents (i.e. the number that make up the total group
     emptyPerc = 0.25;
 
     emptyStroke = Math.round(respondents * emptyPerc);
 
-   var unique_artist = arr_artist.filter(function(elem, index, self) {
+    var unique_artist = arr_artist.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
     })
 
@@ -87,25 +75,16 @@ function getArtist(country) {
 
         var temp_artist_key = temp_country[0];
         for (var key in temp_artist_key) { artist_key.push(key); };
-
-
-
         var temp_artist = Object.values(temp_country[0]);
         temp_artist.shift();
-
         temp_artist = temp_artist.map(function(d) { return +d }); //to integer
-
-
         artist.push(temp_artist); //artist
     })
 
     //artist matrix
     artist_block = artist;
-
-
     country_block = artist;
     country_block = transpose(country_block);
-
     artist_block.forEach(function(a) {
         var max = a.length + unique_artist.length + 2
         while (a.length < max) {
@@ -123,18 +102,14 @@ function getArtist(country) {
 
     ///dummys
     dummy_bottom = [emptyStroke];
-
-
     while (dummy_bottom.length < artist_block[0].length) {
         dummy_bottom.unshift(0);
     };
 
     dummy_top = [emptyStroke];
-
     while (dummy_top.length < unique_artist[0].length + 1) {
         dummy_top.push(0);
     };
-
     while (dummy_top.length < artist_block[0].length) {
         dummy_top.unshift(0);
     };
@@ -142,11 +117,8 @@ function getArtist(country) {
     /////matrix generation
 
     var datamatrix_temp;
-
     datamatrix_temp = country_block;
     datamatrix_temp.push(dummy_bottom);
-
-
     datamatrix = datamatrix_temp.concat(artist_block);
     datamatrix.push(dummy_top);
 
@@ -155,25 +127,19 @@ function getArtist(country) {
     var country_key = artist_key.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
     })
-
     country_key.shift();
 
     //////////////////getting names/////////////
     temp_name = country_key;
     //temp_name.push(country_key);
     temp_name.push("");
-
     for (i = 0; i < unique_artist.length; i++) {
 
         temp_name.push(unique_artist[i]);
     }
     temp_name.push("");
-
-}
-
-
-
-
+    
+};
 
 function drawChord(country) {
 
@@ -447,4 +413,3 @@ function drawChord(country) {
         });
     }
 }
-//wrapChord}

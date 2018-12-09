@@ -1,4 +1,5 @@
 //dimensions graph
+var dataset_b;
 var margin = { top: 20, right: 20, bottom: 30, left: 40 },
     width_b = 340 - margin.left - margin.right,
     height_b = 220 - margin.top - margin.bottom;
@@ -22,10 +23,10 @@ var y6 = d3.scaleLinear()
 function updateData1(newCountry) {
     d3.select('#barChart').selectAll("svg").remove();
     drawBar(newCountry);
-    
+
 }
 //load data and create vis
-var dataset_b;
+
 
 d3.json('../data/countries.json', function(data) {
     var strUser = "DEU";
@@ -73,7 +74,7 @@ function drawBar(strUser) {
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y2(d['Happiness Score']) })
         .attr("height", function(d, i) { return height_b - y2(d['Happiness Score']) });
- 
+
 
     graph.append("rect")
         .attr("class", "bar3")
