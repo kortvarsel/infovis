@@ -20,9 +20,9 @@ d3.csv('../data/occurences.csv', function(data) {
 });
 
 function updateData3(newCountry) {
-   
+
     d3.select('#chord').selectAll("svg").remove();
-  
+
     drawChord(newCountry);
 }
 
@@ -32,14 +32,6 @@ function transpose(a) {
     });
 }
 
-function getSum(array) {
-    result = array.reduce(function(r, a) {
-        a.forEach(function(b, i) {
-            r[i] = (r[i] || 0) + b;
-        });
-        return r;
-    }, []);
-}
 
 function getArtist(country) {
 
@@ -47,17 +39,14 @@ function getArtist(country) {
     var artist_key = []
     var arr_countries;
     var data_artist = dataset_c.filter(function(d) { return d.country == country });
-artist=[];
+    artist = [];
     var arr_artist = data_artist.map(function(a) { return a.artist });
     var artist_block;
     var country_block;
     var dummy_bottom;
     var dummy_top;
 
-    respondents = 793 * 2; //Total number of respondents (i.e. the number that make up the total group
-    emptyPerc = 0.25;
 
-    emptyStroke = Math.round(respondents * emptyPerc);
 
     var unique_artist = arr_artist.filter(function(elem, index, self) {
         return index === self.indexOf(elem);
@@ -91,6 +80,13 @@ artist=[];
             a.push(0);
         };
     });
+
+
+
+    respondents = 793 * 2; //Total number of respondents (i.e. the number that make up the total group
+    emptyPerc = 0.25;
+
+    emptyStroke = Math.round(respondents * emptyPerc);
 
     country_block.forEach(function(a) {
         var max = artist_block[0].length
@@ -138,17 +134,20 @@ artist=[];
         temp_name.push(unique_artist[i]);
     }
     temp_name.push("");
-    
+
 };
 
 function drawChord(country) {
 
     getArtist(country);
 
+
+
+    /////////
     var screenWidth = $(window).innerWidth(),
         mobileScreen = (screenWidth > 500 ? false : true);
 
-    var margin = { left: 50, top: 10, right: 50, bottom: 10 },
+    var margin = { left: 10, top: 10, right: 10, bottom: 10 },
         width_c = 500,
         //Math.min(screenWidth, 800) - margin.left - margin.right,
         height_c = 400;
@@ -158,12 +157,14 @@ function drawChord(country) {
         .attr("width", (width_c + margin.left + margin.right))
         .attr("height", (height_c + margin.top + margin.bottom));
 
+  
+
     var wrapper = svg.append("g").attr("class", "chordWrapper")
         .attr("transform", "translate(" + (width_c / 2 + margin.left) + "," + (height_c / 2 + margin.top) + ")");;
 
     var outerRadius = Math.min(width_c, height_c) / 2 - (mobileScreen ? 80 : 50),
         innerRadius = outerRadius * 0.85,
-        opacityDefault = 0.7, //default opacity of chords
+        opacityDefault = 1, //default opacity of chords
         opacityLow = 0.02; //hover opacity of those chords not hovered over
 
     //How many pixels should the two halves be pulled apart
@@ -173,9 +174,9 @@ function drawChord(country) {
     //////////////////// Titles on top ///////////////////
     //////////////////////////////////////////////////////
 
-    var titleWrapper = svg.append("g").attr("class", "chordTitleWrapper"),
-        titleOffset = mobileScreen ? 15 : 40,
-        titleSeparate = mobileScreen ? 30 : 0;
+    /* var titleWrapper = svg.append("g").attr("class", "chordTitleWrapper"),
+         titleOffset = mobileScreen ? 15 : 80,
+         titleSeparate = mobileScreen ? 30 : 0;*/
 
     ////////////////////////////////////////////////////////////
     /////////////////// Animated gradient //////////////////////
