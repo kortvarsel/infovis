@@ -99,7 +99,7 @@ function getArtist(country) {
 
 
     respondents = arrSum(artist_block) * 2; //Total number of respondents (i.e. the number that make up the total group
-    console.log(respondents);
+    
     emptyPerc = 0.25;
 
     emptyStroke = Math.round(respondents * emptyPerc);

@@ -1,8 +1,8 @@
 //dimensions graph
 var dataset_b;
-var margin = { top: 20, right: 20, bottom: 30, left: 40 },
-    width_b = 340 - margin.left - margin.right,
-    height_b = 220 - margin.top - margin.bottom;
+var margin_b = { top: 20, right: 20, bottom: 30, left: 40 },
+    width_b = 340 - margin_b.left - margin_b.right,
+    height_b = 300 - margin_b.top - margin_b.bottom;
 // set the ranges
 var x = d3.scaleBand()
     .range([0, width_b])
@@ -38,11 +38,11 @@ d3.json('../data/countries.json', function(data) {
 
 function drawBar(strUser) {
     var svg = d3.select("#barChart").append("svg")
-        .attr("width", width_b + margin.left + margin.right)
-        .attr("height", height_b + margin.top + margin.bottom)
+        .attr("width", width_b + margin_b.left + margin_b.right)
+        .attr("height", height_b + margin_b.top + margin_b.bottom)
         .append("g")
         .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
+            "translate(" + margin_b.left + "," + margin_b.top + ")");
 
     x.domain(['GDP', 'Happiness Score', 'Human Development Index', 'Gender Inequality Index', 'Corruption Perception Index', 'Unemployment Rate']);
     y1.domain([0, d3.max(dataset_b, function(d) { return d.GDP })]);
