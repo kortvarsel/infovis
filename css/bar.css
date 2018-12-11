@@ -4,3 +4,29 @@
 .bar4 { fill: red; }
 .bar5 { fill: yellow; }
 .bar6 { fill: turquoise; }
+
+div.tooltip1 {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 32px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+div.tooltip2 {
+  position: absolute;
+  text-align: center;
+  width: 200px;
+  height: 32px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: lightsteelblue;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
