@@ -37,7 +37,7 @@ function generateMap(value,color){
 
 function update(value, color){
     d3.select('#map').selectAll("svg").remove();
-    generateMap(value, color)
+    generateMap(value, color);
     setTimeout(setClickTrigger, 500) 
 }
 function updateLife(newCountry){
