@@ -45,7 +45,20 @@ function updateLife(newCountry){
     updateData2(newCountry)
     updateData3(newCountry)
 }
-
+$.getJSON('../data/countries.json', function(data) {
+    $.each(data, function(key, entry) {
+        $('#menu').append($('<div>').append($('<p>')
+                .attr('value', entry.iso3)
+                .html(entry.Country)));;
+    })
+});
 var newCountry = "POR"
+function switchIt(){
+    if (d3.selectAll("#menu")._groups[0][0].className != 'nav expanded'){
+        d3.selectAll("#menu")._groups[0][0].className = "nav expanded"
+    } else {
+        d3.selectAll("#menu")._groups[0][0].className = "nav"
+    }
 
+}
 update('GDP', colorbrewer.Greens[8])
