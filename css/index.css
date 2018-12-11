@@ -1,0 +1,41 @@
+.nav {
+          -webkit-transition: left 0.5s ease;
+          -moz-transition: left 0.5s ease;
+          -ms-transition: left 0.5s ease;
+          -o-transition: left 0.5s ease;
+          transition: left 0.5s ease;
+          background: #28dde0;
+          color: white;
+          cursor: pointer;
+          font-size: 2rem;
+          height: 100vh;
+          left: -20rem;
+          padding: 6rem 2rem 2rem 2rem;
+          position: fixed;
+          top: 0;
+          width: 20rem;
+          z-index: 1;
+          overflow:scroll;
+        }
+
+.expanded { left: 0; }
+
+.nav ul {
+          position: absolute;
+          top: 50%;
+          -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+          list-style: none;
+          margin: 0;
+          padding: 0;
+        }
+#menuButton {    
+    cursor: pointer;
+    height: 2rem;
+    left: 2rem;
+    position: fixed;
+    top: 2rem;
+    width: 3.6rem;
+    z-index: 2;
+}
