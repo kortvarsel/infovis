@@ -20,7 +20,15 @@
         </div>
         <div class="row h-100">
             <div class="bord col-lg-4" id="chord"></div>
-            <div class="col-lg-8" id="map"></div>
+            <div class="col-lg-6" id="map"></div>
+            <div class="col-lg-1" id="menu">
+                <button onclick="update('GDP',colorbrewer.Greens[8]);" type="button" class="btn btn-outline-success">GDP</button>
+                <button onclick="update('Corruption Perception Index',colorbrewer.Blues[8]);" type="button" class="btn btn-outline-primary">CPI</button>
+                <button onclick="update('Human Development Index',colorbrewer.Greys[8]);" type="button" class="btn btn-outline-secondary">HDI</button>
+                <button onclick="update('Gender Inequality Index',colorbrewer.Reds[8]);" type="button" class="btn btn-outline-danger">GII</button>
+                <button onclick="update('Unemployment Rate',colorbrewer.Oranges[8]);" type="button" class="btn btn-outline-warning">UER</button>
+                <button onclick="update('Happiness Score',colorbrewer.Purples[8]);" type="button" class="btn btn-outline-info">HS</button>
+            </div>
         </div>
         <div class="row h-100">
             <div class="bord col-lg-4" id="AsterChart"></div>
