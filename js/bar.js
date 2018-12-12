@@ -52,6 +52,10 @@ function drawBar(strUser) {
     y5.domain([0, d3.max(dataset_b, function(d) { return d['Corruption Perception Index'] })]);
     y6.domain([0, d3.max(dataset_b, function(d) { return d['Unemployment Rate'] })]);
 
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip1")
+        .style("opacity", 0);
+
 
     var graph = svg.selectAll("#barChart")
         .data(dataset_b.filter(function(d) { return d.iso3 == strUser }))
@@ -64,7 +68,20 @@ function drawBar(strUser) {
         .attr("x", function(d, i) { return 0 })
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y1(d.GDP) })
-        .attr("height", function(d, i) { return height_b - y1(d.GDP) });
+        .attr("height", function(d, i) { return height_b - y1(d.GDP) })
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("GDP" + "<br/>" + d.GDP)
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
 
 
 
@@ -73,7 +90,20 @@ function drawBar(strUser) {
         .attr("x", function(d, i) { return 50 })
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y2(d['Happiness Score']) })
-        .attr("height", function(d, i) { return height_b - y2(d['Happiness Score']) });
+        .attr("height", function(d, i) { return height_b - y2(d['Happiness Score']) })
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("Happiness Score" + "<br/>" + d['Happiness Score'])
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
 
 
     graph.append("rect")
@@ -81,26 +111,78 @@ function drawBar(strUser) {
         .attr("x", function(d, i) { return 100 })
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y3(d['Human Development Index']) })
-        .attr("height", function(d, i) { return height_b - y3(d['Human Development Index']) });
+        .attr("height", function(d, i) { return height_b - y3(d['Human Development Index']) })
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("Human Development Index" + "<br/>" + d['Human Development Index'])
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
 
     graph.append("rect")
         .attr("class", "bar4")
         .attr("x", function(d, i) { return 150 })
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y4(d['Gender Inequality Index']) })
-        .attr("height", function(d, i) { return height_b - y4(d['Gender Inequality Index']) });
+        .attr("height", function(d, i) { return height_b - y4(d['Gender Inequality Index']) })
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("Gender Inequality Index" + "<br/>" + d['Gender Inequality Index'])
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
 
     graph.append("rect")
         .attr("class", "bar5")
         .attr("x", function(d, i) { return 200 })
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y5(d['Corruption Perception Index']) })
-        .attr("height", function(d, i) { return height_b - y5(d['Corruption Perception Index']) });
+        .attr("height", function(d, i) { return height_b - y5(d['Corruption Perception Index']) })
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("Corruption Perception Index" + "<br/>" + d['Corruption Perception Index'])
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
 
     graph.append("rect")
         .attr("class", "bar6")
         .attr("x", function(d, i) { return 250 })
         .attr("width", x.bandwidth())
         .attr("y", function(d, i) { return y6(d['Unemployment Rate']) })
-        .attr("height", function(d, i) { return height_b - y6(d['Unemployment Rate']) });
+        .attr("height", function(d, i) { return height_b - y6(d['Unemployment Rate']) })
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("Unemployment Rate" + "<br/>" + d['Unemployment Rate'])
+                .style("left", (d3.event.pageX) + "px")
+                .style("top", (d3.event.pageY - 28) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
 };

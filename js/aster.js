@@ -52,6 +52,10 @@ d3.select('#AsterChart')
         .append('g')
         .attr('transform', 'translate(' + width_a / 2 + ',' + height_a / 2 + ')');
 
+
+
+
+
     d3.select('#AsterChart').each(function(data) {
 
         // g elements to keep elements within svg modular
@@ -64,6 +68,8 @@ d3.select('#AsterChart')
             .enter().append('path')
             .attr('fill', function(d) { return colour(d.Pos); })
             .attr('d', arc);
+        
+
 
         // add tooltip to mouse events on slices and labels
         d3.selectAll('.labelName text, .slices path').call(toolTip);

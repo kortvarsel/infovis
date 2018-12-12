@@ -285,7 +285,7 @@ function RadarChart(id, data, options) {
     //The radial line function
     var radarLine = d3.lineRadial()
         .curve(d3.curveCardinalClosed)
-        .radius(function(d,i) { return rScale1(d[i].GDP)
+        .radius(function(d) { return rScale1(d.GDP)
           
            /* if (i == 0) { return rScale1(d.GDP) } else
             if (i == 1) { return rScale2(d['Happiness Score']) } else
@@ -295,10 +295,12 @@ function RadarChart(id, data, options) {
             if (i == 5) { return rScale6(d['Unemployment Rate']) }*/
         })
         .angle(function(d, i) { return i * angleSlice; });
+var finalArray = data.map(function (obj) {
+  return {GDP: obj.GDP, ['Happiness Score']: obj['Happiness Score'],['Human Development Index']: obj['Human Development Index'], ['Gender Inequality Index']: obj['Gender Inequality Index'],['Corruption Perception Index']: obj['Corruption Perception Index'], ['Unemployment Rate']:obj['Unemployment Rate']};
+});
 
-console.log(data);
-console.log(rScale1(data[1].GDP));
-//console.log(radarLine(data.GDP));
+console.log(finalArray);
+console.log(radarLine(finalArray[0]));
 
     //Create a wrapper for the blobs  
     var blobWrapper = g.selectAll(".radarWrapper")
