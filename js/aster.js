@@ -8,18 +8,18 @@ d3.json('../data/top10.json', function(data) {
 });
 
 function updateData2(newCountry) {
- 
-   d3.select('#AsterChart').selectAll("svg").remove();
 
-   donutChart(newCountry);
+    d3.select('#AsterChart').selectAll("svg").remove();
+
+    donutChart(newCountry);
 }
 
 
 function donutChart(strUser) {
 
-d3.select('#AsterChart')
+    d3.select('#AsterChart')
         .datum(dataset_a.filter(function(d) { return d.country == strUser })) // bind data to the div
-       // .call(donutChart()); // draw chart in div
+    // .call(donutChart()); // draw chart in div
 
     var width_a = 500,
         height_a = 300,
@@ -68,9 +68,21 @@ d3.select('#AsterChart')
             .enter().append('path')
             .attr('fill', function(d) { return colour(d.Pos); })
             .attr('d', arc);
-        
+
+        svg.append('text')
+            .attr('class', 'defaultCircle')
+            .attr('dy', 0) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+            .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
+            .style('font-size', '1em')
+            .style('text-anchor', 'middle'); // centres text in tooltip
 
 
+svg.append('circle')
+                    .attr('class', 'defaultCircle')
+                    .attr('r', radius * 0.55) // radius of tooltip circle
+                    .style('fill', 'blue') // colour based on category mouse is over
+                    .style('fill-opacity', 0.35);
+                    
         // add tooltip to mouse events on slices and labels
         d3.selectAll('.labelName text, .slices path').call(toolTip);
 
@@ -79,7 +91,7 @@ d3.select('#AsterChart')
 
             // add tooltip (svg circle element) when mouse enters label or slice
             selection.on('mouseenter', function(data) {
-d3.selectAll('.defaultCircle').remove();
+                d3.selectAll('.defaultCircle').remove();
                 svg.append('text')
                     .attr('class', 'toolCircle')
                     .attr('dy', 0) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
@@ -98,9 +110,9 @@ d3.selectAll('.defaultCircle').remove();
             // remove the tooltip when mouse leaves the slice/label
             selection.on('mouseout', function() {
 
-d3.selectAll('.toolCircle').remove();
+                d3.selectAll('.toolCircle').remove();
 
-                 svg.append('text')
+                svg.append('text')
                     .attr('class', 'defaultCircle')
                     .attr('dy', 0) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
                     .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
@@ -110,7 +122,7 @@ d3.selectAll('.toolCircle').remove();
                 svg.append('circle')
                     .attr('class', 'defaultCircle')
                     .attr('r', radius * 0.55) // radius of tooltip circle
-                   .style('fill', 'blue') // colour based on category mouse is over
+                    .style('fill', 'blue') // colour based on category mouse is over
                     .style('fill-opacity', 0.35);
 
             });
