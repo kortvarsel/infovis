@@ -20,7 +20,9 @@ d3.csv('../data/occurences.csv', function(data) {
 });
 
 function updateData3(newCountry) {
+
     d3.select('#chord').selectAll("svg").remove();
+
     drawChord(newCountry);
 }
 

@@ -8,12 +8,12 @@ text {
 
 .unit {
   cursor: pointer;
-  fill: #000;
-  stroke: #ccc;
+  fill: #ccc;
+  stroke: #000;
   stroke-width: 0.4px; }
 
 .legend-bg {
-  fill: black;
+  fill: #fff;
   fill-opacity: 0.8; }
 
 .legend-bar {
