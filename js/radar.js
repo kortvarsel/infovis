@@ -32,7 +32,6 @@ d3.json('../data/audience.json', function(data) {
         }
 
     ];
-<<<<<<< HEAD
     /*[ //Samsung
         { axis: "GDP", value: 0.27 },
         { axis: "Happiness Score", value: 0.16 },
@@ -80,11 +79,6 @@ d3.json('../data/audience.json', function(data) {
         roundStrokes: true,
         color: color
     };
-=======
-   
-
-
->>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
     RadarChart("#RadarChart", data_r, radarChartOptions);
 });
 
@@ -97,19 +91,6 @@ d3.json('../data/audience.json', function(data) {
 var color = d3.scaleOrdinal()
     .range(["#EDC951", "#CC333F", "#00A0B0"]);
 
-<<<<<<< HEAD
-
-=======
-var radarChartOptions = {
-    w: width_r,
-    h: height_r,
-    margin_r: margin_r,
-    //maxValue: 0.5,
-    levels: 2,
-    roundStrokes: true,
-    color: color
-};
->>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
 //Call function to draw the Radar chart
 
 
@@ -326,12 +307,7 @@ function RadarChart(id, data, options) {
     blobWrapper
         .append("path")
         .attr("class", "radarArea")
-<<<<<<< HEAD
         .attr("d", function(d){console.log(d); return radarLine(d)})
-=======
-        .attr("d", function(d){return radarLine(d)})
-        
->>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
         .style("fill", function(d, i) { return cfg.color(i); })
         .style("fill-opacity", cfg.opacityArea)
         .on('mouseover', function(d, i) {

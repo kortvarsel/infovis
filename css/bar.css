@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-.bar1{fill:rgb(17, 65, 17);}
-.bar2 { fill: 	#1a5c96; }
-.bar3 { fill: rgb(99, 99, 99); }
-.bar4 { fill: rgb(139, 32, 32); }
-.bar5 { fill: rgb(194, 194, 26); }
-.bar6 { fill: rgb(45, 150, 139); }
-=======
+
 .bar1 {
     fill: #1AAA4D;
 
@@ -79,7 +72,6 @@
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
->>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
 
 div.tooltip1 {
     position: absolute;
