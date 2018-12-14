@@ -161,10 +161,10 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
     var screenWidth = $(window).innerWidth(),
         mobileScreen = (screenWidth > 500 ? false : true);
 
-    var margin_c = { left: 80, top: 0, right: 10, bottom: 10 },
+    var margin_c = { left: 80, top: 0, right: 10, bottom: 0 },
         width_c = 420,
         //Math.min(screenWidth, 800) - margin_c.left - margin.right,
-        height_c = 420;
+        height_c = 440;
     //(mobileScreen ? 300 : Math.min(screenWidth, 800)*5/6) - margin_c.top - margin_c.bottom;
 
     var svg = d3.select("#chord").append("svg")
@@ -322,7 +322,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
                 (d.angle > Math.PI ? "rotate(180)" : "")
         })
         .text(function(d, i) { return Names[i]; })
-        .call(wrapChord, 80);
+        .call(wrapChord, 88);
     ////////////////////////////////////////////////////////////
     //////////////////// Draw inner chords /////////////////////
     ////////////////////////////////////////////////////////////

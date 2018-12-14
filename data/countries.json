@@ -44,6 +44,17 @@
     "Political System": "Constitutional monarchy"
 },
 {
+    "Unemployment Rate": 4.0,
+    "GDP": 7500,
+    "Happiness Score": 5.752,
+    "Country": "Bolivia",
+    "Human Development Index": 0.693,
+    "Corruption Perception Index": 33,
+    "Gender Inequality Index": 0.758,
+    "iso3": "BOL",
+    "Political System": "Republic"
+},
+{
     "Unemployment Rate": 13.1,
     "GDP": 15600,
     "Happiness Score": 6.419,
@@ -107,6 +118,28 @@
     "Corruption Perception Index": 59,
     "Gender Inequality Index": 0.727,
     "iso3": "CRI",
+    "Political System": "Republic"
+},
+{
+    "Unemployment Rate": 9.6,
+    "GDP": 37000,
+    "Happiness Score": 5.762,
+    "Country": "Cyprus",
+    "Human Development Index": 0.869,
+    "Corruption Perception Index": 57,
+    "Gender Inequality Index": 0.684,
+    "iso3": "CYP",
+    "Political System": "Republic"
+},
+{
+    "Unemployment Rate": 2.8,
+    "GDP": 35500,
+    "Happiness Score": 6.711,
+    "Country": "Czech Republic",
+    "Human Development Index": 0.888,
+    "Corruption Perception Index": 57,
+    "Gender Inequality Index": 0.688,
+    "iso3": "CZE",
     "Political System": "Republic"
 },
 {
@@ -613,38 +646,5 @@
     "Corruption Perception Index": 35,
     "Gender Inequality Index": 0.698,
     "iso3": "VNM",
-    "Political System": "Republic"
-},
-{
-    "Unemployment Rate": 4.0,
-    "GDP": 7500,
-    "Happiness Score": 5.752,
-    "Country": "Bolivia",
-    "Human Development Index": 0.693,
-    "Corruption Perception Index": 33,
-    "Gender Inequality Index": 0.758,
-    "iso3": "BOL",
-    "Political System": "Republic"
-},
-{
-    "Unemployment Rate": 9.6,
-    "GDP": 37000,
-    "Happiness Score": 5.762,
-    "Country": "Cyprus",
-    "Human Development Index": 0.869,
-    "Corruption Perception Index": 57,
-    "Gender Inequality Index": 0.684,
-    "iso3": "CYP",
-    "Political System": "Republic"
-},
-{
-    "Unemployment Rate": 2.8,
-    "GDP": 35500,
-    "Happiness Score": 6.711,
-    "Country": "Czech Republic",
-    "Human Development Index": 0.888,
-    "Corruption Perception Index": 57,
-    "Gender Inequality Index": 0.688,
-    "iso3": "CZE",
     "Political System": "Republic"
 }]

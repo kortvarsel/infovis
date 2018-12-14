@@ -1,10 +1,11 @@
 .bord {
-    border: 5px;
+    border: 1px;
     border-color: black;
-    border-style: solid;
+    border-style: none;
 }
 body {
     background-color: #494949;
+    height: 100%;
 }
 
 svg {
@@ -13,5 +14,5 @@ svg {
 }
 .btn {
     width: 60px;
-    height: 55px;
+    height: 40px;
 }
