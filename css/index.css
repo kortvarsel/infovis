@@ -4,18 +4,18 @@
           -ms-transition: left 0.5s ease;
           -o-transition: left 0.5s ease;
           transition: left 0.5s ease;
-          background: #28dde0;
           color: white;
           cursor: pointer;
           font-size: 2rem;
-          height: 100vh;
-          left: -20rem;
+          height: 65vh;
+          left: -15rem;
           padding: 6rem 2rem 2rem 2rem;
           position: fixed;
           top: 0;
-          width: 20rem;
+          width: 15rem;
           z-index: 1;
           overflow:scroll;
+          font-size: 20px;
         }
 
 .expanded { left: 0; }
@@ -36,4 +36,10 @@
     width: 3.6rem;
     z-index: 2;
 }
+<<<<<<< HEAD
 
+=======
+* {
+    background-color:black;
+}
+>>>>>>> 1897a5bea5e070b5d2320af7a48865d119546ef3
