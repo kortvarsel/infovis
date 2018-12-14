@@ -1,7 +1,4 @@
 //dimensions graph
-
-
-
 var dataset_b;
 var margin_b = { top: 30, right: 10, bottom: 20, left: 70 },
     width_b = 400 - margin_b.left - margin_b.right,

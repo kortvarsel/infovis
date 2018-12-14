@@ -22,8 +22,8 @@ function donutChart(strUser) {
     // .call(donutChart()); // draw chart in div
 
     var width_a = 400,
-        height_a = 300,
-        margin_a = { top: 30, right: 20, bottom: 5, left: 80 },
+        height_a = 310,
+        margin_a = { top: 10, right: 20, bottom: 10, left: 80 },
         colour = d3.scaleOrdinal(d3.schemeCategory10), // colour scheme
         // compare data by
         padAngle = 0.03, // effectively dictates the gap between slices
@@ -50,7 +50,7 @@ function donutChart(strUser) {
         .attr('width', width_a + margin_a.left + margin_a.right)
         .attr('height', height_a + margin_a.top + margin_a.bottom)
         .append('g')
-        .attr('transform', 'translate(' + (width_a / 2 + margin_a.left) + ',' + (height_a / 2 - margin_a.bottom) + ')');
+        .attr('transform', 'translate(' + (width_a / 2 + margin_a.left) + ',' + (height_a / 2 - margin_a.bottom) + ')')
 
 
 
