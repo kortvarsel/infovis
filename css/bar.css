@@ -1,9 +1,9 @@
-.bar1{fill: green;}
-.bar2 { fill: 	#2171b5; }
-.bar3 { fill: grey; }
-.bar4 { fill: red; }
-.bar5 { fill: yellow; }
-.bar6 { fill: turquoise; }
+.bar1{fill:rgb(17, 65, 17);}
+.bar2 { fill: 	#1a5c96; }
+.bar3 { fill: rgb(99, 99, 99); }
+.bar4 { fill: rgb(139, 32, 32); }
+.bar5 { fill: rgb(194, 194, 26); }
+.bar6 { fill: rgb(45, 150, 139); }
 
 div.tooltip1 {
   position: absolute;
