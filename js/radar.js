@@ -32,9 +32,53 @@ d3.json('../data/audience.json', function(data) {
         }
 
     ];
-   
+    /*[ //Samsung
+        { axis: "GDP", value: 0.27 },
+        { axis: "Happiness Score", value: 0.16 },
+        { axis: "Human Development Index", value: 0.35 },
+        { axis: "Gender Inequality Index", value: 0.13 },
+        { axis: "Corruption Perception Index", value: 0.20 },
+        { axis: "Unemployment Rate", value: 0.13 }
+    ],
+    [ //Nokia Smartphone
+        { axis: "GDP", value: 0.26 },
+        { axis: "Happiness Score", value: 0.10 },
+        { axis: "Human Development Index", value: 0.30 },
+        { axis: "Gender Inequality Index", value: 0.14 },
+        { axis: "Corruption Perception Index", value: 0.22 },
+        { axis: "Unemployment Rate", value: 0.04 }
+    ]*/
 
 
+
+    /*var data_r = [
+        //iPhone
+        {
+            "GDP": 500,
+            "Happiness Score": 234,
+            "Human Development Index": 45,
+            "Gender Inequality Index": 234,
+            "Corruption Perception Index": 45,
+            "Unemployment Rate": 234
+        },
+         {
+            "GDP": 300,
+            "Happiness Score": 134,
+            "Human Development Index": 125,
+            "Gender Inequality Index": 134,
+            "Corruption Perception Index": 245,
+            "Unemployment Rate": 134
+        }
+    ];*/
+    var radarChartOptions = {
+        w: width_r,
+        h: height_r,
+        margin: margin_r,
+        //maxValue: 0.5,
+        levels: 2,
+        roundStrokes: true,
+        color: color
+    };
     RadarChart("#RadarChart", data_r, radarChartOptions);
 });
 
@@ -47,15 +91,6 @@ d3.json('../data/audience.json', function(data) {
 var color = d3.scaleOrdinal()
     .range(["#EDC951", "#CC333F", "#00A0B0"]);
 
-var radarChartOptions = {
-    w: width_r,
-    h: height_r,
-    margin_r: margin_r,
-    //maxValue: 0.5,
-    levels: 2,
-    roundStrokes: true,
-    color: color
-};
 //Call function to draw the Radar chart
 
 
@@ -209,7 +244,6 @@ function RadarChart(id, data, options) {
         .attr("x1", 0)
         .attr("y1", 0)
         .attr("x2", function(d, i) {
-
             if (d == 'GDP') { return rScale1(maxValue1 * 1.1) * Math.cos(angleSlice * i - Math.PI / 2); } else
             if (d == 'Happiness Score') { return rScale2(maxValue2 * 1.1) * Math.cos(angleSlice * i - Math.PI / 2); } else
             if (d == 'Human Development Index') { return rScale3(maxValue3 * 1.1) * Math.cos(angleSlice * i - Math.PI / 2); } else
@@ -248,22 +282,20 @@ function RadarChart(id, data, options) {
     //The radial line function
     var radarLine = d3.lineRadial()
         .curve(d3.curveCardinalClosed)
-        .radius(function(d) { return rScale1(d.GDP)
-          
-           /* if (i == 0) { return rScale1(d.GDP) } else
+        .radius(function(d) {
+          console.log("hej")
+            if (i == 0) { return rScale1(d.GDP) } else
             if (i == 1) { return rScale2(d['Happiness Score']) } else
             if (i == 2) { return rScale3(d['Human Development Index']) } else
             if (i == 3) { return rScale4(d['Gender Inequality Index']) } else
             if (i == 4) { return rScale5(d['Corruption Perception Index']) } else
-            if (i == 5) { return rScale6(d['Unemployment Rate']) }*/
+            if (i == 5) { return rScale6(d['Unemployment Rate']) }
         })
         .angle(function(d, i) { return i * angleSlice; });
-var finalArray = data.map(function (obj) {
-  return {GDP: obj.GDP, ['Happiness Score']: obj['Happiness Score'],['Human Development Index']: obj['Human Development Index'], ['Gender Inequality Index']: obj['Gender Inequality Index'],['Corruption Perception Index']: obj['Corruption Perception Index'], ['Unemployment Rate']:obj['Unemployment Rate']};
-});
 
-console.log(finalArray);
-console.log(radarLine(finalArray[0]));
+        console.log(radarLine(function(d){return rScale1(d.GDP)}))
+        console.log(rScale1(data[0].GDP))
+    //console.log(radarLine(data.GDP));
 
     //Create a wrapper for the blobs  
     var blobWrapper = g.selectAll(".radarWrapper")
@@ -275,8 +307,7 @@ console.log(radarLine(finalArray[0]));
     blobWrapper
         .append("path")
         .attr("class", "radarArea")
-        .attr("d", function(d){return radarLine(d)})
-        
+        .attr("d", function(d){console.log(d); return radarLine(d)})
         .style("fill", function(d, i) { return cfg.color(i); })
         .style("fill-opacity", cfg.opacityArea)
         .on('mouseover', function(d, i) {
