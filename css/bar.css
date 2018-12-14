@@ -33,56 +33,66 @@
 
 .bar1:hover {
     animation-name: green1;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
 }
 
 .bar2:hover {
     animation-name: green2;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar3:hover {
     animation-name: green3;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar4:hover {
     animation-name: green4;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar5:hover {
     animation-name: green5;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar6:hover {
     animation-name: green6;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
+}
+
+.pathC:hover {
+    animation-name: chord;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+        
 }
 
 div.tooltip1 {
     position: absolute;
     text-align: center;
+    color:#F1F1F1;
     width: 200px;
     height: 32px;
     padding: 2px;
     font: 12px sans-serif;
-    background: lightsteelblue;
-    border: 0px;
-    border-radius: 8px;
+    background: #494949;
+    border: 1px;
+    border-color: #F1F1F1;
+    border-style: solid;
+    border-radius: 30px;
     pointer-events: none;
 }
 
@@ -96,10 +106,24 @@ path.slice:hover {
 @keyframes aster {
     from {
         fill: #29FE75;
+        stroke:#29FE75;
     }
 
     to {
         fill: #1AAA4D;
+        stroke:#1AAA4D;
+    }
+}
+
+@keyframes chord {
+    from {
+        fill: #29FE75;
+        stroke:#29FE75;
+    }
+
+    to {
+        fill: #1AAA4D;
+        stroke:#1AAA4D;
     }
 }
 
@@ -109,7 +133,7 @@ path.slice:hover {
     }
 
     to {
-        fill: green;
+        fill: #31a354;
     }
 }
 
@@ -119,7 +143,7 @@ path.slice:hover {
     }
 
     to {
-        fill: #2171b5;
+        fill: #3182bd;
     }
 }
 
@@ -129,7 +153,7 @@ path.slice:hover {
     }
 
     to {
-        fill: grey;
+        fill: #636363;
     }
 }
 
@@ -139,7 +163,7 @@ path.slice:hover {
     }
 
     to {
-        fill: red;
+        fill: #de2d26;
     }
 }
 
@@ -149,7 +173,7 @@ path.slice:hover {
     }
 
     to {
-        fill: yellow;
+        fill: #e6550d;
     }
 }
 
@@ -159,6 +183,6 @@ path.slice:hover {
     }
 
     to {
-        fill: turquoise;
+        fill: #756bb1;
     }
 }

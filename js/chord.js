@@ -179,7 +179,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
     var outerRadius = Math.min(width_c, height_c) / 2 - (mobileScreen ? 80 : 50),
         innerRadius = outerRadius * 0.85,
         opacityDefault = 1, //default opacity of chords
-        opacityLow = 0.02; //hover opacity of those chords not hovered over
+        opacityLow = 0; //hover opacity of those chords not hovered over
 
     //How many pixels should the two halves be pulled apart
     var pullOutSize = 20;
@@ -226,7 +226,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .attr("stop-color", "#1AAA4D");
     linearGradient.append("stop")
         .attr("offset", "15%")
-        .attr("stop-color", "#8E8E8E");
+        .attr("stop-color", "#C1C1C1");
    
  
 
@@ -289,7 +289,9 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .on("mouseout", fade(opacityDefault));
 
     g.append("path")
-        .style("stroke", function(d, i) {return (Names[i] === "" ? "none" : "#252525"); })
+    .attr("class", "pathC")
+        .style("stroke", function(d, i) {return (Names[i] === "" ? "none" : "F1F1F1"); })
+        .style("stroke-width", 0.3)
         .style("fill", function(d, i) { return (Names[i] === "" ? "none" : "#252525"); })
         .style("pointer-events", function(d, i) { return (Names[i] === "" ? "none" : "auto"); })
         .attr("d", arc)
@@ -309,18 +311,18 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .each(function(d) { d.angle = ((d.startAngle + d.endAngle) / 2) + offset; })
         .attr("dy", ".35em")
         .attr("class", "titles")
-        .style("font-size", "0.5em")
+        .style("font-size", "0.7em")
+        .style("fill", "#F1F1F1")
         .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
         .attr("transform", function(d, i) {
             var c = arc.centroid(d);
             return "translate(" + (c[0] + d.pullOutSize) + "," + c[1] + ")" +
                 "rotate(" + (d.angle * 180 / Math.PI - 90) + ")" +
-                "translate(" + 20 + ",0)" +
+                "translate(" + 25 + ",0)" +
                 (d.angle > Math.PI ? "rotate(180)" : "")
         })
         .text(function(d, i) { return Names[i]; })
-        .call(wrapChord, 100);
-
+        .call(wrapChord, 80);
     ////////////////////////////////////////////////////////////
     //////////////////// Draw inner chords /////////////////////
     ////////////////////////////////////////////////////////////
@@ -331,7 +333,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .attr("class", "chord")
         .style("stroke", "none")
         .style("fill", "url(#animatedGradient)") //An SVG Gradient to give the impression of a flow from left to right
-        .style("opacity", function(d) { return (Names[d.source.index] === "" ? 0 : opacityDefault); }) //Make the dummy strokes have a zero opacity (invisible)
+        .style("opacity", function(d) {return (Names[d.source.index] === "" ? 0 : opacityDefault); }) //Make the dummy strokes have a zero opacity (invisible)
         .style("pointer-events", function(d, i) { return (Names[d.source.index] === "" ? "none" : "auto"); }) //Remove pointer events from dummy strokes
         .attr("d", path)
         .on("mouseover", fadeOnChord)
@@ -385,7 +387,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
             while (word = words.pop()) {
                 line.push(word);
                 tspan.text(line.join(" "));
-                if (tspan.node().getComputedTextLength() > width_c) {
+                if (tspan.node().getComputedTextLength() > width) {
                     line.pop();
                     tspan.text(line.join(" "));
                     line = [word];

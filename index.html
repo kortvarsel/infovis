@@ -18,21 +18,21 @@
     <div class="container-fluid h-100">
         <div class="row text-center">
             <div id="header" class="col-12">
-                <h1><strong>Spotifys Top10 around the World</strong></h1>
+                <h1 style="color:#F1F1F1;"><strong>Spotifys Top10 around the World</strong></h1>
             </div>
         </div>
         <div class="row h-100">
-            <button id="menuButton" onclick="switchIt()">Click</button>
+            <button id="menuButton" onclick="switchIt()" style="color:#F1F1F1;">Country</button>
             <div id="menu" class="nav"><ul id="content"></ul></div>
             <div class="bord col-lg-5" id="chord"></div>
             <div class="col-lg-6" id="map"></div>
             <div class="col-lg-1" id="menu">
-                <button onclick="update('GDP',colorbrewer.Greens[8]);" type="button" class="btn btn-outline-success">GDP</button>
-                <button onclick="update('Corruption Perception Index',colorbrewer.Blues[8]);" type="button" class="btn btn-outline-primary">CPI</button>
-                <button onclick="update('Human Development Index',colorbrewer.Greys[8]);" type="button" class="btn btn-outline-secondary">HDI</button>
-                <button onclick="update('Gender Inequality Index',colorbrewer.Reds[8]);" type="button" class="btn btn-outline-danger">GII</button>
-                <button onclick="update('Unemployment Rate',colorbrewer.Oranges[8]);" type="button" class="btn btn-outline-warning">UER</button>
-                <button onclick="update('Happiness Score',colorbrewer.Purples[8]);" type="button" class="btn btn-outline-info">HS</button>
+                <button onclick="update('GDP',colorbrewer.Greens[6]);" type="button" class="btn button_gdp">GDP</button>
+                <button onclick="update('Corruption Perception Index',colorbrewer.Blues[6]);" type="button" class="btn button_cpi">CPI</button>
+                <button onclick="update('Human Development Index',colorbrewer.Greys[6]);" type="button" class="btn button_hdi">HDI</button>
+                <button onclick="update('Gender Inequality Index',colorbrewer.Reds[6]);" type="button" class="btn button_gii">GII</button>
+                <button onclick="update('Unemployment Rate',colorbrewer.Oranges[6]);" type="button" class="btn button_uer">UER</button>
+                <button onclick="update('Happiness Score',colorbrewer.Purples[6]);" type="button" class="btn button_hs">HS</button>
             </div>
         </div>
         <div class="row h-100">
