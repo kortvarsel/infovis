@@ -49,7 +49,8 @@ $.getJSON('../data/countries.json', function(data) {
     $.each(data, function(key, entry) {
         $('#content').append($('<li>')
                 .attr('value', entry.iso3)
-                .html(entry.Country));;
+                .html(entry.Country)
+                .attr('onclick', "updateLife("+"'"+entry.iso3+"'"+")"));;
     })
 });
 var newCountry = "POR"

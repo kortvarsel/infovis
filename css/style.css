@@ -11,3 +11,7 @@ svg {
 
 	fill: rgb(41, 39, 39);
 }
+.btn {
+    width: 60px;
+    height: 55px;
+}
