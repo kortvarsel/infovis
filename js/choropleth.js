@@ -21,7 +21,7 @@ function generateMap(value,color){
         .geofile('/lib/d3-geomap/topojson/world/countries.json')
         .colors(color)
         .column(value)
-        .width(820)
+        .width(750)
         .format(format)
         .legend(true)
         .unitId('iso3');
@@ -61,4 +61,4 @@ function switchIt(){
     }
 
 }
-update('GDP', colorbrewer.Greens[8])
+update('GDP', colorbrewer.Greens[6])

@@ -70,8 +70,17 @@ function donutChart(strUser) {
                 .attr('class', "slice")
                 .attr('fill', "#252525" )//function(d) { return colour(d.data['Pos']); })
                 .attr('d', arc)
-                .style('stroke', "#252525")
+                .style('stroke', "FFFFF0")
                 .style('stroke-width', 2);
+
+
+  svg.append('circle')
+                .attr('class', 'defaultCircle')
+                .attr('r', radius * 0.61) // radius of tooltip circle
+                .style('fill', '#FFFFF0') // colour based on category mouse is over
+                .style('fill-opacity', 0.9)
+                .style('stroke', "#252525")
+                .style('stroke-width', 4);
 
 
             svg.append('text')
@@ -79,25 +88,20 @@ function donutChart(strUser) {
                 .attr('dy', 12) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
                 .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
                 .style('font-size', '2.5em')
+                .style('opacity', 0.9)
                 .style('text-anchor', 'middle'); // centres text in tooltip
 
 
 
-            svg.append('circle')
-                .attr('class', 'defaultCircle')
-                .attr('r', radius * 0.61) // radius of tooltip circle
-                .style('fill', '#FFFFF0') // colour based on category mouse is over
-                .style('fill-opacity', 0.4)
-                .style('stroke', "#383838")
-                .style('stroke-width', 4);
+          
 
 svg.append('circle')
                 .attr('class', 'outline Circle')
                 .attr('r', radius * 0.94) // radius of tooltip circle
                 .style('fill', 'none') // colour based on category mouse is over
        
-                .style('stroke', "#FFFFFF")
-                .style('stroke-width', 4);
+                //.style('stroke', "#F1F1F1")
+                .style('stroke-width', 0.8);
 
             // add tooltip to mouse events on slices and labels
             d3.selectAll('.labelName text, .slices path').call(toolTip);
@@ -108,20 +112,23 @@ svg.append('circle')
                 // add tooltip (svg circle element) when mouse enters label or slice
                 selection.on('mouseenter', function(data) {
                     d3.selectAll('.defaultCircle').remove();
-                    svg.append('text')
-                        .attr('class', 'toolCircle')
-                        .attr('dy', 0) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
-                        .html(toolTipHTML(data)) // add text to the circle.
-                        .style('font-size', '1em')
-                        .style('text-anchor', 'middle'); // centres text in tooltip
+                    
 
                     svg.append('circle')
                         .attr('class', 'toolCircle')
                         .attr('r', radius * 0.61) // radius of tooltip circle
                         .style('fill', colour(data.data['Pos'])) // colour based on category mouse is over
-                        .style('fill-opacity', 0.4)
-                        .style('stroke', "#383838")
+                        .style('fill-opacity', 0.9)
+                        .style('stroke', "#252525")
                         .style('stroke-width', 4);
+
+                        svg.append('text')
+                        .attr('class', 'toolCircle')
+                        .attr('dy', 0) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+                        .html(toolTipHTML(data)) // add text to the circle.
+                        .style('font-size', '1em')
+                        .style('opacity', 0.9)
+                        .style('text-anchor', 'middle'); // centres text in tooltip
 
                 });
 
@@ -130,20 +137,23 @@ svg.append('circle')
 
                     d3.selectAll('.toolCircle').remove();
 
-                    svg.append('text')
-                        .attr('class', 'defaultCircle')
-                        .attr('dy', 12) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
-                        .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
-                        .style('font-size', '2.5em')
-                        .style('text-anchor', 'middle'); // centres text in tooltip
+                    
 
                     svg.append('circle')
                         .attr('class', 'defaultCircle')
                         .attr('r', radius * 0.61) // radius of tooltip circle
                         .style('fill', '#FFFFF0') // colour based on category mouse is over
-                        .style('fill-opacity', 0.4)
-                        .style('stroke', "#383838")
+                        .style('fill-opacity', 0.9)
+                        .style('stroke', "#252525")
                         .style('stroke-width', 4);
+
+                        svg.append('text')
+                        .attr('class', 'defaultCircle')
+                        .attr('dy', 12) // hard-coded. can adjust this to adjust text vertical alignment in tooltip
+                        .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
+                        .style('font-size', '2.5em')
+                        .style('opacity', 0.9)
+                        .style('text-anchor', 'middle'); // centres text in tooltip
 
                 });
             }
