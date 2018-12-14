@@ -1,7 +1,7 @@
 [
 {
     "Unemployment Rate": 8.1,
-    "GDP": 637717,
+    "GDP": 20900,
     "Happiness Score": 6.388,
     "Country": "Argentina",
     "Human Development Index": 0.825,
@@ -12,7 +12,7 @@
 },
 {
     "Unemployment Rate": 5.6,
-    "GDP": 1379548,
+    "GDP": 50300,
     "Happiness Score": 7.272,
     "Country": "Australia",
     "Human Development Index": 0.939,
@@ -23,7 +23,7 @@
 },
 {
     "Unemployment Rate": 5.4,
-    "GDP": 416845,
+    "GDP": 49900,
     "Happiness Score": 7.139,
     "Country": "Austria",
     "Human Development Index": 0.908,
@@ -34,7 +34,7 @@
 },
 {
     "Unemployment Rate": 7.5,
-    "GDP": 494733,
+    "GDP": 46600,
     "Happiness Score": 6.927,
     "Country": "Belgium",
     "Human Development Index": 0.916,
@@ -45,7 +45,7 @@
 },
 {
     "Unemployment Rate": 13.1,
-    "GDP": 2054969,
+    "GDP": 15600,
     "Happiness Score": 6.419,
     "Country": "Brazil",
     "Human Development Index": 0.759,
@@ -56,7 +56,7 @@
 },
 {
     "Unemployment Rate": 6.6,
-    "GDP": 56943,
+    "GDP": 21700,
     "Happiness Score": 4.933,
     "Country": "Bulgaria",
     "Human Development Index": 0.813,
@@ -67,7 +67,7 @@
 },
 {
     "Unemployment Rate": 6.5,
-    "GDP": 1652412,
+    "GDP": 48300,
     "Happiness Score": 7.328,
     "Country": "Canada",
     "Human Development Index": 0.926,
@@ -78,7 +78,7 @@
 },
 {
     "Unemployment Rate": 7.0,
-    "GDP": 277042,
+    "GDP": 24500,
     "Happiness Score": 6.476,
     "Country": "Chile",
     "Human Development Index": 0.843,
@@ -89,7 +89,7 @@
 },
 {
     "Unemployment Rate": 9.3,
-    "GDP": 309197,
+    "GDP": 14500,
     "Happiness Score": 6.26,
     "Country": "Colombia",
     "Human Development Index": 0.747,
@@ -100,7 +100,7 @@
 },
 {
     "Unemployment Rate": 8.1,
-    "GDP": 58056,
+    "GDP": 16900,
     "Happiness Score": 7.072,
     "Country": "Costa Rica",
     "Human Development Index": 0.794,
@@ -111,7 +111,7 @@
 },
 {
     "Unemployment Rate": 5.8,
-    "GDP": 324484,
+    "GDP": 49900,
     "Happiness Score": 7.555,
     "Country": "Denmark",
     "Human Development Index": 0.929,
@@ -122,7 +122,7 @@
 },
 {
     "Unemployment Rate": 5.5,
-    "GDP": 75018,
+    "GDP": 16900,
     "Happiness Score": 5.302,
     "Country": "Dominican Republic",
     "Human Development Index": 0.736,
@@ -133,7 +133,7 @@
 },
 {
     "Unemployment Rate": 5.1,
-    "GDP": 102311,
+    "GDP": 11500,
     "Happiness Score": 5.973,
     "Country": "Ecuador",
     "Human Development Index": 0.752,
@@ -144,7 +144,7 @@
 },
 {
     "Unemployment Rate": 7.0,
-    "GDP": 28023,
+    "GDP": 8900,
     "Happiness Score": 6.167,
     "Country": "El Salvador",
     "Human Development Index": 0.674,
@@ -155,7 +155,7 @@
 },
 {
     "Unemployment Rate": 8.4,
-    "GDP": 25973,
+    "GDP": 31800,
     "Happiness Score": 5.739,
     "Country": "Estonia",
     "Human Development Index": 0.871,
@@ -166,7 +166,7 @@
 },
 {
     "Unemployment Rate": 8.7,
-    "GDP": 253244,
+    "GDP": 44300,
     "Happiness Score": 7.632,
     "Country": "Finland",
     "Human Development Index": 0.92,
@@ -177,7 +177,7 @@
 },
 {
     "Unemployment Rate": 9.5,
-    "GDP": 2583560,
+    "GDP": 43800,
     "Happiness Score": 6.489,
     "Country": "France",
     "Human Development Index": 0.901,
@@ -188,7 +188,7 @@
 },
 {
     "Unemployment Rate": 3.8,
-    "GDP": 3684816,
+    "GDP": 50400,
     "Happiness Score": 6.965,
     "Country": "Germany",
     "Human Development Index": 0.936,
@@ -199,7 +199,7 @@
 },
 {
     "Unemployment Rate": 22.3,
-    "GDP": 20069,
+    "GDP": 27700,
     "Happiness Score": 5.358,
     "Country": "Greece",
     "Human Development Index": 0.87,
@@ -210,7 +210,7 @@
 },
 {
     "Unemployment Rate": 2.4,
-    "GDP": 75661,
+    "GDP": 8100,
     "Happiness Score": 6.382,
     "Country": "Guatemala",
     "Human Development Index": 0.65,
@@ -221,7 +221,7 @@
 },
 {
     "Unemployment Rate": 5.9,
-    "GDP": 22975,
+    "GDP": 5600,
     "Happiness Score": 5.504,
     "Country": "Honduras",
     "Human Development Index": 0.617,
@@ -232,7 +232,7 @@
 },
 {
     "Unemployment Rate": 4.4,
-    "GDP": 152284,
+    "GDP": 29500,
     "Happiness Score": 5.62,
     "Country": "Hungary",
     "Human Development Index": 0.838,
@@ -243,7 +243,7 @@
 },
 {
     "Unemployment Rate": 2.8,
-    "GDP": 23909,
+    "GDP": 51800,
     "Happiness Score": 7.495,
     "Country": "Iceland",
     "Human Development Index": 0.935,
@@ -254,7 +254,7 @@
 },
 {
     "Unemployment Rate": 5.4,
-    "GDP": 1015411,
+    "GDP": 12400,
     "Happiness Score": 5.093,
     "Country": "Indonesia",
     "Human Development Index": 0.694,
@@ -265,7 +265,7 @@
 },
 {
     "Unemployment Rate": 6.4,
-    "GDP": 333994,
+    "GDP": 75500,
     "Happiness Score": 6.977,
     "Country": "Ireland",
     "Human Development Index": 0.938,
@@ -276,7 +276,7 @@
 },
 {
     "Unemployment Rate": 4.3,
-    "GDP": 350609,
+    "GDP": 36300,
     "Happiness Score": 7.19,
     "Country": "Israel",
     "Human Development Index": 0.903,
@@ -287,7 +287,7 @@
 },
 {
     "Unemployment Rate": 11.4,
-    "GDP": 1937894,
+    "GDP": 38100,
     "Happiness Score": 6.0,
     "Country": "Italy",
     "Human Development Index": 0.88,
@@ -298,7 +298,7 @@
 },
 {
     "Unemployment Rate": 2.9,
-    "GDP": 4872135,
+    "GDP": 42800,
     "Happiness Score": 5.915,
     "Country": "Japan",
     "Human Development Index": 0.909,
@@ -309,7 +309,7 @@
 },
 {
     "Unemployment Rate": 9.0,
-    "GDP": 30319,
+    "GDP": 27600,
     "Happiness Score": 5.933,
     "Country": "Latvia",
     "Human Development Index": 0.847,
@@ -320,7 +320,7 @@
 },
 {
     "Unemployment Rate": 7.0,
-    "GDP": 47263,
+    "GDP": 32300,
     "Happiness Score": 5.952,
     "Country": "Lithuania",
     "Human Development Index": 0.858,
@@ -331,7 +331,7 @@
 },
 {
     "Unemployment Rate": 5.9,
-    "GDP": 62393,
+    "GDP": 106300,
     "Happiness Score": 6.91,
     "Country": "Luxembourg",
     "Human Development Index": 0.904,
@@ -342,7 +342,7 @@
 },
 {
     "Unemployment Rate": 3.4,
-    "GDP": 314497,
+    "GDP": 29000,
     "Happiness Score": 6.322,
     "Country": "Malaysia",
     "Human Development Index": 0.802,
@@ -353,7 +353,7 @@
 },
 {
     "Unemployment Rate": 4.4,
-    "GDP": 12011,
+    "GDP": 42000,
     "Happiness Score": 6.627,
     "Country": "Malta",
     "Human Development Index": 0.878,
@@ -364,7 +364,7 @@
 },
 {
     "Unemployment Rate": 3.6,
-    "GDP": 1149236,
+    "GDP": 19900,
     "Happiness Score": 6.488,
     "Country": "Mexico",
     "Human Development Index": 0.774,
@@ -375,7 +375,7 @@
 },
 {
     "Unemployment Rate": 5.1,
-    "GDP": 825745,
+    "GDP": 53600,
     "Happiness Score": 7.441,
     "Country": "Netherlands",
     "Human Development Index": 0.931,
@@ -397,7 +397,7 @@
 },
 {
     "Unemployment Rate": 6.5,
-    "GDP": 13692,
+    "GDP": 5800,
     "Happiness Score": 6.141,
     "Country": "Nicaragua",
     "Human Development Index": 0.658,
@@ -408,7 +408,7 @@
 },
 {
     "Unemployment Rate": 4.0,
-    "GDP": 396457,
+    "GDP": 71800,
     "Happiness Score": 7.594,
     "Country": "Norway",
     "Human Development Index": 0.953,
@@ -430,7 +430,7 @@
 },
 {
     "Unemployment Rate": 6.5,
-    "GDP": 29619,
+    "GDP": 9800,
     "Happiness Score": 5.681,
     "Country": "Paraguay",
     "Human Development Index": 0.702,
@@ -441,7 +441,7 @@
 },
 {
     "Unemployment Rate": 6.7,
-    "GDP": 215224,
+    "GDP": 13300,
     "Happiness Score": 5.663,
     "Country": "Peru",
     "Human Development Index": 0.75,
@@ -452,7 +452,7 @@
 },
 {
     "Unemployment Rate": 6.0,
-    "GDP": 313419,
+    "GDP": 8300,
     "Happiness Score": 5.524,
     "Country": "Philippines",
     "Human Development Index": 0.699,
@@ -463,7 +463,7 @@
 },
 {
     "Unemployment Rate": 4.8,
-    "GDP": 524886,
+    "GDP": 29500,
     "Happiness Score": 6.123,
     "Country": "Poland",
     "Human Development Index": 0.865,
@@ -474,7 +474,7 @@
 },
 {
     "Unemployment Rate": 9.7,
-    "GDP": 218064,
+    "GDP": 30400,
     "Happiness Score": 5.41,
     "Country": "Portugal",
     "Human Development Index": 0.847,
@@ -485,7 +485,7 @@
 },
 {
     "Unemployment Rate": 5.3,
-    "GDP": 211315,
+    "GDP": 24500,
     "Happiness Score": 5.945,
     "Country": "Romania",
     "Human Development Index": 0.811,
@@ -496,7 +496,7 @@
 },
 {
     "Unemployment Rate": 2.2,
-    "GDP": 323902,
+    "GDP": 93900,
     "Happiness Score": 6.343,
     "Country": "Singapore",
     "Human Development Index": 0.932,
@@ -507,7 +507,7 @@
 },
 {
     "Unemployment Rate": 8.1,
-    "GDP": 95938,
+    "GDP": 33000,
     "Happiness Score": 6.173,
     "Country": "Slovakia",
     "Human Development Index": 0.855,
@@ -518,7 +518,7 @@
 },
 {
     "Unemployment Rate": 17.1,
-    "GDP": 1313951,
+    "GDP": 38300,
     "Happiness Score": 6.31,
     "Country": "Spain",
     "Human Development Index": 0.891,
@@ -529,7 +529,7 @@
 },
 {
     "Unemployment Rate": 6.6,
-    "GDP": 538575,
+    "GDP": 51500,
     "Happiness Score": 7.314,
     "Country": "Sweden",
     "Human Development Index": 0.933,
@@ -540,7 +540,7 @@
 },
 {
     "Unemployment Rate": 0.7,
-    "GDP": 455378,
+    "GDP": 17900,
     "Happiness Score": 6.072,
     "Country": "Thailand",
     "Human Development Index": 0.755,
@@ -551,7 +551,7 @@
 },
 {
     "Unemployment Rate": 11.2,
-    "GDP": 84948,
+    "GDP": 26900,
     "Happiness Score": 5.483,
     "Country": "Turkey",
     "Human Development Index": 0.791,
@@ -562,7 +562,7 @@
 },
 {
     "Unemployment Rate": 7.3,
-    "GDP": 58415,
+    "GDP": 22400,
     "Happiness Score": 6.379,
     "Country": "Uruguay",
     "Human Development Index": 0.804,
@@ -573,7 +573,7 @@
 },
 {
     "Unemployment Rate": 4.4,
-    "GDP": 2624529,
+    "GDP": 44100,
     "Happiness Score": 6.814,
     "Country": "United Kingdom",
     "Human Development Index": 0.922,
@@ -584,7 +584,7 @@
 },
 {
     "Unemployment Rate": 4.4,
-    "GDP": 19390600,
+    "GDP": 59500,
     "Happiness Score": 6.886,
     "Country": "United States of America",
     "Human Development Index": 0.924,
@@ -595,7 +595,7 @@
 },
 {
     "Unemployment Rate": 3.0,
-    "GDP": 678575,
+    "GDP": 61400,
     "Happiness Score": 7.487,
     "Country": "Switzerland",
     "Human Development Index": 0.944,
@@ -606,7 +606,7 @@
 },
 {
     "Unemployment Rate": 2.3,
-    "GDP": 220408,
+    "GDP": 6900,
     "Happiness Score": 5.103,
     "Country": "Vietnam",
     "Human Development Index": 0.694,
@@ -617,7 +617,7 @@
 },
 {
     "Unemployment Rate": 4.0,
-    "GDP": 37122,
+    "GDP": 7500,
     "Happiness Score": 5.752,
     "Country": "Bolivia",
     "Human Development Index": 0.693,
@@ -628,7 +628,7 @@
 },
 {
     "Unemployment Rate": 9.6,
-    "GDP": 2131,
+    "GDP": 37000,
     "Happiness Score": 5.762,
     "Country": "Cyprus",
     "Human Development Index": 0.869,
@@ -639,7 +639,7 @@
 },
 {
     "Unemployment Rate": 2.8,
-    "GDP": 213189,
+    "GDP": 35500,
     "Happiness Score": 6.711,
     "Country": "Czech Republic",
     "Human Development Index": 0.888,
