@@ -4,9 +4,9 @@
 //////////////////////// Set-Up ////////////////////////////// 
 ////////////////////////////////////////////////////////////// 
 
-var margin_r = { top: 10, right: 10, bottom: 10, left: 10 },
-    width_r = 280;
-height_r = 280;
+var margin_r = { top: 0, right: 10, bottom: 10, left:0 },
+    width_r = 400,
+height_r = 300;
 
 ////////////////////////////////////////////////////////////// 
 ////////////////////////// Data ////////////////////////////// 
@@ -32,6 +32,7 @@ d3.json('../data/audience.json', function(data) {
         }
 
     ];
+<<<<<<< HEAD
     /*[ //Samsung
         { axis: "GDP", value: 0.27 },
         { axis: "Happiness Score", value: 0.16 },
@@ -79,6 +80,11 @@ d3.json('../data/audience.json', function(data) {
         roundStrokes: true,
         color: color
     };
+=======
+   
+
+
+>>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
     RadarChart("#RadarChart", data_r, radarChartOptions);
 });
 
@@ -91,7 +97,19 @@ d3.json('../data/audience.json', function(data) {
 var color = d3.scaleOrdinal()
     .range(["#EDC951", "#CC333F", "#00A0B0"]);
 
+<<<<<<< HEAD
 
+=======
+var radarChartOptions = {
+    w: width_r,
+    h: height_r,
+    margin_r: margin_r,
+    //maxValue: 0.5,
+    levels: 2,
+    roundStrokes: true,
+    color: color
+};
+>>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
 //Call function to draw the Radar chart
 
 
@@ -107,18 +125,18 @@ var color = d3.scaleOrdinal()
 
 function RadarChart(id, data, options) {
     var cfg = {
-        w: 20, //Width of the circle
-        h: 20, //Height of the circle
-        margin_r: { top: 10, right: 10, bottom: 10, left: 10 }, //The margins of the SVG
-        levels: 3, //How many levels or inner circles should there be drawn
-        //maxValue: 0, //What is the value that the biggest circle will represent
-        labelFactor: 1, //How much farther than the radius of the outer circle should the labels be placed
+        //w: 20000, //Width of the circle
+       // h: 20000, //Height of the circle
+        margin_r: { top: 0, right: 10, bottom: 10, left: 10 }, //The margins of the SVG
+        levels: 5, //How many levels or inner circles should there be drawn
+        maxValue: 0, //What is the value that the biggest circle will represent
+        labelFactor: 1.08, //How much farther than the radius of the outer circle should the labels be placed
         wrapWidth: 60, //The number of pixels after which a label needs to be given a new line
         opacityArea: 0.35, //The opacity of the area of the blob
         dotRadius: 4, //The size of the colored circles of each blog
         opacityCircles: 0.1, //The opacity of the circles of each blob
         strokeWidth: 1, //The width of the stroke around each blob
-        // roundStrokes: false, //If true the area and stroke will follow a round path (cardinal-closed)
+         roundStrokes: false, //If true the area and stroke will follow a round path (cardinal-closed)
         color: d3.schemeCategory10 //Color function
     };
 
@@ -141,7 +159,7 @@ function RadarChart(id, data, options) {
 
     var allAxis = ['GDP', 'Happiness Score', 'Human Development Index', 'Gender Inequality Index', 'Corruption Perception Index', 'Unemployment Rate'], //Names of each axis
         total = allAxis.length, //The number of different axes
-        radius = Math.min(cfg.w / 2, cfg.h / 2), //Radius of the outermost circle
+        radius = 0.8* Math.min(cfg.w / 2, cfg.h / 2), //Radius of the outermost circle
         //Format = d3.format('%'), //Percentage formatting
         angleSlice = Math.PI * 2 / total; //The width in radians of each "slice"
 
@@ -219,7 +237,7 @@ function RadarChart(id, data, options) {
         .style("filter", "url(#glow)");
 
     //Text indicating at what % each level is
-    axisGrid.selectAll(".axisLabel")
+    /*axisGrid.selectAll(".axisLabel")
         .data(d3.range(1, (cfg.levels + 1)).reverse())
         .enter().append("text")
         .attr("class", "axisLabel")
@@ -228,7 +246,7 @@ function RadarChart(id, data, options) {
         .attr("dy", "0.4em")
         .style("font-size", "10px")
         .attr("fill", "#737373")
-        .text(function(d, i) { return maxValue1 * d / cfg.levels; });
+        //.text(function(d, i) { return maxValue1 * d / cfg.levels; });*/
 
     /////////////////////////////////////////////////////////
     //////////////////// Draw the axes //////////////////////
@@ -308,7 +326,12 @@ function RadarChart(id, data, options) {
     blobWrapper
         .append("path")
         .attr("class", "radarArea")
+<<<<<<< HEAD
         .attr("d", function(d){console.log(d); return radarLine(d)})
+=======
+        .attr("d", function(d){return radarLine(d)})
+        
+>>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
         .style("fill", function(d, i) { return cfg.color(i); })
         .style("fill-opacity", cfg.opacityArea)
         .on('mouseover', function(d, i) {

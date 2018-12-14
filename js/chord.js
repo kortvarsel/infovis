@@ -157,26 +157,26 @@ function drawChord(country) {
 
     getArtist(country);
 
-
+var colour = d3.scaleOrdinal(d3.schemeCategory10);
 
     /////////
     var screenWidth = $(window).innerWidth(),
         mobileScreen = (screenWidth > 500 ? false : true);
 
-    var margin = { left: 10, top: 10, right: 10, bottom: 10 },
-        width_c = 500,
-        //Math.min(screenWidth, 800) - margin.left - margin.right,
-        height_c = 400;
-    //(mobileScreen ? 300 : Math.min(screenWidth, 800)*5/6) - margin.top - margin.bottom;
+    var margin_c = { left: 80, top: 0, right: 10, bottom: 10 },
+        width_c = 420,
+        //Math.min(screenWidth, 800) - margin_c.left - margin.right,
+        height_c = 420;
+    //(mobileScreen ? 300 : Math.min(screenWidth, 800)*5/6) - margin_c.top - margin_c.bottom;
 
     var svg = d3.select("#chord").append("svg")
-        .attr("width", (width_c + margin.left + margin.right))
-        .attr("height", (height_c + margin.top + margin.bottom));
+        .attr("width", (width_c + margin_c.left + margin_c.right))
+        .attr("height", (height_c + margin_c.top + margin_c.bottom));
 
 
 
     var wrapper = svg.append("g").attr("class", "chordWrapper")
-        .attr("transform", "translate(" + (width_c / 2 + margin.left) + "," + (height_c / 2 + margin.top) + ")");;
+        .attr("transform", "translate(" + (width_c / 2 + margin_c.left) + "," + (height_c / 2 + margin_c.top) + ")");;
 
     var outerRadius = Math.min(width_c, height_c) / 2 - (mobileScreen ? 80 : 50),
         innerRadius = outerRadius * 0.85,
@@ -184,7 +184,7 @@ function drawChord(country) {
         opacityLow = 0.02; //hover opacity of those chords not hovered over
 
     //How many pixels should the two halves be pulled apart
-    var pullOutSize = 15;
+    var pullOutSize = 20;
 
     //////////////////////////////////////////////////////
     //////////////////// Titles on top ///////////////////
@@ -207,12 +207,12 @@ function drawChord(country) {
         .attr("y2", "0")
         .attr("spreadMethod", "reflect");
 
-    linearGradient.append("animate")
+   linearGradient.append("animate")
         .attr("attributeName", "x1")
         .attr("values", "0%;100%")
         //  .attr("from","0%")
         //  .attr("to","100%")
-        .attr("dur", "7s")
+        .attr("dur", "1.8s")
         .attr("repeatCount", "indefinite");
 
     linearGradient.append("animate")
@@ -220,21 +220,26 @@ function drawChord(country) {
         .attr("values", "100%;200%")
         //  .attr("from","100%")
         //  .attr("to","200%")
-        .attr("dur", "7s")
+        .attr("dur", "1.8s")
         .attr("repeatCount", "indefinite");
 
     linearGradient.append("stop")
         .attr("offset", "5%")
-        .attr("stop-color", "#E8E8E8");
+        .attr("stop-color", "#1AAA4D");
     linearGradient.append("stop")
-        .attr("offset", "45%")
-        .attr("stop-color", "#A3A3A3");
-    linearGradient.append("stop")
+        .attr("offset", "15%")
+        .attr("stop-color", "#8E8E8E");
+   
+ 
+
+
+
+   /* linearGradient.append("stop")
         .attr("offset", "55%")
-        .attr("stop-color", "#A3A3A3");
+        .attr("stop-color", "grey");
     linearGradient.append("stop")
         .attr("offset", "95%")
-        .attr("stop-color", "#E8E8E8");
+        .attr("stop-color", "grey");*/
 
     ////////////////////////////////////////////////////////////
     ////////////////////////// Data ////////////////////////////
@@ -247,47 +252,7 @@ function drawChord(country) {
     ];*/
 
     var Names = temp_name;
-    //var Names = ["Country1", "Country2", "Country3", "Country4", "", "Artist1", "Artist2", "Artist3", ""];
-    //17533
-
-
-    /* var matrix = [
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 232, 65, 44, 57, 39, 123, 1373, 0], //Administratief personeel
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 0, 0, 11, 0, 0, 24, 0], //Ambachtslieden
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 173, 43, 52, 55, 36, 125, 2413, 0], //Bedrijfsbeheer (vak)specialisten
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 16, 13, 23, 10, 37, 54, 0], //Elementaire beroepen
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 161, 24, 17, 0, 2089, 85, 60, 0], //Gezondheidszorg (vak)specialisten
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 510, 0, 0, 57, 0, 0, 251, 0], //IT (vak)specialisten
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 16, 118, 10, 454, 99, 1537, 271, 0], //Juridisch en culturele (vak)specialisten
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 76, 21, 10, 15, 125, 41, 261, 0], //Leidinggevende functies
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 32, 2206, 37, 292, 32, 116, 76, 0], //Onderwijsgevenden
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 96, 74, 43, 116, 51, 135, 752, 0], //Verkopers en verleners persoonlijke diensten
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 15, 34, 0, 22, 27, 156, 36, 0], //Verzorgend personeel
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1141, 0, 111, 291, 0, 0, 48, 0], //Wetenschap en techniek (vak)specialisten
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 36, 0, 39, 0, 0, 20, 109, 0], //Other
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, emptyStroke], //dummyBottom
-         [232, 32, 173, 32, 161, 510, 16, 76, 32, 96, 15, 1141, 36, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Techniek
-         [65, 0, 43, 16, 24, 0, 118, 21, 2206, 74, 34, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Onderwijs
-         [44, 0, 52, 13, 17, 0, 10, 10, 37, 43, 0, 111, 39, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Landbouw
-         [57, 11, 55, 23, 0, 57, 454, 15, 292, 116, 22, 291, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Kunst, Taal en Cultuur
-         [39, 0, 36, 10, 2089, 0, 99, 125, 32, 51, 27, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Gezondheidszorg
-         [123, 0, 125, 37, 85, 0, 1537, 41, 116, 135, 156, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Gedrag & Maatschappij
-         [1373, 24, 2413, 54, 60, 251, 271, 261, 76, 752, 36, 48, 109, 0, 0, 0, 0, 0, 0, 0, 0, 0], //Economie
-         [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, emptyStroke, 0, 0, 0, 0, 0, 0, 0, 0] //dummyTop
-
-     ];*/
-
-    /* var matrix = [
-         [0, 0, 0, 0, 0, 1, 3, 4, 0], //country1
-         [0, 0, 0, 0, 0, 4, 5, 2, 0], //country2
-         [0, 0, 0, 0, 0, 1, 4, 3, 0], //country3
-         [0, 0, 0, 0, 0, 0, 3, 4, 0], //country4
-         [0, 0, 0, 0, 0, 0, 0, 0, emptyStroke], //dummy
-         [1, 4, 1, 0, 0, 0, 0, 0, 0], //artist1
-         [3, 5, 4, 3, 0, 0, 0, 0, 0], //artist2
-         [4, 2, 3, 4, 0, 0, 0, 0, 0], //artist3
-         [0, 0, 0, 0, emptyStroke, 0, 0, 0, 0] //dummy
-     ]*/
+   
 
     var matrix = datamatrix;
 
@@ -326,14 +291,15 @@ function drawChord(country) {
         .on("mouseout", fade(opacityDefault));
 
     g.append("path")
-        .style("stroke", function(d, i) { return (Names[i] === "" ? "none" : "#00A1DE"); })
-        .style("fill", function(d, i) { return (Names[i] === "" ? "none" : "#00A1DE"); })
+        .style("stroke", function(d, i) {return (Names[i] === "" ? "none" : "#252525"); })
+        .style("fill", function(d, i) { return (Names[i] === "" ? "none" : "#252525"); })
         .style("pointer-events", function(d, i) { return (Names[i] === "" ? "none" : "auto"); })
         .attr("d", arc)
         .attr("transform", function(d, i) { //Pull the two slices apart
             d.pullOutSize = pullOutSize * (d.startAngle + 0.001 > Math.PI ? -1 : 1);
             return "translate(" + d.pullOutSize + ',' + 0 + ")";
-        });
+        })
+
 
     ////////////////////////////////////////////////////////////
     ////////////////////// Append Names ////////////////////////
@@ -345,7 +311,7 @@ function drawChord(country) {
         .each(function(d) { d.angle = ((d.startAngle + d.endAngle) / 2) + offset; })
         .attr("dy", ".35em")
         .attr("class", "titles")
-        .style("font-size", mobileScreen ? "8px" : "10px")
+        .style("font-size", "0.5em")
         .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
         .attr("transform", function(d, i) {
             var c = arc.centroid(d);
@@ -372,6 +338,7 @@ function drawChord(country) {
         .attr("d", path)
         .on("mouseover", fadeOnChord)
         .on("mouseout", fade(opacityDefault));
+
 
     ////////////////////////////////////////////////////////////
     ////////////////// Extra Functions /////////////////////////

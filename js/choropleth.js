@@ -21,7 +21,7 @@ function generateMap(value,color){
         .geofile('/lib/d3-geomap/topojson/world/countries.json')
         .colors(color)
         .column(value)
-        .width(700)
+        .width(820)
         .format(format)
         .legend(true)
         .unitId('iso3');

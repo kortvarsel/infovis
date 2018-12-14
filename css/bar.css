@@ -1,32 +1,172 @@
+<<<<<<< HEAD
 .bar1{fill:rgb(17, 65, 17);}
 .bar2 { fill: 	#1a5c96; }
 .bar3 { fill: rgb(99, 99, 99); }
 .bar4 { fill: rgb(139, 32, 32); }
 .bar5 { fill: rgb(194, 194, 26); }
 .bar6 { fill: rgb(45, 150, 139); }
+=======
+.bar1 {
+    fill: #1AAA4D;
 
-div.tooltip1 {
-  position: absolute;
-  text-align: center;
-  width: 200px;
-  height: 32px;
-  padding: 2px;
-  font: 12px sans-serif;
-  background: lightsteelblue;
-  border: 0px;
-  border-radius: 8px;
-  pointer-events: none;
 }
 
-div.tooltip2 {
-  position: absolute;
-  text-align: center;
-  width: 200px;
-  height: 32px;
-  padding: 2px;
-  font: 12px sans-serif;
-  background: lightsteelblue;
-  border: 0px;
-  border-radius: 8px;
-  pointer-events: none;
+.bar2 {
+    fill: #1AAA4D;
+
+}
+
+.bar3 {
+    fill: #1AAA4D;
+
+}
+
+.bar4 {
+    fill: #1AAA4D;
+
+}
+
+.bar5 {
+    fill: #1AAA4D;
+
+}
+
+.bar6 {
+    fill: #1AAA4D;
+ 
+}
+
+
+
+.bar1:hover {
+    animation-name: green1;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+.bar2:hover {
+    animation-name: green2;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+}
+
+.bar3:hover {
+    animation-name: green3;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+}
+
+.bar4:hover {
+    animation-name: green4;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+}
+
+.bar5:hover {
+    animation-name: green5;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+}
+
+.bar6:hover {
+    animation-name: green6;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+        animation-timing-function: ease-in;
+}
+>>>>>>> 7351008b10787f86f47de4bf8349d9462d19770b
+
+div.tooltip1 {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 32px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: lightsteelblue;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+path.slice:hover {
+  animation-name: aster;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    fill: #1AAA4D;
+}
+
+@keyframes aster {
+    from {
+        fill: #29FE75;
+    }
+
+    to {
+        fill: #1AAA4D;
+    }
+}
+
+@keyframes green1 {
+    from {
+        fill: #29FE75;
+    }
+
+    to {
+        fill: green;
+    }
+}
+
+@keyframes green2 {
+    from {
+        fill: #29FE75;
+    }
+
+    to {
+        fill: #2171b5;
+    }
+}
+
+@keyframes green3 {
+    from {
+        fill: #29FE75;
+    }
+
+    to {
+        fill: grey;
+    }
+}
+
+@keyframes green4 {
+    from {
+        fill: #29FE75;
+    }
+
+    to {
+        fill: red;
+    }
+}
+
+@keyframes green5 {
+    from {
+        fill: #29FE75;
+    }
+
+    to {
+        fill: yellow;
+    }
+}
+
+@keyframes green6 {
+    from {
+        fill: #13F500;
+    }
+
+    to {
+        fill: turquoise;
+    }
 }
