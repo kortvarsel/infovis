@@ -56,20 +56,20 @@ function drawBar(strUser) {
     y6.domain([0, d3.max(dataset_b, function(d) { return d['Unemployment Rate'] })]);
 
 
- //Container for the gradients
-var defs = svg.append("defs");
+    //Container for the gradients
+    var defs = svg.append("defs");
 
-//Filter for the outside glow
-var filter = defs.append("filter")
-    .attr("id","glow");
-filter.append("feGaussianBlur")
-    .attr("stdDeviation","4")
-    .attr("result","coloredBlur");
-var feMerge = filter.append("feMerge");
-feMerge.append("feMergeNode")
-    .attr("in","coloredBlur");
-feMerge.append("feMergeNode")
-    .attr("in","SourceGraphic");
+    //Filter for the outside glow
+    var filter = defs.append("filter")
+        .attr("id", "glow");
+    filter.append("feGaussianBlur")
+        .attr("stdDeviation", "4")
+        .attr("result", "coloredBlur");
+    var feMerge = filter.append("feMerge");
+    feMerge.append("feMergeNode")
+        .attr("in", "coloredBlur");
+    feMerge.append("feMergeNode")
+        .attr("in", "SourceGraphic");
 
 
     var div = d3.select("body").append("div")
@@ -81,13 +81,13 @@ feMerge.append("feMergeNode")
         .data(dataset_b.filter(function(d) { return d.iso3 == strUser }))
         .enter()
 
-var formatGDP = d3.format(".2s");
+    //var formatGDP = d3.format(".2s");
 
     graph.append("rect")
 
         .attr("class", "bar1")
         .attr("x", function(d, i) { return 0 })
-        .attr("width", (x.bandwidth()-5))
+        .attr("width", (x.bandwidth() - 5))
         .attr("y", function(d, i) { return y1(d.GDP) })
         .attr("height", function(d, i) { return height_b - y1(d.GDP) })
         .style("filter", "url(#glow)")
@@ -96,8 +96,8 @@ var formatGDP = d3.format(".2s");
                 .duration(100)
                 .style("opacity", .9);
             div.html("GDP" + "<br/>" + d3.format(".2s")(d.GDP))
-                .style("left", (d3.event.pageX-100) + "px")
-                .style("top", (d3.event.pageY-50) + "px");
+                .style("left", (d3.event.pageX - 100) + "px")
+                .style("top", (d3.event.pageY - 50) + "px");
 
         })
         .on("mouseout", function(d) {
@@ -106,35 +106,34 @@ var formatGDP = d3.format(".2s");
                 .style("opacity", 0);
         });
 
-graph.append("rect")
+    graph.append("rect")
 
         .attr("class", "eq")
         .attr("x", function(d, i) { return 0 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return (y1(d.GDP)-7.5)})
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return (y1(d.GDP) - 7.5) })
         .attr("height", function(d, i) { return 5 })
         .style("fill", "FF0009")
-         .style("filter", "url(#glow)")
-         .style("opacity", "0.9");
-   
-   
+        .style("filter", "url(#glow)")
+        .style("opacity", "0.9");
 
 
 
     graph.append("rect")
         .attr("class", "bar2")
         .attr("x", function(d, i) { return 55 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return y2(d['Happiness Score']) })
-        .attr("height", function(d, i) { return height_b - y2(d['Happiness Score']) })
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return y5(d['Corruption Perception Index']) })
+        .attr("height", function(d, i) { return height_b - y5(d['Corruption Perception Index']) })
         .style("opacity", "0.90")
         .style("filter", "url(#glow)")
+        .style("stroke-opacity", "0.90")
         .on("mouseover", function(d) {
             div.transition()
                 .duration(100)
                 .style("opacity", .9);
-            div.html("Happiness Score" + "<br/>" + d3.format(".2f")(d['Happiness Score']))
-                .style("left", (d3.event.pageX -100) + "px")
+            div.html("Corruption Perception Index" + "<br/>" + d['Corruption Perception Index'])
+                .style("left", (d3.event.pageX - 100) + "px")
                 .style("top", (d3.event.pageY - 50) + "px");
         })
         .on("mouseout", function(d) {
@@ -144,22 +143,22 @@ graph.append("rect")
         });
 
 
-graph.append("rect")
+    graph.append("rect")
 
         .attr("class", "eq")
         .attr("x", function(d, i) { return 55 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return (y2(d['Happiness Score'])-7.5)})
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return (y5(d['Corruption Perception Index']) - 7.5) })
         .attr("height", function(d, i) { return 5 })
         .style("fill", "FF0009")
-         .style("filter", "url(#glow)")
-         .style("opacity", "0.90");
+        .style("filter", "url(#glow)")
+        .style("opacity", "0.90");
 
 
     graph.append("rect")
         .attr("class", "bar3")
         .attr("x", function(d, i) { return 110 })
-        .attr("width", (x.bandwidth()-5))
+        .attr("width", (x.bandwidth() - 5))
         .attr("y", function(d, i) { return y3(d['Human Development Index']) })
         .attr("height", function(d, i) { return height_b - y3(d['Human Development Index']) })
         .style("opacity", "0.90")
@@ -169,7 +168,7 @@ graph.append("rect")
                 .duration(100)
                 .style("opacity", .9);
             div.html("Human Development Index" + "<br/>" + d3.format(".2f")(d['Human Development Index']))
-                .style("left", (d3.event.pageX -100) + "px")
+                .style("left", (d3.event.pageX - 100) + "px")
                 .style("top", (d3.event.pageY - 50) + "px");
         })
         .on("mouseout", function(d) {
@@ -178,22 +177,25 @@ graph.append("rect")
                 .style("opacity", 0);
         });
 
-        graph.append("rect")
+    graph.append("rect")
 
         .attr("class", "eq")
         .attr("x", function(d, i) { return 110 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return (y3(d['Human Development Index'])-7.5)})
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return (y3(d['Human Development Index']) - 7.5) })
         .attr("height", function(d, i) { return 5 })
         .style("fill", "FF0009")
-         .style("filter", "url(#glow)")
-         .style("opacity", "0.90");
+        .style("filter", "url(#glow)")
+        .style("opacity", "0.90");
+
+
+
 
 
     graph.append("rect")
         .attr("class", "bar4")
         .attr("x", function(d, i) { return 165 })
-        .attr("width", (x.bandwidth()-5))
+        .attr("width", (x.bandwidth() - 5))
         .attr("y", function(d, i) { return y4(d['Gender Inequality Index']) })
         .attr("height", function(d, i) { return height_b - y4(d['Gender Inequality Index']) })
         .style("opacity", "0.90")
@@ -203,7 +205,7 @@ graph.append("rect")
                 .duration(100)
                 .style("opacity", .9);
             div.html("Gender Inequality Index" + "<br/>" + d3.format(".2f")(d['Gender Inequality Index']))
-                .style("left", (d3.event.pageX-100) + "px")
+                .style("left", (d3.event.pageX - 100) + "px")
                 .style("top", (d3.event.pageY - 50) + "px");
         })
         .on("mouseout", function(d) {
@@ -212,59 +214,25 @@ graph.append("rect")
                 .style("opacity", 0);
         });
 
-        graph.append("rect")
+    graph.append("rect")
 
         .attr("class", "eq")
         .attr("x", function(d, i) { return 165 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return (y4(d['Gender Inequality Index'])-7.5)})
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return (y4(d['Gender Inequality Index']) - 7.5) })
         .attr("height", function(d, i) { return 5 })
         .style("fill", "FF0009")
-         .style("filter", "url(#glow)")
-         .style("opacity", "0.90");
+        .style("filter", "url(#glow)")
+        .style("opacity", "0.90");
+
+
 
 
 
     graph.append("rect")
         .attr("class", "bar5")
         .attr("x", function(d, i) { return 220 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return y5(d['Corruption Perception Index']) })
-        .attr("height", function(d, i) { return height_b - y5(d['Corruption Perception Index']) })
-        .style("opacity", "0.90")
-        .style("filter", "url(#glow)")
-                 .style("stroke-opacity", "0.90")
-        .on("mouseover", function(d) {
-            div.transition()
-                .duration(100)
-                .style("opacity", .9);
-            div.html("Corruption Perception Index" + "<br/>" + d['Corruption Perception Index'])
-                .style("left", (d3.event.pageX-100) + "px")
-                .style("top", (d3.event.pageY - 50) + "px");
-        })
-        .on("mouseout", function(d) {
-            div.transition()
-                .duration(200)
-                .style("opacity", 0);
-        });
-
-
-graph.append("rect")
-
-        .attr("class", "eq")
-        .attr("x", function(d, i) { return 220 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return (y5(d['Corruption Perception Index'])-7.5)})
-        .attr("height", function(d, i) { return 5 })
-        .style("fill", "FF0009")
-         .style("filter", "url(#glow)")
-         .style("opacity", "0.90");
-
-
-    graph.append("rect")
-        .attr("class", "bar6")
-        .attr("x", function(d, i) { return 275})
-        .attr("width", (x.bandwidth()-5))
+        .attr("width", (x.bandwidth() - 5))
         .attr("y", function(d, i) { return y6(d['Unemployment Rate']) })
         .attr("height", function(d, i) { return height_b - y6(d['Unemployment Rate']) })
         .style("opacity", "0.90")
@@ -274,7 +242,7 @@ graph.append("rect")
                 .duration(100)
                 .style("opacity", .9);
             div.html("Unemployment Rate" + "<br/>" + d['Unemployment Rate'])
-                .style("left", (d3.event.pageX-100) + "px")
+                .style("left", (d3.event.pageX - 100) + "px")
                 .style("top", (d3.event.pageY - 50) + "px");
         })
         .on("mouseout", function(d) {
@@ -283,15 +251,51 @@ graph.append("rect")
                 .style("opacity", 0);
         });
 
-        graph.append("rect")
+    graph.append("rect")
+
+        .attr("class", "eq")
+        .attr("x", function(d, i) { return 220 })
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return (y6(d['Unemployment Rate']) - 7.5) })
+        .attr("height", function(d, i) { return 5 })
+        .style("fill", "FF0009")
+        .style("filter", "url(#glow)")
+        .style("opacity", "0.90");
+
+    graph.append("rect")
+        .attr("class", "bar6")
+        .attr("x", function(d, i) { return 275 })
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return y2(d['Happiness Score']) })
+        .attr("height", function(d, i) { return height_b - y2(d['Happiness Score']) })
+        .style("opacity", "0.90")
+        .style("filter", "url(#glow)")
+        .on("mouseover", function(d) {
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html("Happiness Score" + "<br/>" + d3.format(".2f")(d['Happiness Score']))
+                .style("left", (d3.event.pageX - 100) + "px")
+                .style("top", (d3.event.pageY - 50) + "px");
+        })
+        .on("mouseout", function(d) {
+            div.transition()
+                .duration(200)
+                .style("opacity", 0);
+        });
+
+
+    graph.append("rect")
 
         .attr("class", "eq")
         .attr("x", function(d, i) { return 275 })
-        .attr("width", (x.bandwidth()-5))
-        .attr("y", function(d, i) { return (y6(d['Unemployment Rate'])-7.5)})
+        .attr("width", (x.bandwidth() - 5))
+        .attr("y", function(d, i) { return (y2(d['Happiness Score']) - 7.5) })
         .attr("height", function(d, i) { return 5 })
         .style("fill", "FF0009")
-         .style("filter", "url(#glow)")
-         .style("opacity", "0.90");
+        .style("filter", "url(#glow)")
+        .style("opacity", "0.90");
+
+
 
 };
