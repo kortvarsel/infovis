@@ -1,29 +1,29 @@
 .nav {
-          -webkit-transition: left 0.5s ease;
-          -moz-transition: left 0.5s ease;
-          -ms-transition: left 0.5s ease;
-          -o-transition: left 0.5s ease;
-          transition: left 0.5s ease;
-          color: #F1F1F1;
-          cursor: pointer;
-          font-size: 2rem;
-          height: 100vh;
-          left: -15rem;
-          padding: 6rem 2rem 2rem 2rem;
-          position: fixed;
-          top: 0;
-          width: 15rem;
-          z-index: 1;
-          overflow:scroll;
-          font-size: 20px;
-          border-radius: 0px;
+    -webkit-transition: left 0.5s ease;
+    -moz-transition: left 0.5s ease;
+    -ms-transition: left 0.5s ease;
+    -o-transition: left 0.5s ease;
+    transition: left 0.5s ease;
+    color: #F1F1F1;
+    cursor: pointer;
+    font-size: 2rem;
+    height: 100vh;
+    left: -15rem;
+    padding: 6rem 2rem 2rem 2rem;
+    position: fixed;
+    top: 0;
+    width: 15rem;
+    z-index: 1;
+    overflow: scroll;
+    font-size: 20px;
+    border-radius: 0px;
     border-width: 1px;
     border-color: #F1F1F1;
-    border-style:none solid none none;
-        }
+    border-style: none solid none none;
+}
 
 #menuButton:hover {
- animation-name: menu;
+    animation-name: menu;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
 
@@ -33,45 +33,48 @@
 @keyframes menu {
     from {
 
-        border-color:#29FE75;
+        border-color: #29FE75;
     }
 
     to {
 
-        border-color:#1AAA4D;
+        border-color: #1AAA4D;
     }
 }
 
 @keyframes list {
     from {
 
-        color:#29FE75;
+        color: #29FE75;
     }
 
     to {
 
-       color:#1AAA4D;
+        color: #1AAA4D;
     }
 }
 
-.expanded { left: 0; }
+.expanded {
+    left: 0;
+}
 
 .nav ul {
-          position: absolute;
+    position: absolute;
 
-          list-style: none;
-          margin: 0;
-          padding: 0;
-        }
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
-.nav ul li:hover{
+.nav ul li:hover {
 
-  animation-name: list;
+    animation-name: list;
     animation-duration: 0.8s;
-    animation-fill-mode: forwards;}
+    animation-fill-mode: forwards;
+}
 
 
-#menuButton {    
+#menuButton {
     cursor: pointer;
     height: 2rem;
     left: 2rem;
@@ -87,112 +90,122 @@
 
 
 * {
-    background-color:#191414;
+    background-color: #191414;
 
 }
 
 h1 {
 
-  color:white;
+    color: white;
 }
 
 .btn {
-  width:80px;
-  border-style:solid;
-  border-width:1.5px !important;
-  margin-top:15px;
-  text-align: center;
-  outline:none !important;
+    width: 60px;
+    border-style: solid;
+    border-width: 1.5px !important;
+    margin-top: 15px;
+    text-align: center;
+    outline: none !important;
 
+}
+
+.btn:focus, .btn:active {
+    
+    box-shadow:none !important;
 }
 
 .button_gdp {
-    margin-top:40px;
-  color:#31a354;
-  border-color:#31a354 !important;
+    margin-top: 40px;
+    color: #31a354;
+    border-color: #31a354 !important;
 }
+
 .button_gdp:hover {
-  color:#F1F1F1;
-  background-color:#31a354;
+    color: #F1F1F1;
+    background-color: #31a354;
 }
 
 .button_gdp:focus {
-  color:#F1F1F1;
-  background-color:#31a354;
+    color: #F1F1F1;
+    background-color: #31a354;
 }
-.button_gdp:active{
-  color:#F1F1F1;
-  background-color:#31a354;
+
+.button_gdp:active {
+    color: #F1F1F1;
+    background-color: #31a354;
 }
 
 .button_cpi {
-  color:#3182bd;
-  border-color:#3182bd !important;
+    color: #3182bd;
+    border-color: #3182bd !important;
 }
+
 .button_cpi:hover {
-  color:#F1F1F1;
-  background-color:#3182bd;
+    color: #F1F1F1;
+    background-color: #3182bd;
 }
 
 .button_cpi:focus {
-  color:#F1F1F1;
-  background-color:#3182bd;
+    color: #F1F1F1;
+    background-color: #3182bd;
 }
 
 .button_hdi {
-  color:#636363;
-  border-color:#636363 !important;
+    color: #636363;
+    border-color: #636363 !important;
 }
+
 .button_hdi:hover {
-  color:#F1F1F1;
-  background-color:#636363;
+    color: #F1F1F1;
+    background-color: #636363;
 }
 
 .button_hdi:focus {
-  color:#F1F1F1;
-  background-color:#636363;
+    color: #F1F1F1;
+    background-color: #636363;
 }
 
 .button_gii {
-  color:#de2d26;
-  border-color:#de2d26 !important;
+    color: #de2d26;
+    border-color: #de2d26 !important;
 }
+
 .button_gii:hover {
-  color:#F1F1F1;
-  background-color:#de2d26;
+    color: #F1F1F1;
+    background-color: #de2d26;
 }
 
 .button_gii:focus {
-  color:#F1F1F1;
-  background-color:#de2d26;
+    color: #F1F1F1;
+    background-color: #de2d26;
 }
 
 .button_uer {
-  color:#e6550d;
-  border-color:#e6550d !important;
+    color: #e6550d;
+    border-color: #e6550d !important;
 }
+
 .button_uer:hover {
-  color:#F1F1F1;
-  background-color:#e6550d;
+    color: #F1F1F1;
+    background-color: #e6550d;
 }
 
 .button_uer:focus {
-  color:#F1F1F1;
-  background-color:#e6550d;
+    color: #F1F1F1;
+    background-color: #e6550d;
 }
 
 .button_hs {
-  color:#756bb1;
-  border-color:#756bb1 !important;
+    color: #756bb1;
+    border-color: #756bb1 !important;
 }
+
 .button_hs:hover {
-  color:#F1F1F1;
-  background-color:#756bb1;
+    color: #F1F1F1;
+    background-color: #756bb1;
 }
 
 .button_hs:focus {
-  color:#F1F1F1;
-  background-color:#756bb1;
+    color: #F1F1F1;
+    background-color: #756bb1;
 }
-
-
