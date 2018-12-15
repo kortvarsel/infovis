@@ -4,12 +4,12 @@ text {
 
 .background {
   fill: none;
-  pointer-events: all; }
+  pointer-events: visibleFill; }
 
 .unit {
   cursor: pointer;
-  fill: #191414;
-  stroke: #F1F1F1;
+  fill: none;
+  stroke: #818181;
   stroke-width: 0.4px; }
 
 .legend-bg {
