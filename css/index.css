@@ -83,6 +83,20 @@
     border-width: 1.8px;
     outline: none;
 }
+
+
+#infoButton {    
+    cursor: pointer;
+    height: 2rem;
+    left: 13.5rem;
+    position: fixed;
+    top: 1rem;
+    width: 2rem;
+    z-index: 2;
+    border-radius: 30px;
+    border-width: 1.8px;
+    outline: none;
+}
 * {
     background-color:#191414;
 

@@ -111,7 +111,7 @@ function RadarChart(id, data, options) {
         margin_r: { top: 0, right: 10, bottom: 10, left: 10 }, //The margins of the SVG
         levels: 5, //How many levels or inner circles should there be drawn
         maxValue: 0, //What is the value that the biggest circle will represent
-        labelFactor: 1.08, //How much farther than the radius of the outer circle should the labels be placed
+        labelFactor: 1.1, //How much farther than the radius of the outer circle should the labels be placed
         wrapWidth: 60, //The number of pixels after which a label needs to be given a new line
         opacityArea: 0.35, //The opacity of the area of the blob
         dotRadius: 4, //The size of the colored circles of each blog
@@ -138,7 +138,7 @@ function RadarChart(id, data, options) {
 
 
 
-    var allAxis = ['GDP', 'Happiness Score', 'Human Development Index', 'Gender Inequality Index', 'Corruption Perception Index', 'Unemployment Rate'], //Names of each axis
+    var allAxis = ['GDP','Corruption Perception Index','Human Development Index', 'Gender Inequality Index', 'Unemployment Rate', 'Happiness Score'  ], //Names of each axis
         total = allAxis.length, //The number of different axes
         radius = 0.8* Math.min(cfg.w / 2, cfg.h / 2), //Radius of the outermost circle
         //Format = d3.format('%'), //Percentage formatting
@@ -261,7 +261,16 @@ function RadarChart(id, data, options) {
             if (d == 'Unemployment Rate') { return rScale6(maxValue6 * 1.1) * Math.sin(angleSlice * i - Math.PI / 2); };
         })
         .attr("class", "line")
-        .style("stroke", "white")
+        .style("stroke", function (d,i){
+
+             if (d == 'GDP') { return "#31a354" } else
+            if (d == 'Happiness Score') { return "756bb1" } else
+            if (d == 'Human Development Index') { return "#636363" } else
+            if (d == 'Gender Inequality Index') { return "#de2d26" } else
+            if (d == 'Corruption Perception Index') { return "#3182bd" } else
+            if (d == 'Unemployment Rate') { return "e6550d"; };
+
+        })
         .style("stroke-width", "2px");
 
     //Append the labels at each axis
