@@ -261,7 +261,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
 
     //Custom sort function of the chords to keep them in the original order
     var chord = customChordLayout() //d3.layout.chord()
-        .padding(.02)
+        .padding(0.02)
         .sortChords(d3.descending) //which chord should be shown on top when chords cross. Now the biggest chord is at the bottom
         .matrix(matrix);
 
@@ -291,9 +291,9 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
     g.append("path")
     .attr("class", "pathC")
         .style("stroke", function(d, i) {return (Names[i] === "" ? "none" : "F1F1F1"); })
-        .style("stroke-width", 0.3)
+        .style("stroke-width", 0.8)
         .style("fill", function(d, i) { return (Names[i] === "" ? "none" : "#252525"); })
-        .style("pointer-events", function(d, i) { return (Names[i] === "" ? "none" : "auto"); })
+        .style("pointer-events", function(d, i) { return (Names[i] === "" ? "none" : "visible"); })
         .attr("d", arc)
         .attr("transform", function(d, i) { //Pull the two slices apart
             d.pullOutSize = pullOutSize * (d.startAngle + 0.001 > Math.PI ? -1 : 1);

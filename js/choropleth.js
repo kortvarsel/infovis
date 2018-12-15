@@ -25,7 +25,7 @@ function generateMap(value,color){
         .format(format)
         .legend(true)
         .unitId('iso3')
-        .duration(3000);
+        .duration(2500);
     
     d3.csv('../data/Countries.csv', function(error, data) {
         var selection = d3.select('#map').datum(data);

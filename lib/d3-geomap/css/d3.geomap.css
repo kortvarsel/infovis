@@ -1,5 +1,5 @@
 text {
-  fill: #333;
+  fill: #F1F1F1;
   font-size: 12px; }
 
 .background {
@@ -8,14 +8,15 @@ text {
 
 .unit {
   cursor: pointer;
-  fill: #000;
-  stroke: #ccc;
+  fill: #191414;
+  stroke: #F1F1F1;
   stroke-width: 0.4px; }
 
 .legend-bg {
-  fill: black;
-  fill-opacity: 0.8; }
+  fill: #191414;
+  fill-opacity: 0.8;
+width:100px;}
 
 .legend-bar {
-  stroke: #333;
-  stroke-width: 1px; }
+  stroke: #191414;
+  stroke-width: 2px; }

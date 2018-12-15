@@ -89,7 +89,8 @@ function donutChart(strUser) {
                 .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
                 .style('font-size', '2.5em')
                 .style('opacity', 0.9)
-                .style('text-anchor', 'middle'); // centres text in tooltip
+                .style('text-anchor', 'middle')
+                .style("fill", "#252525"); // centres text in tooltip
 
 
 
@@ -128,7 +129,8 @@ svg.append('circle')
                         .html(toolTipHTML(data)) // add text to the circle.
                         .style('font-size', '1em')
                         .style('opacity', 0.9)
-                        .style('text-anchor', 'middle'); // centres text in tooltip
+                        .style('text-anchor', 'middle')
+                        .style("fill", "#252525"); // centres text in tooltip
 
                 });
 
@@ -153,7 +155,8 @@ svg.append('circle')
                         .html('<tspan x="0"> TOP 10 </tspan>') // add text to the circle.
                         .style('font-size', '2.5em')
                         .style('opacity', 0.9)
-                        .style('text-anchor', 'middle'); // centres text in tooltip
+                        .style('text-anchor', 'middle')
+                        .style("fill", "#252525"); // centres text in tooltip
 
                 });
             }
