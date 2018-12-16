@@ -54,7 +54,7 @@ d3.json('../data/audience.json', function(aud) {
         margin: margin,
         maxValue: 100,
         levels: 5,
-        roundStrokes: false,
+        roundStrokes: true,
         color: d3.scaleOrdinal().range(["#AFC52F", "#ff6600"]),
           format: '.0f',
           legend: { title: 'Organization XYZ', translateX: 100, translateY: 40 },
