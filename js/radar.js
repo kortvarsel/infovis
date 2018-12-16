@@ -42,7 +42,7 @@ d3.json('../data/audience.json', function(aud) {
         w: 290,
         h: 350,
         margin: margin,
-        levels: 5,
+        levels: 1,
         roundStrokes: true,
           color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
           format: '.0f'
@@ -72,16 +72,16 @@ d3.json('../data/audience.json', function(aud) {
         var data = [
             { name: artist,
                 axes: [
-                    {axis: 'Unemployment Rate', value: scale(artistData,"UR",2)},
+                    {axis: 'UR', value: scale(artistData,"UR",2)},
                     {axis: 'GDP', value: scale(artistData,"GDP", 1)},
-                    {axis: 'Human Development Index', value: scale(artistData,"HDI",3)},
-                    {axis: 'Corruption Perception Index', value: scale(artistData,"CPI",2)},
-                    {axis: 'Gender Inequality Index', value: scale(artistData,"GII",3)},
-                    {axis: 'Happiness Score', value: scale(artistData,"HI",1)}
+                    {axis: 'HDI', value: scale(artistData,"HDI",3)},
+                    {axis: 'CPI', value: scale(artistData,"CPI",2)},
+                    {axis: 'GII', value: scale(artistData,"GII",3)},
+                    {axis: 'HS', value: scale(artistData,"HI",1)}
                 ]
             },
         ];
-    let svg_radar = RadarChart("#RadarChart", data, radarChartOptions2);
+    let svg_radar = RadarChart("#RadarChart", data, radarChartOptions);
     }
     
 
@@ -207,7 +207,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
 		.append("circle")
 		.attr("class", "gridCircle")
 		.attr("r", d => radius / cfg.levels * d)
-		.style("fill", "#CDCDCD")
+
 		.style("stroke", "#CDCDCD")
 		.style("fill-opacity", cfg.opacityCircles)
 		.style("filter" , "url(#glow)");
