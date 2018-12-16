@@ -67,6 +67,10 @@ function donutChart(strUser) {
                 .datum(data).selectAll('path')
                 .data(pie)
                 .enter().append('path')
+                //.attr('onclick',"updateData4("+"'"+data+"'"+")")
+                .on('click',(data)=>{
+                    updateData4(data.data.artist)
+                })
                 .attr('class', "slice")
                 .attr('fill', "#252525" )//function(d) { return colour(d.data['Pos']); })
                 .attr('d', arc)
@@ -171,7 +175,7 @@ svg.append('circle')
                     if (key == "Pos" || key == "artist" || key == "title") {
                         value = data.data[key];
 
-                        if (key == "Pos") { console.log("pos"); tip += '<tspan font-size="2.5em" x="0" dy="-0.9em">#' + value + '</tspan><tspan x="0" dy="2em">  </tspan>'; } else
+                        if (key == "Pos") { tip += '<tspan font-size="2.5em" x="0" dy="-0.9em">#' + value + '</tspan><tspan x="0" dy="2em">  </tspan>'; } else
                         if (key == "artist") { tip += '<tspan font-size="1.2em" x="0" dy=' + ((i * 6) - 10) + '>' + value + '</tspan>';
                           tip += '<tspan font-size="1.1em" x="0" dy="1em">  </tspan>'} else
                         if (key == "title") { tip += '<tspan font-size="0.8em" x="0" dy=' + ((i * 6) - 12) + '>' + value + '</tspan>'; }                    
@@ -181,7 +185,7 @@ svg.append('circle')
                 }
                 i++;
             }
-            console.log(tip);
+
             return tip;
         }
     });

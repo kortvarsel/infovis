@@ -294,6 +294,9 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .style("stroke-width", 0.8)
         .style("fill", function(d, i) { return (Names[i] === "" ? "none" : "#252525"); })
         .style("pointer-events", function(d, i) { return (Names[i] === "" ? "none" : "visible"); })
+        .on('click',(d,i)=>{
+            updateData4(Names[i])
+        })
         .attr("d", arc)
         .attr("transform", function(d, i) { //Pull the two slices apart
             d.pullOutSize = pullOutSize * (d.startAngle + 0.001 > Math.PI ? -1 : 1);

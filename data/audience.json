@@ -1,1216 +1,1217 @@
 [
-{
-    "Unemployment Rate": 6.059322034,
-    "GDP": 1.858938559E9,
-    "﻿artist": "Post Malone",
-    "Human Development Index": 0.877262712,
-    "Corruption Perception Index": 65.83050847,
-    "Gender Inequality Index": 0.737847458,
-    "Happiness Score": 6.571
-},
-{
-    "Unemployment Rate": 6.517880795,
-    "GDP": 1.864445808E9,
-    "﻿artist": "Drake",
-    "Human Development Index": 0.861205298,
-    "Corruption Perception Index": 61.72847682,
-    "Gender Inequality Index": 0.734245033,
-    "Happiness Score": 6.454
-},
-{
-    "Unemployment Rate": 6.278378378,
-    "GDP": 2.512437135E9,
-    "﻿artist": "Kendrick Lamar",
-    "Human Development Index": 0.883108108,
-    "Corruption Perception Index": 65.27027027,
-    "Gender Inequality Index": 0.734513514,
-    "Happiness Score": 6.48
-},
-{
-    "Unemployment Rate": 6.836363636,
-    "GDP": 1.292257455E9,
-    "﻿artist": "Lil Uzi Vert",
-    "Human Development Index": 0.885363636,
-    "Corruption Perception Index": 66.81818182,
-    "Gender Inequality Index": 0.736818182,
-    "Happiness Score": 6.435
-},
-{
-    "Unemployment Rate": 6.165680473,
-    "GDP": 8.978262485E9,
-    "﻿artist": "The Chainsmokers",
-    "Human Development Index": 0.839763314,
-    "Corruption Perception Index": 58.17751479,
-    "Gender Inequality Index": 0.727721893,
-    "Happiness Score": 6.333
-},
-{
-    "Unemployment Rate": 5.971848739,
-    "GDP": 8.150685294E9,
-    "﻿artist": "Ed Sheeran",
-    "Human Development Index": 0.845478992,
-    "Corruption Perception Index": 59.74789916,
-    "Gender Inequality Index": 0.733457983,
-    "Happiness Score": 6.431
-},
-{
-    "Unemployment Rate": 5.204347826,
-    "GDP": 2.273191826E9,
-    "﻿artist": "Khalid",
-    "Human Development Index": 0.867347826,
-    "Corruption Perception Index": 65.86956522,
-    "Gender Inequality Index": 0.735869565,
-    "Happiness Score": 6.598
-},
-{
-    "Unemployment Rate": 5.5,
-    "GDP": 3.945070818E9,
-    "﻿artist": "Travis Scott",
-    "Human Development Index": 0.861181818,
-    "Corruption Perception Index": 59.45454545,
-    "Gender Inequality Index": 0.730818182,
-    "Happiness Score": 6.297
-},
-{
-    "Unemployment Rate": 6.701098901,
-    "GDP": 7.871088242E9,
-    "﻿artist": "Luis Fonsi",
-    "Human Development Index": 0.83443956,
-    "Corruption Perception Index": 56.57142857,
-    "Gender Inequality Index": 0.728252747,
-    "Happiness Score": 6.358
-},
-{
-    "Unemployment Rate": 6.883333333,
-    "GDP": 1.254600567E9,
-    "﻿artist": "French Montana",
-    "Human Development Index": 0.8934,
-    "Corruption Perception Index": 69.16666667,
-    "Gender Inequality Index": 0.7462,
-    "Happiness Score": 6.632
-},
-{
-    "Unemployment Rate": 6.520634921,
-    "GDP": 1.094338944E9,
-    "﻿artist": "Justin Bieber",
-    "Human Development Index": 0.853801587,
-    "Corruption Perception Index": 60.96031746,
-    "Gender Inequality Index": 0.736261905,
-    "Happiness Score": 6.479
-},
-{
-    "Unemployment Rate": 6.336904762,
-    "GDP": 8.317316905E9,
-    "﻿artist": "Dua Lipa",
-    "Human Development Index": 0.842464286,
-    "Corruption Perception Index": 57.69047619,
-    "Gender Inequality Index": 0.723833333,
-    "Happiness Score": 6.314
-},
-{
-    "Unemployment Rate": 6.125806452,
-    "GDP": 1.051803387E9,
-    "﻿artist": "James Arthur",
-    "Human Development Index": 0.876580645,
-    "Corruption Perception Index": 66.32258065,
-    "Gender Inequality Index": 0.738677419,
-    "Happiness Score": 6.486
-},
-{
-    "Unemployment Rate": 7.677777778,
-    "GDP": 4.471658148E9,
-    "﻿artist": "Enrique Iglesias",
-    "Human Development Index": 0.781407407,
-    "Corruption Perception Index": 44.62962963,
-    "Gender Inequality Index": 0.722555556,
-    "Happiness Score": 6.153
-},
-{
-    "Unemployment Rate": 7.468965517,
-    "GDP": 3.74366069E8,
-    "﻿artist": "Shakira",
-    "Human Development Index": 0.769137931,
-    "Corruption Perception Index": 41.72413793,
-    "Gender Inequality Index": 0.718655172,
-    "Happiness Score": 6.07
-},
-{
-    "Unemployment Rate": 6.605660377,
-    "GDP": 3.016982075E9,
-    "﻿artist": "Maluma",
-    "Human Development Index": 0.746283019,
-    "Corruption Perception Index": 38.24528302,
-    "Gender Inequality Index": 0.719339623,
-    "Happiness Score": 6.07
-},
-{
-    "Unemployment Rate": 6.84375,
-    "GDP": 3.41318375E8,
-    "﻿artist": "Danny Ocean",
-    "Human Development Index": 0.7581875,
-    "Corruption Perception Index": 41.5,
-    "Gender Inequality Index": 0.7174375,
-    "Happiness Score": 6.114
-},
-{
-    "Unemployment Rate": 6.421276596,
-    "GDP": 7.060526489E9,
-    "﻿artist": "Clean Bandit",
-    "Human Development Index": 0.874744681,
-    "Corruption Perception Index": 64.75531915,
-    "Gender Inequality Index": 0.735170213,
-    "Happiness Score": 6.468
-},
-{
-    "Unemployment Rate": 6.71875,
-    "GDP": 2.754400625E9,
-    "﻿artist": "Natti Natasha",
-    "Human Development Index": 0.7440625,
-    "Corruption Perception Index": 38.25,
-    "Gender Inequality Index": 0.719375,
-    "Happiness Score": 6.081
-},
-{
-    "Unemployment Rate": 6.786206897,
-    "GDP": 2.418426552E9,
-    "﻿artist": "Zion & Lennox",
-    "Human Development Index": 0.743206897,
-    "Corruption Perception Index": 38.96551724,
-    "Gender Inequality Index": 0.71662069,
-    "Happiness Score": 6.054
-},
-{
-    "Unemployment Rate": 6.784848485,
-    "GDP": 2.429365455E9,
-    "﻿artist": "Wisin",
-    "Human Development Index": 0.745909091,
-    "Corruption Perception Index": 39.12121212,
-    "Gender Inequality Index": 0.719060606,
-    "Happiness Score": 6.057
-},
-{
-    "Unemployment Rate": 6.624242424,
-    "GDP": 2.690453636E9,
-    "﻿artist": "CNCO",
-    "Human Development Index": 0.743,
-    "Corruption Perception Index": 38.18181818,
-    "Gender Inequality Index": 0.721363636,
-    "Happiness Score": 6.091
-},
-{
-    "Unemployment Rate": 6.383505155,
-    "GDP": 2.024531546E9,
-    "﻿artist": "Ozuna",
-    "Human Development Index": 0.743608247,
-    "Corruption Perception Index": 38.13402062,
-    "Gender Inequality Index": 0.714113402,
-    "Happiness Score": 6.051
-},
-{
-    "Unemployment Rate": 6.647058824,
-    "GDP": 2.636505294E9,
-    "﻿artist": "Chris Jeday",
-    "Human Development Index": 0.743588235,
-    "Corruption Perception Index": 37.70588235,
-    "Gender Inequality Index": 0.718058824,
-    "Happiness Score": 6.035
-},
-{
-    "Unemployment Rate": 6.166666667,
-    "GDP": 5.399413333E9,
-    "﻿artist": "Flume",
-    "Human Development Index": 0.902833333,
-    "Corruption Perception Index": 74.83333333,
-    "Gender Inequality Index": 0.757,
-    "Happiness Score": 6.846
-},
-{
-    "Unemployment Rate": 6.756790123,
-    "GDP": 1.174646654E9,
-    "﻿artist": "The Weeknd",
-    "Human Development Index": 0.851901235,
-    "Corruption Perception Index": 60.95061728,
-    "Gender Inequality Index": 0.741493827,
-    "Happiness Score": 6.399
-},
-{
-    "Unemployment Rate": 6.638461538,
-    "GDP": 5.042267308E9,
-    "﻿artist": "Axwell \/\\ Ingrosso",
-    "Human Development Index": 0.882692308,
-    "Corruption Perception Index": 65.5,
-    "Gender Inequality Index": 0.732538462,
-    "Happiness Score": 6.47
-},
-{
-    "Unemployment Rate": 4.525,
-    "GDP": 1.21065725E8,
-    "﻿artist": "Bausa",
-    "Human Development Index": 0.923,
-    "Corruption Perception Index": 80.75,
-    "Gender Inequality Index": 0.737,
-    "Happiness Score": 7.125
-},
-{
-    "Unemployment Rate": 6.639361702,
-    "GDP": 9.265705745E9,
-    "﻿artist": "Imagine Dragons",
-    "Human Development Index": 0.855265957,
-    "Corruption Perception Index": 58.73404255,
-    "Gender Inequality Index": 0.723297872,
-    "Happiness Score": 6.324
-},
-{
-    "Unemployment Rate": 6.378,
-    "GDP": 4.8077584E7,
-    "﻿artist": "Alan Walker",
-    "Human Development Index": 0.8393,
-    "Corruption Perception Index": 58.54,
-    "Gender Inequality Index": 0.73258,
-    "Happiness Score": 6.389
-},
-{
-    "Unemployment Rate": 6.292307692,
-    "GDP": 1.022992404E9,
-    "﻿artist": "Camila Cabello",
-    "Human Development Index": 0.855230769,
-    "Corruption Perception Index": 61.19230769,
-    "Gender Inequality Index": 0.729461538,
-    "Happiness Score": 6.391
-},
-{
-    "Unemployment Rate": 5.615789474,
-    "GDP": 5.712273158E9,
-    "﻿artist": "Martin Jensen",
-    "Human Development Index": 0.905263158,
-    "Corruption Perception Index": 72.63157895,
-    "Gender Inequality Index": 0.749578947,
-    "Happiness Score": 6.82
-},
-{
-    "Unemployment Rate": 6.859482759,
-    "GDP": 7.364178879E9,
-    "﻿artist": "Major Lazer",
-    "Human Development Index": 0.856577586,
-    "Corruption Perception Index": 61.71551724,
-    "Gender Inequality Index": 0.737663793,
-    "Happiness Score": 6.48
-},
-{
-    "Unemployment Rate": 7.8,
-    "GDP": 3.694013636E9,
-    "﻿artist": "John Legend",
-    "Human Development Index": 0.861363636,
-    "Corruption Perception Index": 66.18181818,
-    "Gender Inequality Index": 0.765272727,
-    "Happiness Score": 6.898
-},
-{
-    "Unemployment Rate": 6.617307692,
-    "GDP": 2.427449615E9,
-    "﻿artist": "Piso 21",
-    "Human Development Index": 0.746461538,
-    "Corruption Perception Index": 39.34615385,
-    "Gender Inequality Index": 0.717826923,
-    "Happiness Score": 6.116
-},
-{
-    "Unemployment Rate": 6.391304348,
-    "GDP": 2.277396957E9,
-    "﻿artist": "Manuel Turizo",
-    "Human Development Index": 0.738608696,
-    "Corruption Perception Index": 36.73913043,
-    "Gender Inequality Index": 0.717782609,
-    "Happiness Score": 6.062
-},
-{
-    "Unemployment Rate": 6.234090909,
-    "GDP": 2.174391136E9,
-    "﻿artist": "Sebastian Yatra",
-    "Human Development Index": 0.736840909,
-    "Corruption Perception Index": 37.61363636,
-    "Gender Inequality Index": 0.717818182,
-    "Happiness Score": 6.075
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "Alok",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "1Kilo",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 8.365217391,
-    "GDP": 6.573049565E9,
-    "﻿artist": "Anitta",
-    "Human Development Index": 0.75626087,
-    "Corruption Perception Index": 40.13043478,
-    "Gender Inequality Index": 0.712956522,
-    "Happiness Score": 6.096
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "Henrique & Juliano",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "Henrique & Diego",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "Jorge & Mateus",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "Simone & Simaria",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "Mc Livinho",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 13.1,
-    "GDP": 2054969.0,
-    "﻿artist": "MC's Jhowzinho & Kadinho",
-    "Human Development Index": 0.759,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.684,
-    "Happiness Score": 6.419
-},
-{
-    "Unemployment Rate": 6.7,
-    "GDP": 238647.0,
-    "﻿artist": "Anuel Aa",
-    "Human Development Index": 0.7427,
-    "Corruption Perception Index": 38.3,
-    "Gender Inequality Index": 0.7124,
-    "Happiness Score": 6.041
-},
-{
-    "Unemployment Rate": 6.725806452,
-    "GDP": 2.833697742E9,
-    "﻿artist": "Carlos Vives",
-    "Human Development Index": 0.745419355,
-    "Corruption Perception Index": 38.5483871,
-    "Gender Inequality Index": 0.720709677,
-    "Happiness Score": 6.094
-},
-{
-    "Unemployment Rate": 6.648611111,
-    "GDP": 3.637819167E9,
-    "﻿artist": "Nicky Jam",
-    "Human Development Index": 0.769736111,
-    "Corruption Perception Index": 43.16666667,
-    "Gender Inequality Index": 0.721055556,
-    "Happiness Score": 6.213
-},
-{
-    "Unemployment Rate": 5.988888889,
-    "GDP": 4.296586032E9,
-    "﻿artist": "Kygo",
-    "Human Development Index": 0.880936508,
-    "Corruption Perception Index": 67.17460317,
-    "Gender Inequality Index": 0.743888889,
-    "Happiness Score": 6.592
-},
-{
-    "Unemployment Rate": 5.6,
-    "GDP": 5.685507931E9,
-    "﻿artist": "Lukas Graham",
-    "Human Development Index": 0.895172414,
-    "Corruption Perception Index": 71.55172414,
-    "Gender Inequality Index": 0.750517241,
-    "Happiness Score": 6.766
-},
-{
-    "Unemployment Rate": 5.8,
-    "GDP": 324484.0,
-    "﻿artist": "Blak",
-    "Human Development Index": 0.929,
-    "Corruption Perception Index": 88.0,
-    "Gender Inequality Index": 0.776,
-    "Happiness Score": 7.555
-},
-{
-    "Unemployment Rate": 6.632653061,
-    "GDP": 9.114259388E9,
-    "﻿artist": "Mike Posner",
-    "Human Development Index": 0.846122449,
-    "Corruption Perception Index": 59.36734694,
-    "Gender Inequality Index": 0.733102041,
-    "Happiness Score": 6.427
-},
-{
-    "Unemployment Rate": 5.809090909,
-    "GDP": 1.499705455E9,
-    "﻿artist": "Farruko",
-    "Human Development Index": 0.724136364,
-    "Corruption Perception Index": 36.22727273,
-    "Gender Inequality Index": 0.710409091,
-    "Happiness Score": 5.941
-},
-{
-    "Unemployment Rate": 6.85,
-    "GDP": 3.531636667E9,
-    "﻿artist": "Nio Garcia",
-    "Human Development Index": 0.759055556,
-    "Corruption Perception Index": 39.88888889,
-    "Gender Inequality Index": 0.715777778,
-    "Happiness Score": 6.107
-},
-{
-    "Unemployment Rate": 6.71875,
-    "GDP": 2.754400625E9,
-    "﻿artist": "Chino & Nacho",
-    "Human Development Index": 0.7440625,
-    "Corruption Perception Index": 38.25,
-    "Gender Inequality Index": 0.719375,
-    "Happiness Score": 6.081
-},
-{
-    "Unemployment Rate": 6.631034483,
-    "GDP": 5.326516034E9,
-    "﻿artist": "DJ Snake",
-    "Human Development Index": 0.820431034,
-    "Corruption Perception Index": 54.48275862,
-    "Gender Inequality Index": 0.732413793,
-    "Happiness Score": 6.339
-},
-{
-    "Unemployment Rate": 8.7,
-    "GDP": 253244.0,
-    "﻿artist": "JVG",
-    "Human Development Index": 0.92,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.823,
-    "Happiness Score": 7.632
-},
-{
-    "Unemployment Rate": 8.7,
-    "GDP": 253244.0,
-    "﻿artist": "Reino Nordin",
-    "Human Development Index": 0.92,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.823,
-    "Happiness Score": 7.632
-},
-{
-    "Unemployment Rate": 8.7,
-    "GDP": 253244.0,
-    "﻿artist": "Evelina",
-    "Human Development Index": 0.92,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.823,
-    "Happiness Score": 7.632
-},
-{
-    "Unemployment Rate": 8.7,
-    "GDP": 253244.0,
-    "﻿artist": "Antti Tuisku",
-    "Human Development Index": 0.92,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.823,
-    "Happiness Score": 7.632
-},
-{
-    "Unemployment Rate": 8.78,
-    "GDP": 2.0793266E7,
-    "﻿artist": "Niska",
-    "Human Development Index": 0.9016,
-    "Corruption Perception Index": 72.4,
-    "Gender Inequality Index": 0.7636,
-    "Happiness Score": 6.573
-},
-{
-    "Unemployment Rate": 9.5,
-    "GDP": 258356.0,
-    "﻿artist": "Damso",
-    "Human Development Index": 0.901,
-    "Corruption Perception Index": 70.0,
-    "Gender Inequality Index": 0.778,
-    "Happiness Score": 6.489
-},
-{
-    "Unemployment Rate": 7.7,
-    "GDP": 1.3229765E7,
-    "﻿artist": "Kalash",
-    "Human Development Index": 0.9025,
-    "Corruption Perception Index": 76.0,
-    "Gender Inequality Index": 0.742,
-    "Happiness Score": 6.7
-},
-{
-    "Unemployment Rate": 9.5,
-    "GDP": 258356.0,
-    "﻿artist": "Vald",
-    "Human Development Index": 0.901,
-    "Corruption Perception Index": 70.0,
-    "Gender Inequality Index": 0.778,
-    "Happiness Score": 6.489
-},
-{
-    "Unemployment Rate": 8.6,
-    "GDP": 1.95326825E8,
-    "﻿artist": "Lartiste",
-    "Human Development Index": 0.90175,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.76,
-    "Happiness Score": 6.594
-},
-{
-    "Unemployment Rate": 4.28,
-    "GDP": 1.7763794E7,
-    "﻿artist": "Bonez MC",
-    "Human Development Index": 0.9264,
-    "Corruption Perception Index": 79.4,
-    "Gender Inequality Index": 0.7458,
-    "Happiness Score": 7.139
-},
-{
-    "Unemployment Rate": 5.717460317,
-    "GDP": 6.315487143E9,
-    "﻿artist": "Charlie Puth",
-    "Human Development Index": 0.818793651,
-    "Corruption Perception Index": 53.63492063,
-    "Gender Inequality Index": 0.717301587,
-    "Happiness Score": 6.05
-},
-{
-    "Unemployment Rate": 7.120754717,
-    "GDP": 4.666201698E9,
-    "﻿artist": "Sia",
-    "Human Development Index": 0.856396226,
-    "Corruption Perception Index": 61.45283019,
-    "Gender Inequality Index": 0.739377358,
-    "Happiness Score": 6.446
-},
-{
-    "Unemployment Rate": 2.8,
-    "GDP": 23909.0,
-    "﻿artist": "JóiPé",
-    "Human Development Index": 0.935,
-    "Corruption Perception Index": 77.0,
-    "Gender Inequality Index": 0.878,
-    "Happiness Score": 7.495
-},
-{
-    "Unemployment Rate": 2.8,
-    "GDP": 23909.0,
-    "﻿artist": "Aron Can",
-    "Human Development Index": 0.935,
-    "Corruption Perception Index": 77.0,
-    "Gender Inequality Index": 0.878,
-    "Happiness Score": 7.495
-},
-{
-    "Unemployment Rate": 2.8,
-    "GDP": 23909.0,
-    "﻿artist": "Chase",
-    "Human Development Index": 0.935,
-    "Corruption Perception Index": 77.0,
-    "Gender Inequality Index": 0.878,
-    "Happiness Score": 7.495
-},
-{
-    "Unemployment Rate": 2.8,
-    "GDP": 23909.0,
-    "﻿artist": "Kaleo",
-    "Human Development Index": 0.935,
-    "Corruption Perception Index": 77.0,
-    "Gender Inequality Index": 0.878,
-    "Happiness Score": 7.495
-},
-{
-    "Unemployment Rate": 2.8,
-    "GDP": 23909.0,
-    "﻿artist": "Birnir",
-    "Human Development Index": 0.935,
-    "Corruption Perception Index": 77.0,
-    "Gender Inequality Index": 0.878,
-    "Happiness Score": 7.495
-},
-{
-    "Unemployment Rate": 5.4,
-    "GDP": 1015411.0,
-    "﻿artist": "Payung Teduh",
-    "Human Development Index": 0.694,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.691,
-    "Happiness Score": 5.093
-},
-{
-    "Unemployment Rate": 5.912280702,
-    "GDP": 1.025056386E9,
-    "﻿artist": "Marshmello",
-    "Human Development Index": 0.877140351,
-    "Corruption Perception Index": 64.80701754,
-    "Gender Inequality Index": 0.723105263,
-    "Happiness Score": 6.48
-},
-{
-    "Unemployment Rate": 4.3,
-    "GDP": 350609.0,
-    "﻿artist": "Omer Adam",
-    "Human Development Index": 0.903,
-    "Corruption Perception Index": 62.0,
-    "Gender Inequality Index": 0.721,
-    "Happiness Score": 7.19
-},
-{
-    "Unemployment Rate": 8.035,
-    "GDP": 2.27647335E8,
-    "﻿artist": "Cardi B",
-    "Human Development Index": 0.8725,
-    "Corruption Perception Index": 59.65,
-    "Gender Inequality Index": 0.72735,
-    "Happiness Score": 6.32
-},
-{
-    "Unemployment Rate": 5.461904762,
-    "GDP": 5.850221429E9,
-    "﻿artist": "Maroon 5",
-    "Human Development Index": 0.807214286,
-    "Corruption Perception Index": 51.0,
-    "Gender Inequality Index": 0.711404762,
-    "Happiness Score": 6.125
-},
-{
-    "Unemployment Rate": 6.721686747,
-    "GDP": 6.611353253E9,
-    "﻿artist": "Calvin Harris",
-    "Human Development Index": 0.867373494,
-    "Corruption Perception Index": 63.42168675,
-    "Gender Inequality Index": 0.734566265,
-    "Happiness Score": 6.395
-},
-{
-    "Unemployment Rate": 11.4,
-    "GDP": 1937894.0,
-    "﻿artist": "Sfera Ebbasta",
-    "Human Development Index": 0.88,
-    "Corruption Perception Index": 50.0,
-    "Gender Inequality Index": 0.692,
-    "Happiness Score": 6.0
-},
-{
-    "Unemployment Rate": 11.4,
-    "GDP": 1937894.0,
-    "﻿artist": "Capo Plaza",
-    "Human Development Index": 0.88,
-    "Corruption Perception Index": 50.0,
-    "Gender Inequality Index": 0.692,
-    "Happiness Score": 6.0
-},
-{
-    "Unemployment Rate": 11.4,
-    "GDP": 1937894.0,
-    "﻿artist": "Coez",
-    "Human Development Index": 0.88,
-    "Corruption Perception Index": 50.0,
-    "Gender Inequality Index": 0.692,
-    "Happiness Score": 6.0
-},
-{
-    "Unemployment Rate": 11.4,
-    "GDP": 1937894.0,
-    "﻿artist": "Gemitaiz",
-    "Human Development Index": 0.88,
-    "Corruption Perception Index": 50.0,
-    "Gender Inequality Index": 0.692,
-    "Happiness Score": 6.0
-},
-{
-    "Unemployment Rate": 11.4,
-    "GDP": 1937894.0,
-    "﻿artist": "Irama",
-    "Human Development Index": 0.88,
-    "Corruption Perception Index": 50.0,
-    "Gender Inequality Index": 0.692,
-    "Happiness Score": 6.0
-},
-{
-    "Unemployment Rate": 11.4,
-    "GDP": 1937894.0,
-    "﻿artist": "J-AX",
-    "Human Development Index": 0.88,
-    "Corruption Perception Index": 50.0,
-    "Gender Inequality Index": 0.692,
-    "Happiness Score": 6.0
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "DAOKO×米津玄師",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "Shota Shimizu",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "ONE OK ROCK",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "AAA",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "Superfly",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "[Alexandros]",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 5.145945946,
-    "GDP": 6.858625405E9,
-    "﻿artist": "Zedd",
-    "Human Development Index": 0.85427027,
-    "Corruption Perception Index": 60.62162162,
-    "Gender Inequality Index": 0.71472973,
-    "Happiness Score": 6.33
-},
-{
-    "Unemployment Rate": 2.9,
-    "GDP": 4872135.0,
-    "﻿artist": "MONGOL800",
-    "Human Development Index": 0.909,
-    "Corruption Perception Index": 73.0,
-    "Gender Inequality Index": 0.657,
-    "Happiness Score": 5.915
-},
-{
-    "Unemployment Rate": 7.855555556,
-    "GDP": 5.978212222E9,
-    "﻿artist": "Vance Joy",
-    "Human Development Index": 0.888666667,
-    "Corruption Perception Index": 65.11111111,
-    "Gender Inequality Index": 0.736888889,
-    "Happiness Score": 6.32
-},
-{
-    "Unemployment Rate": 6.091304348,
-    "GDP": 5.611787391E9,
-    "﻿artist": "Robin Schulz",
-    "Human Development Index": 0.890608696,
-    "Corruption Perception Index": 67.34782609,
-    "Gender Inequality Index": 0.730826087,
-    "Happiness Score": 6.553
-},
-{
-    "Unemployment Rate": 6.53,
-    "GDP": 4040194.0,
-    "﻿artist": "Hozier",
-    "Human Development Index": 0.89045,
-    "Corruption Perception Index": 66.9,
-    "Gender Inequality Index": 0.747,
-    "Happiness Score": 6.558
-},
-{
-    "Unemployment Rate": 6.107692308,
-    "GDP": 2.274026154E9,
-    "﻿artist": "Wolfine",
-    "Human Development Index": 0.729923077,
-    "Corruption Perception Index": 37.61538462,
-    "Gender Inequality Index": 0.718846154,
-    "Happiness Score": 6.096
-},
-{
-    "Unemployment Rate": 5.9,
-    "GDP": 7.154076667E9,
-    "﻿artist": "Lil' Kleine",
-    "Human Development Index": 0.926,
-    "Corruption Perception Index": 79.66666667,
-    "Gender Inequality Index": 0.737666667,
-    "Happiness Score": 7.27
-},
-{
-    "Unemployment Rate": 5.1,
-    "GDP": 825745.0,
-    "﻿artist": "Broederliefde",
-    "Human Development Index": 0.931,
-    "Corruption Perception Index": 82.0,
-    "Gender Inequality Index": 0.737,
-    "Happiness Score": 7.441
-},
-{
-    "Unemployment Rate": 5.519047619,
-    "GDP": 5.837872857E9,
-    "﻿artist": "Avicii",
-    "Human Development Index": 0.891357143,
-    "Corruption Perception Index": 68.38095238,
-    "Gender Inequality Index": 0.73952381,
-    "Happiness Score": 6.712
-},
-{
-    "Unemployment Rate": 4.0,
-    "GDP": 396457.0,
-    "﻿artist": "Freddy Kalas",
-    "Human Development Index": 0.953,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.83,
-    "Happiness Score": 7.594
-},
-{
-    "Unemployment Rate": 6.188235294,
-    "GDP": 3.401649412E9,
-    "﻿artist": "Passenger",
-    "Human Development Index": 0.878470588,
-    "Corruption Perception Index": 67.29411765,
-    "Gender Inequality Index": 0.754117647,
-    "Happiness Score": 6.713
-},
-{
-    "Unemployment Rate": 4.0,
-    "GDP": 396457.0,
-    "﻿artist": "Hkeem",
-    "Human Development Index": 0.953,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.83,
-    "Happiness Score": 7.594
-},
-{
-    "Unemployment Rate": 6.197368421,
-    "GDP": 2.004614211E9,
-    "﻿artist": "Bad Bunny",
-    "Human Development Index": 0.733,
-    "Corruption Perception Index": 36.07894737,
-    "Gender Inequality Index": 0.717973684,
-    "Happiness Score": 5.986
-},
-{
-    "Unemployment Rate": 6.0,
-    "GDP": 313419.0,
-    "﻿artist": "Up Dharma Down",
-    "Human Development Index": 0.699,
-    "Corruption Perception Index": 34.0,
-    "Gender Inequality Index": 0.79,
-    "Happiness Score": 5.524
-},
-{
-    "Unemployment Rate": 4.824,
-    "GDP": 1.56825928E8,
-    "﻿artist": "Bruno Mars",
-    "Human Development Index": 0.80372,
-    "Corruption Perception Index": 53.88,
-    "Gender Inequality Index": 0.722,
-    "Happiness Score": 6.194
-},
-{
-    "Unemployment Rate": 4.895833333,
-    "GDP": 812775.0,
-    "﻿artist": "Hailee Steinfeld",
-    "Human Development Index": 0.858291667,
-    "Corruption Perception Index": 63.29166667,
-    "Gender Inequality Index": 0.724875,
-    "Happiness Score": 6.443
-},
-{
-    "Unemployment Rate": 6.0,
-    "GDP": 313419.0,
-    "﻿artist": "Moira Dela Torre",
-    "Human Development Index": 0.699,
-    "Corruption Perception Index": 34.0,
-    "Gender Inequality Index": 0.79,
-    "Happiness Score": 5.524
-},
-{
-    "Unemployment Rate": 4.8,
-    "GDP": 524886.0,
-    "﻿artist": "TACONAFIDE",
-    "Human Development Index": 0.865,
-    "Corruption Perception Index": 60.0,
-    "Gender Inequality Index": 0.728,
-    "Happiness Score": 6.123
-},
-{
-    "Unemployment Rate": 6.74,
-    "GDP": 3.9617585E7,
-    "﻿artist": "Portugal. The Man",
-    "Human Development Index": 0.88715,
-    "Corruption Perception Index": 65.25,
-    "Gender Inequality Index": 0.72695,
-    "Happiness Score": 6.449
-},
-{
-    "Unemployment Rate": 9.375,
-    "GDP": 5.6902175E7,
-    "﻿artist": "Arctic Monkeys",
-    "Human Development Index": 0.851625,
-    "Corruption Perception Index": 56.625,
-    "Gender Inequality Index": 0.725375,
-    "Happiness Score": 5.751
-},
-{
-    "Unemployment Rate": 6.455555556,
-    "GDP": 2.576124111E9,
-    "﻿artist": "XXXTENTACION",
-    "Human Development Index": 0.874311111,
-    "Corruption Perception Index": 64.15555556,
-    "Gender Inequality Index": 0.734088889,
-    "Happiness Score": 6.411
-},
-{
-    "Unemployment Rate": 6.033333333,
-    "GDP": 5.467122778E9,
-    "﻿artist": "Dennis Lloyd",
-    "Human Development Index": 0.880666667,
-    "Corruption Perception Index": 63.27777778,
-    "Gender Inequality Index": 0.728833333,
-    "Happiness Score": 6.402
-},
-{
-    "Unemployment Rate": 6.46,
-    "GDP": 4585178.0,
-    "﻿artist": "Tyga",
-    "Human Development Index": 0.8644,
-    "Corruption Perception Index": 58.4,
-    "Gender Inequality Index": 0.7276,
-    "Happiness Score": 6.232
-},
-{
-    "Unemployment Rate": 6.603703704,
-    "GDP": 3.049437037E9,
-    "﻿artist": "Becky G",
-    "Human Development Index": 0.752851852,
-    "Corruption Perception Index": 39.88888889,
-    "Gender Inequality Index": 0.71562963,
-    "Happiness Score": 6.098
-},
-{
-    "Unemployment Rate": 7.5,
-    "GDP": 3065048.0,
-    "﻿artist": "Gente De Zona",
-    "Human Development Index": 0.7709,
-    "Corruption Perception Index": 43.0,
-    "Gender Inequality Index": 0.7269,
-    "Happiness Score": 6.24
-},
-{
-    "Unemployment Rate": 3.0,
-    "GDP": 678575.0,
-    "﻿artist": "Lo & Leduc",
-    "Human Development Index": 0.944,
-    "Corruption Perception Index": 85.0,
-    "Gender Inequality Index": 0.755,
-    "Happiness Score": 7.487
-},
-{
-    "Unemployment Rate": 2.2,
-    "GDP": 323902.0,
-    "﻿artist": "JJ Lin",
-    "Human Development Index": 0.932,
-    "Corruption Perception Index": 84.0,
-    "Gender Inequality Index": 0.702,
-    "Happiness Score": 6.343
-},
-{
-    "Unemployment Rate": 2.2,
-    "GDP": 323902.0,
-    "﻿artist": "Eric Chou",
-    "Human Development Index": 0.932,
-    "Corruption Perception Index": 84.0,
-    "Gender Inequality Index": 0.702,
-    "Happiness Score": 6.343
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "Pop Pongkool",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "Atom Chanakan",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "Fukking Hero",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "Lipta",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "Earth Patravee",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "O-Pavee",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "Room 39",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 0.7,
-    "GDP": 455378.0,
-    "﻿artist": "The Toys",
-    "Human Development Index": 0.755,
-    "Corruption Perception Index": 37.0,
-    "Gender Inequality Index": 0.694,
-    "Happiness Score": 6.072
-},
-{
-    "Unemployment Rate": 11.2,
-    "GDP": 84948.0,
-    "﻿artist": "Ezhel",
-    "Human Development Index": 0.791,
-    "Corruption Perception Index": 40.0,
-    "Gender Inequality Index": 0.625,
-    "Happiness Score": 5.483
-},
-{
-    "Unemployment Rate": 11.2,
-    "GDP": 84948.0,
-    "﻿artist": "Gazapizm",
-    "Human Development Index": 0.791,
-    "Corruption Perception Index": 40.0,
-    "Gender Inequality Index": 0.625,
-    "Happiness Score": 5.483
-},
-{
-    "Unemployment Rate": 11.2,
-    "GDP": 84948.0,
-    "﻿artist": "LP",
-    "Human Development Index": 0.791,
-    "Corruption Perception Index": 40.0,
-    "Gender Inequality Index": 0.625,
-    "Happiness Score": 5.483
-},
-{
-    "Unemployment Rate": 2.3,
-    "GDP": 220408.0,
-    "﻿artist": "My Tam",
-    "Human Development Index": 0.694,
-    "Corruption Perception Index": 35.0,
-    "Gender Inequality Index": 0.698,
-    "Happiness Score": 5.103
-},
-{
-    "Unemployment Rate": 2.175,
-    "GDP": 8.31245125E8,
-    "﻿artist": "BTS",
-    "Human Development Index": 0.7285,
-    "Corruption Perception Index": 40.0,
-    "Gender Inequality Index": 0.692375,
-    "Happiness Score": 5.326
-},
-{
-    "Unemployment Rate": 2.3,
-    "GDP": 220408.0,
-    "﻿artist": "Bich Phuong",
-    "Human Development Index": 0.694,
-    "Corruption Perception Index": 35.0,
-    "Gender Inequality Index": 0.698,
-    "Happiness Score": 5.103
-},
-{
-    "Unemployment Rate": 2.3,
-    "GDP": 220408.0,
-    "﻿artist": "Min",
-    "Human Development Index": 0.694,
-    "Corruption Perception Index": 35.0,
-    "Gender Inequality Index": 0.698,
-    "Happiness Score": 5.103
-}]
+    {
+      "Artist": "Post Malone",
+      "GDP": 1858.93855932203,
+      "CPI": 65.8305084745763,
+      "HDI": 0.877262711864407,
+      "GII": 0.737847457627118,
+      "UR": 6.05932203389831,
+      "HI": 6570.69491525424
+    },
+    {
+      "Artist": "Drake",
+      "GDP": 1864.44580794702,
+      "CPI": 61.7284768211921,
+      "HDI": 0.861205298013245,
+      "GII": 0.734245033112583,
+      "UR": 6.51788079470199,
+      "HI": 6453.76158940397
+    },
+    {
+      "Artist": "Kendrick Lamar",
+      "GDP": 2512.43713513514,
+      "CPI": 65.2702702702703,
+      "HDI": 0.883108108108108,
+      "GII": 0.734513513513514,
+      "UR": 6.27837837837838,
+      "HI": 6480.02702702703
+    },
+    {
+      "Artist": "Lil Uzi Vert",
+      "GDP": 1292.25745454545,
+      "CPI": 66.8181818181818,
+      "HDI": 0.885363636363636,
+      "GII": 0.736818181818182,
+      "UR": 6.83636363636364,
+      "HI": 6435.13636363636
+    },
+    {
+      "Artist": "The Chainsmokers",
+      "GDP": 897.82624852071,
+      "CPI": 58.1775147928994,
+      "HDI": 0.839763313609468,
+      "GII": 0.727721893491124,
+      "UR": 6.16568047337278,
+      "HI": 6333.07692307692
+    },
+    {
+      "Artist": "Ed Sheeran",
+      "GDP": 815.068529411765,
+      "CPI": 59.7478991596639,
+      "HDI": 0.845478991596639,
+      "GII": 0.733457983193277,
+      "UR": 5.9718487394958,
+      "HI": 6430.96638655462
+    },
+    {
+      "Artist": "Khalid",
+      "GDP": 2273.19182608696,
+      "CPI": 65.8695652173913,
+      "HDI": 0.867347826086956,
+      "GII": 0.735869565217391,
+      "UR": 5.20434782608696,
+      "HI": 6597.95652173913
+    },
+    {
+      "Artist": "Travis Scott",
+      "GDP": 3945.07081818182,
+      "CPI": 59.4545454545455,
+      "HDI": 0.861181818181818,
+      "GII": 0.730818181818182,
+      "UR": 5.5,
+      "HI": 6296.72727272727
+    },
+    {
+      "Artist": "Luis Fonsi",
+      "GDP": 787.108824175824,
+      "CPI": 56.5714285714286,
+      "HDI": 0.834439560439561,
+      "GII": 0.728252747252747,
+      "UR": 6.7010989010989,
+      "HI": 6358.28571428571
+    },
+    {
+      "Artist": "French Montana",
+      "GDP": 1254.60056666667,
+      "CPI": 69.1666666666667,
+      "HDI": 0.8934,
+      "GII": 0.7462,
+      "UR": 6.88333333333333,
+      "HI": 6632.3
+    },
+    {
+      "Artist": "Justin Bieber",
+      "GDP": 1094.33894444444,
+      "CPI": 60.9603174603175,
+      "HDI": 0.853801587301588,
+      "GII": 0.736261904761905,
+      "UR": 6.52063492063492,
+      "HI": 6479.10317460317
+    },
+    {
+      "Artist": "Dua Lipa",
+      "GDP": 831.731690476191,
+      "CPI": 57.6904761904762,
+      "HDI": 0.842464285714286,
+      "GII": 0.723833333333333,
+      "UR": 6.33690476190476,
+      "HI": 6313.67857142857
+    },
+    {
+      "Artist": "James Arthur",
+      "GDP": 1051.80338709677,
+      "CPI": 66.3225806451613,
+      "HDI": 0.87658064516129,
+      "GII": 0.738677419354838,
+      "UR": 6.1258064516129,
+      "HI": 6486
+    },
+    {
+      "Artist": "Enrique Iglesias",
+      "GDP": 447.165814814815,
+      "CPI": 44.6296296296296,
+      "HDI": 0.781407407407407,
+      "GII": 0.722555555555556,
+      "UR": 7.67777777777778,
+      "HI": 6153.14814814815
+    },
+    {
+      "Artist": "Shakira",
+      "GDP": 374.366068965517,
+      "CPI": 41.7241379310345,
+      "HDI": 0.769137931034483,
+      "GII": 0.718655172413793,
+      "UR": 7.46896551724138,
+      "HI": 6069.68965517241
+    },
+    {
+      "Artist": "Maluma",
+      "GDP": 301.69820754717,
+      "CPI": 38.2452830188679,
+      "HDI": 0.746283018867924,
+      "GII": 0.71933962264151,
+      "UR": 6.60566037735849,
+      "HI": 6069.60377358491
+    },
+    {
+      "Artist": "Danny Ocean",
+      "GDP": 341.318375,
+      "CPI": 41.5,
+      "HDI": 0.7581875,
+      "GII": 0.7174375,
+      "UR": 6.84375,
+      "HI": 6114.3125
+    },
+    {
+      "Artist": "Clean Bandit",
+      "GDP": 706.05264893617,
+      "CPI": 64.7553191489362,
+      "HDI": 0.874744680851064,
+      "GII": 0.735170212765957,
+      "UR": 6.42127659574468,
+      "HI": 6468.29787234043
+    },
+    {
+      "Artist": "Natti Natasha",
+      "GDP": 275.4400625,
+      "CPI": 38.25,
+      "HDI": 0.7440625,
+      "GII": 0.719375,
+      "UR": 6.71875,
+      "HI": 6081
+    },
+    {
+      "Artist": "Zion & Lennox",
+      "GDP": 241.842655172414,
+      "CPI": 38.9655172413793,
+      "HDI": 0.743206896551724,
+      "GII": 0.716620689655173,
+      "UR": 6.78620689655172,
+      "HI": 6054.31034482759
+    },
+    {
+      "Artist": "Wisin",
+      "GDP": 242.936545454545,
+      "CPI": 39.1212121212121,
+      "HDI": 0.745909090909091,
+      "GII": 0.719060606060606,
+      "UR": 6.78484848484849,
+      "HI": 6057.0303030303
+    },
+    {
+      "Artist": "CNCO",
+      "GDP": 269.045363636364,
+      "CPI": 38.1818181818182,
+      "HDI": 0.743,
+      "GII": 0.721363636363636,
+      "UR": 6.62424242424242,
+      "HI": 6091.36363636364
+    },
+    {
+      "Artist": "Ozuna",
+      "GDP": 202.453154639175,
+      "CPI": 38.1340206185567,
+      "HDI": 0.74360824742268,
+      "GII": 0.714113402061856,
+      "UR": 6.38350515463918,
+      "HI": 6050.80412371134
+    },
+    {
+      "Artist": "Chris Jeday",
+      "GDP": 263.650529411765,
+      "CPI": 37.7058823529412,
+      "HDI": 0.743588235294118,
+      "GII": 0.718058823529412,
+      "UR": 6.64705882352941,
+      "HI": 6035.17647058824
+    },
+    {
+      "Artist": "Flume",
+      "GDP": 539.941333333333,
+      "CPI": 74.8333333333333,
+      "HDI": 0.902833333333333,
+      "GII": 0.757,
+      "UR": 6.16666666666667,
+      "HI": 6846.16666666667
+    },
+    {
+      "Artist": "The Weeknd",
+      "GDP": 1174.64665432099,
+      "CPI": 60.9506172839506,
+      "HDI": 0.851901234567901,
+      "GII": 0.741493827160494,
+      "UR": 6.75679012345679,
+      "HI": 6398.87654320988
+    },
+    {
+      "Artist": "Axwell /\\ Ingrosso",
+      "GDP": 504.226730769231,
+      "CPI": 65.5,
+      "HDI": 0.882692307692308,
+      "GII": 0.732538461538461,
+      "UR": 6.63846153846154,
+      "HI": 6470.19230769231
+    },
+    {
+      "Artist": "Bausa",
+      "GDP": 1210.65725,
+      "CPI": 80.75,
+      "HDI": 0.923,
+      "GII": 0.737,
+      "UR": 4.525,
+      "HI": 7125.25
+    },
+    {
+      "Artist": "Imagine Dragons",
+      "GDP": 926.570574468085,
+      "CPI": 58.7340425531915,
+      "HDI": 0.855265957446809,
+      "GII": 0.723297872340426,
+      "UR": 6.63936170212766,
+      "HI": 6323.90425531915
+    },
+    {
+      "Artist": "Alan Walker",
+      "GDP": 480.77584,
+      "CPI": 58.54,
+      "HDI": 0.8393,
+      "GII": 0.73258,
+      "UR": 6.378,
+      "HI": 6389.48
+    },
+    {
+      "Artist": "Camila Cabello",
+      "GDP": 1022.99240384615,
+      "CPI": 61.1923076923077,
+      "HDI": 0.855230769230769,
+      "GII": 0.729461538461538,
+      "UR": 6.29230769230769,
+      "HI": 6390.92307692308
+    },
+    {
+      "Artist": "Martin Jensen",
+      "GDP": 571.227315789474,
+      "CPI": 72.6315789473684,
+      "HDI": 0.905263157894737,
+      "GII": 0.749578947368421,
+      "UR": 5.61578947368421,
+      "HI": 6820.31578947368
+    },
+    {
+      "Artist": "Major Lazer",
+      "GDP": 736.417887931035,
+      "CPI": 61.7155172413793,
+      "HDI": 0.856577586206897,
+      "GII": 0.737663793103448,
+      "UR": 6.85948275862069,
+      "HI": 6480
+    },
+    {
+      "Artist": "John Legend",
+      "GDP": 369.401363636364,
+      "CPI": 66.1818181818182,
+      "HDI": 0.861363636363636,
+      "GII": 0.765272727272727,
+      "UR": 7.8,
+      "HI": 6897.81818181818
+    },
+    {
+      "Artist": "Piso 21",
+      "GDP": 242.744961538462,
+      "CPI": 39.3461538461538,
+      "HDI": 0.746461538461539,
+      "GII": 0.717826923076923,
+      "UR": 6.61730769230769,
+      "HI": 6116.44230769231
+    },
+    {
+      "Artist": "Manuel Turizo",
+      "GDP": 227.739695652174,
+      "CPI": 36.7391304347826,
+      "HDI": 0.738608695652174,
+      "GII": 0.717782608695652,
+      "UR": 6.39130434782609,
+      "HI": 6062.47826086957
+    },
+    {
+      "Artist": "Sebastian Yatra",
+      "GDP": 217.439113636364,
+      "CPI": 37.6136363636364,
+      "HDI": 0.736840909090909,
+      "GII": 0.717818181818182,
+      "UR": 6.23409090909091,
+      "HI": 6075.11363636364
+    },
+    {
+      "Artist": "Alok",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "1Kilo",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "Anitta",
+      "GDP": 657.304956521739,
+      "CPI": 40.1304347826087,
+      "HDI": 0.756260869565217,
+      "GII": 0.71295652173913,
+      "UR": 8.36521739130435,
+      "HI": 6096.13043478261
+    },
+    {
+      "Artist": "Henrique & Juliano",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "Henrique & Diego",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "Jorge & Mateus",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "Simone & Simaria",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "Mc Livinho",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "MC's Jhowzinho & Kadinho",
+      "GDP": 2054.969,
+      "CPI": 37,
+      "HDI": 0.759,
+      "GII": 0.684,
+      "UR": 13.1,
+      "HI": 6419
+    },
+    {
+      "Artist": "Anuel Aa",
+      "GDP": 238.647,
+      "CPI": 38.3,
+      "HDI": 0.7427,
+      "GII": 0.7124,
+      "UR": 6.7,
+      "HI": 6040.75
+    },
+    {
+      "Artist": "Carlos Vives",
+      "GDP": 283.369774193548,
+      "CPI": 38.5483870967742,
+      "HDI": 0.74541935483871,
+      "GII": 0.720709677419355,
+      "UR": 6.7258064516129,
+      "HI": 6093.90322580645
+    },
+    {
+      "Artist": "Nicky Jam",
+      "GDP": 363.781916666667,
+      "CPI": 43.1666666666667,
+      "HDI": 0.769736111111111,
+      "GII": 0.721055555555556,
+      "UR": 6.64861111111111,
+      "HI": 6212.83333333333
+    },
+    {
+      "Artist": "Kygo",
+      "GDP": 429.658603174603,
+      "CPI": 67.1746031746032,
+      "HDI": 0.880936507936508,
+      "GII": 0.743888888888889,
+      "UR": 5.98888888888889,
+      "HI": 6591.79365079365
+    },
+    {
+      "Artist": "Lukas Graham",
+      "GDP": 568.550793103448,
+      "CPI": 71.551724137931,
+      "HDI": 0.895172413793104,
+      "GII": 0.75051724137931,
+      "UR": 5.6,
+      "HI": 6765.72413793103
+    },
+    {
+      "Artist": "Blak",
+      "GDP": 324.484,
+      "CPI": 88,
+      "HDI": 0.929,
+      "GII": 0.776,
+      "UR": 5.8,
+      "HI": 7555
+    },
+    {
+      "Artist": "Mike Posner",
+      "GDP": 911.42593877551,
+      "CPI": 59.3673469387755,
+      "HDI": 0.846122448979592,
+      "GII": 0.733102040816327,
+      "UR": 6.63265306122449,
+      "HI": 6427.4693877551
+    },
+    {
+      "Artist": "Farruko",
+      "GDP": 149.970545454545,
+      "CPI": 36.2272727272727,
+      "HDI": 0.724136363636364,
+      "GII": 0.710409090909091,
+      "UR": 5.80909090909091,
+      "HI": 5940.72727272727
+    },
+    {
+      "Artist": "Nio Garcia",
+      "GDP": 353.163666666667,
+      "CPI": 39.8888888888889,
+      "HDI": 0.759055555555555,
+      "GII": 0.715777777777778,
+      "UR": 6.85,
+      "HI": 6106.83333333333
+    },
+    {
+      "Artist": "Chino & Nacho",
+      "GDP": 275.4400625,
+      "CPI": 38.25,
+      "HDI": 0.7440625,
+      "GII": 0.719375,
+      "UR": 6.71875,
+      "HI": 6081
+    },
+    {
+      "Artist": "DJ Snake",
+      "GDP": 532.651603448276,
+      "CPI": 54.4827586206897,
+      "HDI": 0.820431034482759,
+      "GII": 0.732413793103448,
+      "UR": 6.63103448275862,
+      "HI": 6339.48275862069
+    },
+    {
+      "Artist": "JVG",
+      "GDP": 253.244,
+      "CPI": 85,
+      "HDI": 0.92,
+      "GII": 0.823,
+      "UR": 8.7,
+      "HI": 7632
+    },
+    {
+      "Artist": "Reino Nordin",
+      "GDP": 253.244,
+      "CPI": 85,
+      "HDI": 0.92,
+      "GII": 0.823,
+      "UR": 8.7,
+      "HI": 7632
+    },
+    {
+      "Artist": "Evelina",
+      "GDP": 253.244,
+      "CPI": 85,
+      "HDI": 0.92,
+      "GII": 0.823,
+      "UR": 8.7,
+      "HI": 7632
+    },
+    {
+      "Artist": "Antti Tuisku",
+      "GDP": 253.244,
+      "CPI": 85,
+      "HDI": 0.92,
+      "GII": 0.823,
+      "UR": 8.7,
+      "HI": 7632
+    },
+    {
+      "Artist": "Niska",
+      "GDP": 2079.3266,
+      "CPI": 72.4,
+      "HDI": 0.9016,
+      "GII": 0.7636,
+      "UR": 8.78,
+      "HI": 6573.2
+    },
+    {
+      "Artist": "Damso",
+      "GDP": 2583.56,
+      "CPI": 70,
+      "HDI": 0.901,
+      "GII": 0.778,
+      "UR": 9.5,
+      "HI": 6489
+    },
+    {
+      "Artist": "Kalash",
+      "GDP": 1322.9765,
+      "CPI": 76,
+      "HDI": 0.9025,
+      "GII": 0.742,
+      "UR": 7.7,
+      "HI": 6699.5
+    },
+    {
+      "Artist": "Vald",
+      "GDP": 2583.56,
+      "CPI": 70,
+      "HDI": 0.901,
+      "GII": 0.778,
+      "UR": 9.5,
+      "HI": 6489
+    },
+    {
+      "Artist": "Lartiste",
+      "GDP": 1953.26825,
+      "CPI": 73,
+      "HDI": 0.90175,
+      "GII": 0.76,
+      "UR": 8.6,
+      "HI": 6594.25
+    },
+    {
+      "Artist": "Bonez MC",
+      "GDP": 1776.3794,
+      "CPI": 79.4,
+      "HDI": 0.9264,
+      "GII": 0.7458,
+      "UR": 4.28,
+      "HI": 7139
+    },
+    {
+      "Artist": "Charlie Puth",
+      "GDP": 631.548714285714,
+      "CPI": 53.6349206349206,
+      "HDI": 0.818793650793651,
+      "GII": 0.717301587301587,
+      "UR": 5.71746031746032,
+      "HI": 6049.52380952381
+    },
+    {
+      "Artist": "Sia",
+      "GDP": 466.620169811321,
+      "CPI": 61.4528301886792,
+      "HDI": 0.856396226415094,
+      "GII": 0.739377358490566,
+      "UR": 7.12075471698113,
+      "HI": 6445.71698113208
+    },
+    {
+      "Artist": "JóiPé",
+      "GDP": 23.909,
+      "CPI": 77,
+      "HDI": 0.935,
+      "GII": 0.878,
+      "UR": 2.8,
+      "HI": 7495
+    },
+    {
+      "Artist": "Aron Can",
+      "GDP": 23.909,
+      "CPI": 77,
+      "HDI": 0.935,
+      "GII": 0.878,
+      "UR": 2.8,
+      "HI": 7495
+    },
+    {
+      "Artist": "Chase",
+      "GDP": 23.909,
+      "CPI": 77,
+      "HDI": 0.935,
+      "GII": 0.878,
+      "UR": 2.8,
+      "HI": 7495
+    },
+    {
+      "Artist": "Kaleo",
+      "GDP": 23.909,
+      "CPI": 77,
+      "HDI": 0.935,
+      "GII": 0.878,
+      "UR": 2.8,
+      "HI": 7495
+    },
+    {
+      "Artist": "Birnir",
+      "GDP": 23.909,
+      "CPI": 77,
+      "HDI": 0.935,
+      "GII": 0.878,
+      "UR": 2.8,
+      "HI": 7495
+    },
+    {
+      "Artist": "Payung Teduh",
+      "GDP": 1015.411,
+      "CPI": 37,
+      "HDI": 0.694,
+      "GII": 0.691,
+      "UR": 5.4,
+      "HI": 5093
+    },
+    {
+      "Artist": "Marshmello",
+      "GDP": 1025.05638596491,
+      "CPI": 64.8070175438596,
+      "HDI": 0.877140350877193,
+      "GII": 0.723105263157895,
+      "UR": 5.91228070175439,
+      "HI": 6479.82456140351
+    },
+    {
+      "Artist": "Omer Adam",
+      "GDP": 350.609,
+      "CPI": 62,
+      "HDI": 0.903,
+      "GII": 0.721,
+      "UR": 4.3,
+      "HI": 7190
+    },
+    {
+      "Artist": "Cardi B",
+      "GDP": 2276.47335,
+      "CPI": 59.65,
+      "HDI": 0.8725,
+      "GII": 0.72735,
+      "UR": 8.035,
+      "HI": 6320.15
+    },
+    {
+      "Artist": "Maroon 5",
+      "GDP": 585.022142857143,
+      "CPI": 51,
+      "HDI": 0.807214285714286,
+      "GII": 0.711404761904762,
+      "UR": 5.46190476190476,
+      "HI": 6125.02380952381
+    },
+    {
+      "Artist": "Calvin Harris",
+      "GDP": 661.135325301205,
+      "CPI": 63.421686746988,
+      "HDI": 0.867373493975904,
+      "GII": 0.734566265060241,
+      "UR": 6.72168674698795,
+      "HI": 6395.39759036145
+    },
+    {
+      "Artist": "Sfera Ebbasta",
+      "GDP": 1937.894,
+      "CPI": 50,
+      "HDI": 0.88,
+      "GII": 0.692,
+      "UR": 11.4,
+      "HI": 6000
+    },
+    {
+      "Artist": "Capo Plaza",
+      "GDP": 1937.894,
+      "CPI": 50,
+      "HDI": 0.88,
+      "GII": 0.692,
+      "UR": 11.4,
+      "HI": 6000
+    },
+    {
+      "Artist": "Coez",
+      "GDP": 1937.894,
+      "CPI": 50,
+      "HDI": 0.88,
+      "GII": 0.692,
+      "UR": 11.4,
+      "HI": 6000
+    },
+    {
+      "Artist": "Gemitaiz",
+      "GDP": 1937.894,
+      "CPI": 50,
+      "HDI": 0.88,
+      "GII": 0.692,
+      "UR": 11.4,
+      "HI": 6000
+    },
+    {
+      "Artist": "Irama",
+      "GDP": 1937.894,
+      "CPI": 50,
+      "HDI": 0.88,
+      "GII": 0.692,
+      "UR": 11.4,
+      "HI": 6000
+    },
+{
+      "Artist": "J-AX",
+      "GDP": 1937.894,
+      "CPI": 50,
+      "HDI": 0.88,
+      "GII": 0.692,
+      "UR": 11.4,
+      "HI": 6000
+    },
+    {
+      "Artist": "DAOKO×米津玄師",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "Shota Shimizu",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "ONE OK ROCK",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "AAA",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "Superfly",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "[Alexandros]",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "Zedd",
+      "GDP": 685.86254054054,
+      "CPI": 60.6216216216216,
+      "HDI": 0.85427027027027,
+      "GII": 0.71472972972973,
+      "UR": 5.14594594594595,
+      "HI": 6330.13513513513
+    },
+    {
+      "Artist": "MONGOL800",
+      "GDP": 4872.135,
+      "CPI": 73,
+      "HDI": 0.909,
+      "GII": 0.657,
+      "UR": 2.9,
+      "HI": 5915
+    },
+    {
+      "Artist": "Vance Joy",
+      "GDP": 597.821222222222,
+      "CPI": 65.1111111111111,
+      "HDI": 0.888666666666667,
+      "GII": 0.736888888888889,
+      "UR": 7.85555555555556,
+      "HI": 6319.88888888889
+    },
+    {
+      "Artist": "Robin Schulz",
+      "GDP": 561.178739130435,
+      "CPI": 67.3478260869565,
+      "HDI": 0.890608695652174,
+      "GII": 0.730826086956522,
+      "UR": 6.09130434782609,
+      "HI": 6552.69565217391
+    },
+    {
+      "Artist": "Hozier",
+      "GDP": 404.0194,
+      "CPI": 66.9,
+      "HDI": 0.89045,
+      "GII": 0.747,
+      "UR": 6.53,
+      "HI": 6557.8
+    },
+    {
+      "Artist": "Wolfine",
+      "GDP": 227.402615384615,
+      "CPI": 37.6153846153846,
+      "HDI": 0.729923076923077,
+      "GII": 0.718846153846154,
+      "UR": 6.10769230769231,
+      "HI": 6096.46153846154
+    },
+    {
+      "Artist": "Lil' Kleine",
+      "GDP": 715.407666666667,
+      "CPI": 79.6666666666667,
+      "HDI": 0.926,
+      "GII": 0.737666666666667,
+      "UR": 5.9,
+      "HI": 7269.66666666667
+    },
+    {
+      "Artist": "Broederliefde",
+      "GDP": 825.745,
+      "CPI": 82,
+      "HDI": 0.931,
+      "GII": 0.737,
+      "UR": 5.1,
+      "HI": 7441
+    },
+    {
+      "Artist": "Avicii",
+      "GDP": 583.787285714286,
+      "CPI": 68.3809523809524,
+      "HDI": 0.891357142857143,
+      "GII": 0.739523809523809,
+      "UR": 5.51904761904762,
+      "HI": 6711.71428571429
+    },
+    {
+      "Artist": "Freddy Kalas",
+      "GDP": 396.457,
+      "CPI": 85,
+      "HDI": 0.953,
+      "GII": 0.83,
+      "UR": 4,
+      "HI": 7594
+    },
+    {
+      "Artist": "Passenger",
+      "GDP": 340.164941176471,
+      "CPI": 67.2941176470588,
+      "HDI": 0.878470588235294,
+      "GII": 0.754117647058824,
+      "UR": 6.18823529411765,
+      "HI": 6712.70588235294
+    },
+    {
+      "Artist": "Hkeem",
+      "GDP": 396.457,
+      "CPI": 85,
+      "HDI": 0.953,
+      "GII": 0.83,
+      "UR": 4,
+      "HI": 7594
+    },
+    {
+      "Artist": "Bad Bunny",
+      "GDP": 200.461421052632,
+      "CPI": 36.0789473684211,
+      "HDI": 0.733,
+      "GII": 0.717973684210526,
+      "UR": 6.19736842105263,
+      "HI": 5986.1052631579
+    },
+    {
+      "Artist": "Up Dharma Down",
+      "GDP": 313.419,
+      "CPI": 34,
+      "HDI": 0.699,
+      "GII": 0.79,
+      "UR": 6,
+      "HI": 5524
+    },
+    {
+      "Artist": "Bruno Mars",
+      "GDP": 1568.25928,
+      "CPI": 53.88,
+      "HDI": 0.80372,
+      "GII": 0.722,
+      "UR": 4.824,
+      "HI": 6194.12
+    },
+    {
+      "Artist": "Hailee Steinfeld",
+      "GDP": 812.775,
+      "CPI": 63.2916666666667,
+      "HDI": 0.858291666666667,
+      "GII": 0.724875,
+      "UR": 4.89583333333333,
+      "HI": 6443.25
+    },
+    {
+      "Artist": "Moira Dela Torre",
+      "GDP": 313.419,
+      "CPI": 34,
+      "HDI": 0.699,
+      "GII": 0.79,
+      "UR": 6,
+      "HI": 5524
+    },
+    {
+      "Artist": "TACONAFIDE",
+      "GDP": 524.886,
+      "CPI": 60,
+      "HDI": 0.865,
+      "GII": 0.728,
+      "UR": 4.8,
+      "HI": 6123
+    },
+    {
+      "Artist": "Portugal. The Man",
+      "GDP": 396.17585,
+      "CPI": 65.25,
+      "HDI": 0.88715,
+      "GII": 0.72695,
+      "UR": 6.74,
+      "HI": 6448.55
+    },
+    {
+      "Artist": "Arctic Monkeys",
+      "GDP": 569.02175,
+      "CPI": 56.625,
+      "HDI": 0.851625,
+      "GII": 0.725375,
+      "UR": 9.375,
+      "HI": 5750.75
+    },
+    {
+      "Artist": "XXXTENTACION",
+      "GDP": 2576.12411111111,
+      "CPI": 64.1555555555556,
+      "HDI": 0.874311111111111,
+      "GII": 0.734088888888889,
+      "UR": 6.45555555555556,
+      "HI": 6410.51111111111
+    },
+    {
+      "Artist": "Dennis Lloyd",
+      "GDP": 546.712277777778,
+      "CPI": 63.2777777777778,
+      "HDI": 0.880666666666667,
+      "GII": 0.728833333333333,
+      "UR": 6.03333333333333,
+      "HI": 6402.11111111111
+    },
+    {
+      "Artist": "Tyga",
+      "GDP": 458.5178,
+      "CPI": 58.4,
+      "HDI": 0.8644,
+      "GII": 0.7276,
+      "UR": 6.46,
+      "HI": 6231.6
+    },
+    {
+      "Artist": "Becky G",
+      "GDP": 304.943703703704,
+      "CPI": 39.8888888888889,
+      "HDI": 0.752851851851852,
+      "GII": 0.71562962962963,
+      "UR": 6.6037037037037,
+      "HI": 6097.77777777778
+    },
+    {
+      "Artist": "Gente De Zona",
+      "GDP": 306.5048,
+      "CPI": 43,
+      "HDI": 0.7709,
+      "GII": 0.7269,
+      "UR": 7.5,
+      "HI": 6240.2
+    },
+    {
+      "Artist": "Lo & Leduc",
+      "GDP": 678.575,
+      "CPI": 85,
+      "HDI": 0.944,
+      "GII": 0.755,
+      "UR": 3,
+      "HI": 7487
+    },
+    {
+      "Artist": "JJ Lin",
+      "GDP": 323.902,
+      "CPI": 84,
+      "HDI": 0.932,
+      "GII": 0.702,
+      "UR": 2.2,
+      "HI": 6343
+    },
+    {
+      "Artist": "Eric Chou",
+      "GDP": 323.902,
+      "CPI": 84,
+      "HDI": 0.932,
+      "GII": 0.702,
+      "UR": 2.2,
+      "HI": 6343
+    },
+    {
+      "Artist": "Pop Pongkool",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "Atom Chanakan",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "Fukking Hero",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "Lipta",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "Earth Patravee",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "O-Pavee",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "Room 39",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "The Toys",
+      "GDP": 455.378,
+      "CPI": 37,
+      "HDI": 0.755,
+      "GII": 0.694,
+      "UR": 0.7,
+      "HI": 6072
+    },
+    {
+      "Artist": "Ezhel",
+      "GDP": 849.48,
+      "CPI": 40,
+      "HDI": 0.791,
+      "GII": 0.625,
+      "UR": 11.2,
+      "HI": 5483
+    },
+    {
+      "Artist": "Gazapizm",
+      "GDP": 849.48,
+      "CPI": 40,
+      "HDI": 0.791,
+      "GII": 0.625,
+      "UR": 11.2,
+      "HI": 5483
+    },
+    {
+      "Artist": "LP",
+      "GDP": 849.48,
+      "CPI": 40,
+      "HDI": 0.791,
+      "GII": 0.625,
+      "UR": 11.2,
+      "HI": 5483
+    },
+    {
+      "Artist": "My Tam",
+      "GDP": 220.408,
+      "CPI": 35,
+      "HDI": 0.694,
+      "GII": 0.698,
+      "UR": 2.3,
+      "HI": 5103
+    },
+    {
+      "Artist": "BTS",
+      "GDP": 831.245125,
+      "CPI": 40,
+      "HDI": 0.7285,
+      "GII": 0.692375,
+      "UR": 2.175,
+      "HI": 5325.625
+    },
+    {
+      "Artist": "Bich Phuong",
+      "GDP": 220.408,
+      "CPI": 35,
+      "HDI": 0.694,
+      "GII": 0.698,
+      "UR": 2.3,
+      "HI": 5103
+    },
+    {
+      "Artist": "Min",
+      "GDP": 220.408,
+      "CPI": 35,
+      "HDI": 0.694,
+      "GII": 0.698,
+      "UR": 2.3,
+      "HI": 5103
+    }
+  ]
