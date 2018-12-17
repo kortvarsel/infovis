@@ -14,7 +14,7 @@ var newData
 
 d3.json('../data/audience.json', function(aud) {
     audience = aud;
-    updateData4("Post Malone")
+    updateData4("Ed Sheeran")
 });
 
 let scale = function(artistData, element, flag) {
@@ -45,7 +45,8 @@ var radarChartOptions = {
     levels: 1,
     roundStrokes: true,
     color: d3.scaleOrdinal().range(["#4CFFEA", "#4CFFEA"]),
-    format: '.0f'
+    format: '.0f',
+    legend:false
 };
 
 var radarChartOptions2 = {
@@ -122,8 +123,8 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
         labelFactor: 1.12, //How much farther than the radius of the outer circle should the labels be placed
         wrapWidth: 60, //The number of pixels after which a label needs to be given a new line
         opacityArea: 0.35, //The opacity of the area of the blob
-        dotRadius: 4, //The size of the colored circles of each blog
-        opacityCircles: 0.1, //The opacity of the circles of each blob
+        dotRadius: 5, //The size of the colored circles of each blog
+        opacityCircles: 0.5, //The opacity of the circles of each blob
         strokeWidth: 2, //The width of the stroke around each blob
         roundStrokes: false, //If true the area and stroke will follow a round path (cardinal-closed)
         color: d3.scaleOrdinal(d3.schemeCategory10), //Color function,
@@ -241,7 +242,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
         .attr("y2", (d, i) => rScale(maxValue * 1.04) * sin(angleSlice * i - HALF_PI))
         .attr("class", "line")
         .style("stroke", function(d, i) {
-            if (d == "GDP") { console.log(d); return "#31a354" } else
+            if (d == "GDP") { return "#31a354" } else
             if (d == "CPI") { return "#3182bd" } else
             if (d == "HDI") { return "#636363" } else
             if (d == "GII") { return "#de2d26" } else
@@ -264,6 +265,9 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
     /////////////////////////////////////////////////////////
     ///////////// Draw the radar chart blobs ////////////////
     /////////////////////////////////////////////////////////
+var div = d3.select("body").append("div")
+        .attr("class", "tooltip2")
+        .style("opacity", 0);
 
     //The radial line function
     const radarLine = d3.radialLine()
@@ -289,6 +293,14 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
         .style("fill", (d, i) => cfg.color(i))
         .style("fill-opacity", cfg.opacityArea)
         .on('mouseover', function(d, i) {
+
+            div.transition()
+                .duration(100)
+                .style("opacity", .9);
+            div.html(d.name)
+                .style("left", (d3.event.pageX - 100) + "px")
+                .style("top", (d3.event.pageY - 50) + "px");
+
             //Dim all blobs
             parent.selectAll(".radarArea")
                 .transition().duration(200)
@@ -299,6 +311,9 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
                 .style("fill-opacity", 0.7);
         })
         .on('mouseout', () => {
+           div.transition()
+                .duration(200)
+                .style("opacity", 0);
             //Bring back all blobs
             parent.selectAll(".radarArea")
                 .transition().duration(200)
@@ -368,13 +383,14 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
         .attr("text-anchor", "middle")
         .attr("dy", "0.35em");
 
-    if (cfg.legend !== false && typeof cfg.legend === "object") {
+    if (cfg.legend == true /*&& typeof cfg.legend === "object"*/) {
+
         let legendZone = svg.append('g');
         let names = data.map(el => el.name);
         if (cfg.legend.title) {
             let title = legendZone.append("text")
                 .attr("class", "title")
-                .attr('transform', `translate(${cfg.legend.translateX},${cfg.legend.translateY})`)
+                .attr('transform', `translate(-180,0)`)
                 .attr("x", cfg.w - 70)
                 .attr("y", 10)
                 .attr("font-size", "12px")
@@ -383,9 +399,9 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
         }
         let legend = legendZone.append("g")
             .attr("class", "legend")
-            .attr("height", 100)
-            .attr("width", 200)
-            .attr('transform', `translate(${cfg.legend.translateX},${cfg.legend.translateY + 20})`);
+            .attr("height", 200)
+            .attr("width", 100)
+            .attr('transform', `translate(-180,0)`);
         // Create rectangles markers
         legend.selectAll('rect')
             .data(names)
@@ -401,11 +417,14 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
             .data(names)
             .enter()
             .append("text")
+            .attr("class", "artistLegend")
             .attr("x", cfg.w - 52)
             .attr("y", (d, i) => i * 20 + 9)
             .attr("font-size", "11px")
             .attr("fill", "#737373")
-            .text(d => d);
+            .text(d => d)
+            .style("visibility", "hidden");
+            
     }
     return svg;
 }

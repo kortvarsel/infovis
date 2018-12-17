@@ -96,6 +96,21 @@ div.tooltip1 {
     border-radius: 30px;
     pointer-events: none;
 }
+div.tooltip2 {
+    position: absolute;
+    text-align: center;
+    color:#F1F1F1;
+    width: 180px;
+    height: 20px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: #494949;
+    border: 1px;
+    border-color: #F1F1F1;
+    border-style: solid;
+    border-radius: 30px;
+    pointer-events: none;
+}
 
 path.slice:hover {
   animation-name: aster;

@@ -44,19 +44,20 @@ function update(value, color){
     setTimeout(setClickTrigger, 500) 
 }
 function updateLife(newCountry){
-    updateData1(newCountry)
-    updateData2(newCountry)
-    updateData3(newCountry)
+    updateData1(newCountry);
+    updateData2(newCountry);
+    updateData3(newCountry);
+    document.getElementById("indicate").innerHTML='Spotifys Top10 around the World - <span style="color:#4CFFEA";>' + newCountry + '</span>';
 }
 $.getJSON('../data/countries.json', function(data) {
     $.each(data, function(key, entry) {
         $('#content').append($('<li>')
                 .attr('value', entry.iso3)
-                .html(entry.Country)
+                .html(entry.Country + " | " + entry.iso3)
                 .attr('onclick', "updateLife("+"'"+entry.iso3+"'"+")"));;
     })
 });
-var newCountry = "POR"
+var newCountry = "DEU"
 function switchIt(){
     if (d3.selectAll("#menu")._groups[0][0].className != 'nav expanded'){
         d3.selectAll("#menu")._groups[0][0].className = "nav expanded"

@@ -8,11 +8,11 @@
     cursor: pointer;
     font-size: 2rem;
     height: 100vh;
-    left: -15rem;
+    left: -18rem;
     padding: 6rem 2rem 2rem 2rem;
     position: fixed;
     top: 0;
-    width: 15rem;
+    width: 18rem;
     z-index: 1;
     overflow: scroll;
     font-size: 20px;
@@ -80,8 +80,8 @@
     height: 2rem;
     left: 2rem;
     position: fixed;
-    top: 1rem;
-    width: 11rem;
+    top: 0.5rem;
+    width: 14rem;
     z-index: 2;
     border-radius: 30px;
     border-width: 1.8px;

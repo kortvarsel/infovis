@@ -8,6 +8,12 @@ body {
     height: 100%;
 }
 
+h1 {
+	border-bottom: solid;
+border-color: #4CFFEA;
+	border-width:1px;
+	border-spacing: 5px;
+}
 svg {
 
 	fill: #494949;

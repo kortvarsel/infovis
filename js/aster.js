@@ -84,7 +84,7 @@ function donutChart(strUser) {
   svg.append('circle')
                 .attr('class', 'defaultCircle')
                 .attr('r', radius * 0.61) // radius of tooltip circle
-                .style('fill', '#FFFFF0') // colour based on category mouse is over
+                .style('fill', '#F1F1F1') // colour based on category mouse is over
                 .style('fill-opacity', 0.9)
                 .style('stroke', "#252525")
                 .style('stroke-width', 4);
@@ -125,7 +125,7 @@ svg.append('circle')
                     svg.append('circle')
                         .attr('class', 'toolCircle')
                         .attr('r', radius * 0.61) // radius of tooltip circle
-                        .style('fill', colour(data.data['Pos'])) // colour based on category mouse is over
+                        .style('fill', "#F1F1F1") // colour based on category mouse is over
                         .style('fill-opacity', 0.9)
                         .style('stroke', "#252525")
                         .style('stroke-width', 4);
@@ -151,7 +151,7 @@ svg.append('circle')
                     svg.append('circle')
                         .attr('class', 'defaultCircle')
                         .attr('r', radius * 0.61) // radius of tooltip circle
-                        .style('fill', '#FFFFF0') // colour based on category mouse is over
+                        .style('fill', '#F1F1F1') // colour based on category mouse is over
                         .style('fill-opacity', 0.9)
                         .style('stroke', "#252525")
                         .style('stroke-width', 4);
