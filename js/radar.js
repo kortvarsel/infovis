@@ -39,18 +39,18 @@ d3.json('../data/audience.json', function(aud) {
    
 
     var radarChartOptions = {
-        w: 290,
-        h: 350,
+        w: 260,
+        h: 320,
         margin: margin,
         levels: 1,
         roundStrokes: true,
-          color: d3.scaleOrdinal().range(["#26AF32", "#762712"]),
+          color: d3.scaleOrdinal().range(["#ffffff", "#ffffff"]),
           format: '.0f'
       };
     
       var radarChartOptions2 = {
-        w: 290,
-        h: 350,
+        w: 260,
+        h: 320,
         margin: margin,
         maxValue: 100,
         levels: 5,
@@ -64,7 +64,6 @@ d3.json('../data/audience.json', function(aud) {
                     width = Math.min(700, window.innerWidth / 4) - margin.left - margin.right,
                     height = Math.min(width, window.innerHeight - margin.top - margin.bottom);
     function updateData4(artist){
-        console.log(artist)
         var artistData = audience.find(function(element){
             return element.Artist == artist
         })

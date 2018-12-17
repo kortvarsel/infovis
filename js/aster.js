@@ -67,10 +67,13 @@ function donutChart(strUser) {
                 .datum(data).selectAll('path')
                 .data(pie)
                 .enter().append('path')
-                //.attr('onclick',"updateData4("+"'"+data+"'"+")")
                 .on('click',(data)=>{
                     updateData4(data.data.artist)
                 })
+                //.on('mouseover',(data)=>{
+                //    var lista = d3.select("#"+data.data.artist+"")._groups[0][0]
+                //   console.log(lista)
+                //})
                 .attr('class', "slice")
                 .attr('fill', "#252525" )//function(d) { return colour(d.data['Pos']); })
                 .attr('d', arc)

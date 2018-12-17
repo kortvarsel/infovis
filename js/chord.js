@@ -223,7 +223,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
 
     linearGradient.append("stop")
         .attr("offset", "5%")
-        .attr("stop-color", "#1AAA4D");
+        .attr("stop-color", "#191414");
     linearGradient.append("stop")
         .attr("offset", "15%")
         .attr("stop-color", "#C1C1C1");
@@ -285,8 +285,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .data(chord.groups)
         .enter().append("g")
         .attr("class", "group")
-        .on("mouseover", fade(opacityLow))
-        .on("mouseout", fade(opacityDefault));
+        
 
     g.append("path")
     .attr("class", "pathC")
@@ -297,7 +296,10 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .on('click',(d,i)=>{
             updateData4(Names[i])
         })
+        .on("mouseover", fade(opacityLow))
+        .on("mouseout", fade(opacityDefault))
         .attr("d", arc)
+        .attr("id", function(d, i) {return Names[i]})
         .attr("transform", function(d, i) { //Pull the two slices apart
             d.pullOutSize = pullOutSize * (d.startAngle + 0.001 > Math.PI ? -1 : 1);
             return "translate(" + d.pullOutSize + ',' + 0 + ")";
@@ -356,7 +358,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
     function fade(opacity) {
         return function(d, i) {
             wrapper.selectAll("path.chord")
-                .filter(function(d) { return d.source.index !== i && d.target.index !== i && Names[d.source.index] !== ""; })
+                .filter(function(d) {return d.source.index !== i && d.target.index !== i && Names[d.source.index] !== ""; })
                 .transition()
                 .style("opacity", opacity);
         };
