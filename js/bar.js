@@ -95,7 +95,7 @@ function drawBar(strUser) {
             div.transition()
                 .duration(100)
                 .style("opacity", .9);
-            div.html("GDP" + "<br/>" + d3.format(".2s")(d.GDP))
+            div.html("GDP per capita" + "<br/>" + d3.format(".2s")(d.GDP))
                 .style("left", (d3.event.pageX - 100) + "px")
                 .style("top", (d3.event.pageY - 50) + "px");
 

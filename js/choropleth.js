@@ -1,5 +1,7 @@
 var format = function(d) {
-    return d3.format(',.02f')(d);
+    if (d>100) {return d3.format('.2s')(d)} else
+       {return d3.format('.1f')(d)}
+    
 }
 
 function setClickTrigger(){
