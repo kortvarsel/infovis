@@ -33,42 +33,42 @@
 
 .bar1:hover {
     animation-name: green1;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
 }
 
 .bar2:hover {
     animation-name: green2;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar3:hover {
     animation-name: green3;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar4:hover {
     animation-name: green4;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar5:hover {
     animation-name: green5;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
 
 .bar6:hover {
     animation-name: green6;
-    animation-duration: 0.6s;
+    animation-duration: 0.8s;
     animation-fill-mode: forwards;
         animation-timing-function: ease-in;
 }
@@ -77,6 +77,7 @@
     animation-name: chord;
     animation-duration: 0.6s;
     animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
         
 }
 
@@ -98,38 +99,39 @@ div.tooltip1 {
 
 path.slice:hover {
   animation-name: aster;
-    animation-duration: 0.8s;
+    animation-duration: 0.6s;
     animation-fill-mode: forwards;
-    fill: #1AAA4D;
+    animation-timing-function: ease-in;
+   
 }
 
 @keyframes aster {
     from {
-        fill: #29FE75;
-        stroke:#29FE75;
+        fill: #4CFFEA;
+        stroke:#4CFFEA;
     }
 
     to {
-        fill: #1AAA4D;
-        stroke:#1AAA4D;
+        fill: #00B49F;
+        stroke:#00B49F;
     }
 }
 
 @keyframes chord {
     from {
-        fill: #29FE75;
-        stroke:#29FE75;
+        fill: #4CFFEA;
+        stroke:#4CFFEA;
     }
 
     to {
-        fill: #1AAA4D;
-        stroke:#1AAA4D;
+        fill: #00B49F;
+        stroke:#00B49F;
     }
 }
 
 @keyframes green1 {
     from {
-        fill: #29FE75;
+        fill: #4CFFEA;
     }
 
     to {
@@ -139,7 +141,7 @@ path.slice:hover {
 
 @keyframes green2 {
     from {
-        fill: #29FE75;
+        fill: #4CFFEA;
     }
 
     to {
@@ -149,7 +151,7 @@ path.slice:hover {
 
 @keyframes green3 {
     from {
-        fill: #29FE75;
+        fill: #4CFFEA;
     }
 
     to {
@@ -159,7 +161,7 @@ path.slice:hover {
 
 @keyframes green4 {
     from {
-        fill: #29FE75;
+        fill: #4CFFEA;
     }
 
     to {
@@ -169,7 +171,7 @@ path.slice:hover {
 
 @keyframes green5 {
     from {
-        fill: #29FE75;
+        fill: #4CFFEA;
     }
 
     to {
@@ -179,7 +181,7 @@ path.slice:hover {
 
 @keyframes green6 {
     from {
-        fill: #13F500;
+        fill: #4CFFEA;
     }
 
     to {

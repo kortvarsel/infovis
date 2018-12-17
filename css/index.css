@@ -26,6 +26,7 @@
     animation-name: menu;
     animation-duration: 0.8s;
     animation-fill-mode: forwards;
+    
 
 }
 
@@ -33,24 +34,24 @@
 @keyframes menu {
     from {
 
-        border-color: #29FE75;
+        border-color: #4CFFEA;
     }
 
     to {
 
-        border-color: #1AAA4D;
+        border-color: #00B49F;
     }
 }
 
 @keyframes list {
     from {
 
-        color: #29FE75;
+        color: #4CFFEA;
     }
 
     to {
 
-        color: #1AAA4D;
+        color: #00B49F;
     }
 }
 

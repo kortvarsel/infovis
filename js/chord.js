@@ -223,10 +223,10 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
 
     linearGradient.append("stop")
         .attr("offset", "5%")
-        .attr("stop-color", "#191414");
+        .attr("stop-color", "#00CDB5");
     linearGradient.append("stop")
         .attr("offset", "15%")
-        .attr("stop-color", "#C1C1C1");
+        .attr("stop-color", "#D7D7D7");
    
  
 
