@@ -1,4 +1,4 @@
 A simple python HTML-Server is needed
 
-$ cd ../infovis
+$ cd /infovis
 $ python -m http.server 8888
