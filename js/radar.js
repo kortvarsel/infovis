@@ -29,10 +29,7 @@ let scale = function(artistData, element, flag) {
         max = 1
         min = 0
     }
-     else if (flag==4){
-        max = 1.3
-        min = 0
-    }
+
     const vScale = d3.scaleLinear()
         .range([0, 100])
         .domain([min, max]);
@@ -46,6 +43,7 @@ var radarChartOptions = {
     w: 245,
     h: 300,
     margin: margin,
+    maxValue: 100,
     levels: 1,
     roundStrokes: true,
     color: d3.scaleOrdinal().range(["#4CFFEA", "#4CFFEA"]),
@@ -54,7 +52,7 @@ var radarChartOptions = {
 };
 
 var radarChartOptions2 = {
-    w: 275,
+    w: 245,
     h: 300,
     margin: margin,
     maxValue: 100,
@@ -79,7 +77,7 @@ function updateData4(artist) {
         axes: [
             { axis: 'GDP', value: scale(artistData, "GDP", 1) },
             { axis: 'CPI', value: scale(artistData, "CPI", 2) },
-            { axis: 'HDI', value: scale(artistData, "HDI", 4) },
+            { axis: 'HDI', value: scale(artistData, "HDI", 3) },
             { axis: 'GII', value: scale(artistData, "GII", 3) },
             { axis: 'UER', value: scale(artistData, "UR", 2) },
             { axis: 'HS', value: scale(artistData, "HI", 1) }
