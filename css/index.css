@@ -33,7 +33,7 @@
 
 text{
 
-    font-family: montserrat;
+    font-family: montserrat !important;
 }
 }
 
@@ -83,7 +83,7 @@ text{
 
 #menuButton {
     cursor: pointer;
-    height: 2rem;
+    height: 2.2rem;
     left: 2rem;
     position: fixed;
     top: 0.5rem;
@@ -103,8 +103,8 @@ text{
 }
 
 @font-face {
-    font-family: 'montserrat' !important;
-    src: url('data/montserrat/Montserrat-light.ttf') format('truetype');
+    font-family: 'montserrat';
+    src: url('montserrat/Montserrat-Light.ttf') format('truetype');
 }
 
 * {
@@ -115,6 +115,7 @@ text{
 h1 {
 
     color: white;
+
 }
 
 .btn {

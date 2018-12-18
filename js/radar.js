@@ -39,7 +39,7 @@ let scale = function(artistData, element, flag) {
 
 
 var radarChartOptions = {
-    w: 250,
+    w: 245,
     h: 300,
     margin: margin,
     levels: 1,
@@ -50,7 +50,7 @@ var radarChartOptions = {
 };
 
 var radarChartOptions2 = {
-    w: 280,
+    w: 275,
     h: 300,
     margin: margin,
     maxValue: 100,
@@ -117,7 +117,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
     const cfg = {
         w: 300, //Width of the circle
         h: 300, //Height of the circle
-        margin: { top: -6, right: 20, bottom: 20, left: 90 }, //The margins of the SVG
+        margin: { top: -5, right: 20, bottom: 20, left: 90 }, //The margins of the SVG
         levels: 3, //How many levels or inner circles should there be drawn
         maxValue: 0, //What is the value that the biggest circle will represent
         labelFactor: 1.12, //How much farther than the radius of the outer circle should the labels be placed
