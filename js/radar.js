@@ -25,8 +25,12 @@ let scale = function(artistData, element, flag) {
     } else if (flag == 2) {
         max = 100
         min = 0
-    } else {
+    } else if (flag==3){
         max = 1
+        min = 0
+    }
+     else if (flag==4){
+        max = 1.5
         min = 0
     }
     const vScale = d3.scaleLinear()
@@ -75,7 +79,7 @@ function updateData4(artist) {
         axes: [
             { axis: 'GDP', value: scale(artistData, "GDP", 1) },
             { axis: 'CPI', value: scale(artistData, "CPI", 2) },
-            { axis: 'HDI', value: scale(artistData, "HDI", 3) },
+            { axis: 'HDI', value: scale(artistData, "HDI", 4) },
             { axis: 'GII', value: scale(artistData, "GII", 3) },
             { axis: 'UER', value: scale(artistData, "UR", 2) },
             { axis: 'HS', value: scale(artistData, "HI", 1) }
