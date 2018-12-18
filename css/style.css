@@ -18,3 +18,218 @@ svg {
 
 	fill: #494949;
 }
+
+.info {
+  position: relative;
+  z-index:2;
+
+}
+
+.faq {
+  position: absolute;
+  display: inline-block;
+  height: auto;
+  z-index:2;
+}
+.faq + .tooltiptextC {
+    visibility: hidden;
+    width: 90%;
+    background-color: #494949;
+    color: #F1F1F1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 10%;
+    font-size: 12px;
+    font-family: montserrat;
+border-style:solid;
+border-color:#F1F1F1;
+border-width:1px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.faq + .tooltiptextC::after {
+    content: "";
+    position: absolute;
+    z-index:2;
+  
+}
+.faq:hover + .tooltiptextC {
+    visibility: visible;
+    opacity: 0.98;
+    z-index:2;
+}
+
+.faq + .tooltiptextM {
+    visibility: hidden;
+    width: 100%;
+    background-color: #494949;
+    color: #F1F1F1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 10%;
+    font-size: 12px;
+    font-family: montserrat;
+border-style:solid;
+border-color:#F1F1F1;
+border-width:1px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.faq + .tooltiptextM::after {
+    content: "";
+    position: absolute;
+  
+}
+.faq:hover + .tooltiptextM {
+    visibility: visible;
+    opacity: 0.98;
+}
+
+.faq + .tooltiptextA {
+    visibility: hidden;
+    width: 80%;
+    background-color: #494949;
+    color: #F1F1F1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 20%;
+    left: 15%;
+    font-size: 12px;
+    font-family: montserrat;
+border-style:solid;
+border-color:#F1F1F1;
+border-width:1px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.faq + .tooltiptextA::after {
+    content: "";
+    position: absolute;
+  
+}
+.faq:hover + .tooltiptextA {
+    visibility: visible;
+    opacity: 0.98;
+}
+
+.faq + .tooltiptextB {
+    visibility: hidden;
+    width: 80%;
+    background-color: #494949;
+    color: #F1F1F1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 0%;
+    left: 15%;
+    font-size: 12px;
+    font-family: montserrat;
+border-style:solid;
+border-color:#F1F1F1;
+border-width:1px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.faq + .tooltiptextB::after {
+    content: "";
+    position: absolute;
+  
+}
+.faq:hover + .tooltiptextB {
+    visibility: visible;
+    opacity: 0.98;
+}
+
+.faq + .tooltiptextR {
+    visibility: hidden;
+    width: 75%;
+    background-color: #494949;
+    color: #F1F1F1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 3;
+    top: 0%;
+    left: 15%;
+    font-size: 12px;
+    font-family: montserrat;
+border-style:solid;
+border-color:#F1F1F1;
+border-width:1px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.faq + .tooltiptextR::after {
+    content: "";
+    position: absolute;
+  
+}
+.faq:hover + .tooltiptextR {
+    visibility: visible;
+    opacity: 0.98;
+}
+
+
+
+.faq + .tooltiptextT {
+    visibility: hidden;
+    width: 500px;
+    background-color: #494949;
+    color: #F1F1F1;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    z-index: 6;
+    top: 20vh;
+    left: -50vh;
+    font-size: 12px;
+    font-family: montserrat;
+border-style:solid;
+border-color:#F1F1F1;
+border-width:1px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+.faq + .tooltiptextT::after {
+    content: "";
+    position: absolute;
+  
+}
+.faq:hover + .tooltiptextT {
+    visibility: visible;
+    opacity: 0.98;
+}
+

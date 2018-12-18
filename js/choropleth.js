@@ -73,26 +73,6 @@ function switchIt(){
     }
 
 }
-function infoBox(idiom){
-    var div = d3.select("body").append("div")
-        .attr("class", "tooltip2")
-        .style("opacity", 0);
-            div.transition()
-                .duration(100)
-                .style("opacity", .9);
-            div.html(idiom)
-                .style("left", (d3.event.pageX - 100) + "px")
-                .style("top", (d3.event.pageY - 50) + "px");
-
-            //Dim all blobs
-            parent.selectAll(".radarArea")
-                .transition().duration(200)
-                .style("fill-opacity", 0.1);
-            //Bring back the hovered over blob
-            d3.select(this)
-                .transition().duration(200)
-                .style("fill-opacity", 0.7);
-        }
 
 
 update('GDP', colorbrewer.Greens[6])

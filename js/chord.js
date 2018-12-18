@@ -316,7 +316,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .each(function(d) { d.angle = ((d.startAngle + d.endAngle) / 2) + offset; })
         .attr("dy", ".35em")
         .attr("class", "titles")
-        .style("font-size", function(d) { return d.angle > Math.PI ? "10px" : "10px";})
+        .style("font-size", function(d) { return d.angle > Math.PI ? "10px" : "9px";})
         .style("fill", "#F1F1F1")
         .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
         .attr("transform", function(d, i) {

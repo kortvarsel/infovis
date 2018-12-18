@@ -13,7 +13,7 @@
     position: fixed;
     top: 0;
     width: 18rem;
-    z-index: 1;
+    z-index: 4;
     overflow: scroll;
     font-size: 20px;
     border-radius: 0px;
@@ -88,7 +88,7 @@ text{
     position: fixed;
     top: 0.5rem;
     width: 14rem;
-    z-index: 2;
+    z-index: 5;
     border-radius: 30px;
     border-width: 1.8px;
     outline: none;
