@@ -30,7 +30,7 @@ let scale = function(artistData, element, flag) {
         min = 0
     }
      else if (flag==4){
-        max = 1.5
+        max = 1.3
         min = 0
     }
     const vScale = d3.scaleLinear()
