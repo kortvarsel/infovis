@@ -30,6 +30,7 @@ svg {
   display: inline-block;
   height: auto;
   z-index:2;
+  font-family: montserrat;
 }
 .faq + .tooltiptextC {
     visibility: hidden;
