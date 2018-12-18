@@ -180,7 +180,7 @@ svg.append('circle')
 
                         if (key == "Pos") { tip += '<tspan font-size="2.5em" x="0" dy="-0.9em">#' + value + '</tspan><tspan x="0" dy="2em">  </tspan>'; } else
                         if (key == "artist") { tip += '<tspan font-size="1.2em" x="0" dy=' + ((i * 6) - 10) + '>' + value + '</tspan>';
-                          tip += '<tspan font-size="1.1em" x="0" dy="1em">  </tspan>'} else
+                          tip += '<tspan font-size="1.1em" x="0" dy="12px">  </tspan>'} else
                         if (key == "title") { tip += '<tspan font-size="0.8em" x="0" dy=' + ((i * 6) - 12) + '>' + value + '</tspan>'; }                    
 
 

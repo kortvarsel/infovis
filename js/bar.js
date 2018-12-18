@@ -75,7 +75,8 @@ function drawBar(strUser) {
 
     var div = d3.select("body").append("div")
         .attr("class", "tooltip1")
-        .style("opacity", 0);
+        .style("opacity", 0)
+        .style("font-family", "montserrat");
 
 
     var graph = svg.selectAll("#barChart")

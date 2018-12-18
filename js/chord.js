@@ -316,7 +316,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
         .each(function(d) { d.angle = ((d.startAngle + d.endAngle) / 2) + offset; })
         .attr("dy", ".35em")
         .attr("class", "titles")
-        .style("font-size", "0.7em")
+        .style("font-size", function(d) { return d.angle > Math.PI ? "12px" : "10px";})
         .style("fill", "#F1F1F1")
         .attr("text-anchor", function(d) { return d.angle > Math.PI ? "end" : null; })
         .attr("transform", function(d, i) {
@@ -327,7 +327,7 @@ var colour = d3.scaleOrdinal(d3.schemeCategory10);
                 (d.angle > Math.PI ? "rotate(180)" : "")
         })
         .text(function(d, i) { return Names[i]; })
-        .call(wrapChord, 88);
+        .call(wrapChord, 92);
     ////////////////////////////////////////////////////////////
     //////////////////// Draw inner chords /////////////////////
     ////////////////////////////////////////////////////////////

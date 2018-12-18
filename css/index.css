@@ -20,6 +20,7 @@
     border-width: 1px;
     border-color: #F1F1F1;
     border-style: none solid none none;
+    font-family: montserrat;
 }
 
 #menuButton:hover {
@@ -30,6 +31,11 @@
 
 }
 
+text{
+
+    font-family: montserrat;
+}
+}
 
 @keyframes menu {
     from {
@@ -86,6 +92,8 @@
     border-radius: 30px;
     border-width: 1.8px;
     outline: none;
+    font-family: montserrat;
+    font-size:1.2em;
 }
 
 .faq {
@@ -96,7 +104,7 @@
 
 @font-face {
     font-family: 'montserrat' !important;
-    src: url('data/Montserrat-light.ttf') format('truetype');
+    src: url('data/montserrat/Montserrat-light.ttf') format('truetype');
 }
 
 * {
@@ -116,6 +124,7 @@ h1 {
     margin-top: 15px;
     text-align: center;
     outline: none !important;
+    font-family: montserrat;
 
 }
 
