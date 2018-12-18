@@ -10,7 +10,7 @@
 }
 
 .bar3 {
-    fill: #636363;
+    fill: rgb(122, 1, 119);
 
 }
 
@@ -170,7 +170,7 @@ path.slice:hover {
     }
 
     to {
-        fill: #636363;
+        fill: rgb(122, 1, 119);
     }
 }
 
