@@ -88,7 +88,16 @@
     outline: none;
 }
 
+.faq {
+    width:20px;
+    height:20px;
+    position:absolute;
+}
 
+@font-face {
+    font-family: 'montserrat' !important;
+    src: url('data/Montserrat-light.ttf') format('truetype');
+}
 
 * {
     background-color: #191414;
@@ -152,18 +161,18 @@ h1 {
 }
 
 .button_hdi {
-    color: #636363;
-    border-color: #636363 !important;
+    color: rgb(122, 1, 119);
+    border-color: rgb(122, 1, 119) !important;
 }
 
 .button_hdi:hover {
     color: #F1F1F1;
-    background-color: #636363;
+    background-color:rgb(122, 1, 119);
 }
 
 .button_hdi:focus {
     color: #F1F1F1;
-    background-color: #636363;
+    background-color: rgb(122, 1, 119);
 }
 
 .button_gii {

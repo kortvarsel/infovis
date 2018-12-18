@@ -293,7 +293,6 @@ var div = d3.select("body").append("div")
         .style("fill", (d, i) => cfg.color(i))
         .style("fill-opacity", cfg.opacityArea)
         .on('mouseover', function(d, i) {
-
             div.transition()
                 .duration(100)
                 .style("opacity", .9);
