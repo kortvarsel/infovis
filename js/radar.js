@@ -244,7 +244,7 @@ const RadarChart = function RadarChart(parent_selector, data, options) {
         .style("stroke", function(d, i) {
             if (d == "GDP") { return "#31a354" } else
             if (d == "CPI") { return "#3182bd" } else
-            if (d == "HDI") { return "#636363" } else
+            if (d == "HDI") { return "rgb(122, 1, 119)" } else
             if (d == "GII") { return "#de2d26" } else
             if (d == "UER") { return "#e6550d" } else
             if (d == "HS") { return "#756bb1" }

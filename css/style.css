@@ -202,8 +202,13 @@ border-width:1px;
 
 
 .faq + .tooltiptextT {
-    visibility: hidden;
+  display: block;
+  margin-left: 450px;
+  margin-right: 450px;
+
     width: 500px;
+    visibility: hidden;
+   
     background-color: #494949;
     color: #F1F1F1;
     text-align: center;
@@ -212,7 +217,8 @@ border-width:1px;
     position: absolute;
     z-index: 6;
     top: 20vh;
-    left: -50vh;
+
+
     font-size: 12px;
     font-family: montserrat;
 border-style:solid;
